@@ -320,22 +320,20 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   pointer-events:none;
   z-index:5;
   will-change:transform,opacity;
-  filter:drop-shadow(0 0 40px rgba(0,180,255,.2));
   opacity:0;
 }
 .fly-in img {
   width:100%;
   height:100%;
-  object-fit:contain;
+  object-fit:cover;
+  mix-blend-mode:screen;  /* black becomes transparent, glow stays */
+  border-radius:8px;
 }
-/* Glow pulse on fly-in images */
-.fly-in.glow-cyan { filter:drop-shadow(0 0 50px rgba(0,212,255,.25)) drop-shadow(0 0 20px rgba(0,212,255,.15)); }
-.fly-in.glow-purple { filter:drop-shadow(0 0 50px rgba(123,104,238,.25)) drop-shadow(0 0 20px rgba(123,104,238,.15)); }
-.fly-in.glow-pink { filter:drop-shadow(0 0 50px rgba(255,107,157,.2)) drop-shadow(0 0 20px rgba(255,107,157,.12)); }
-.fly-in.glow-gold { filter:drop-shadow(0 0 50px rgba(255,215,0,.2)) drop-shadow(0 0 20px rgba(255,215,0,.12)); }
 /* Subtle idle float after landing */
-@keyframes idleFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
-.fly-in.landed { animation:idleFloat 4s ease-in-out infinite; }
+@keyframes idleFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+@keyframes idleFloat2 { 0%,100%{transform:translateY(0) rotate(0deg)} 50%{transform:translateY(-10px) rotate(1deg)} }
+.fly-in.landed { animation:idleFloat 5s ease-in-out infinite; }
+.fly-in.landed.float2 { animation:idleFloat2 6s ease-in-out infinite; }
 
 /* ----- 17. Responsive ----- */
 @media(max-width:1024px) {

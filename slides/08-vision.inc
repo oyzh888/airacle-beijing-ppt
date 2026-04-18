@@ -1,10 +1,10 @@
-  <!-- Cinematic fly-in: 3D crystal ball -->
-  <div class="fly-in glow-purple" data-fly="bottom" data-fly-delay="0.4" style="right:5%;top:8%;width:280px;height:280px">
-    <img src="https://img.icons8.com/3d-fluency/512/crystal-ball.png" alt="">
+  <!-- Cinematic fly-in: dark nebula / cosmos -->
+  <div class="fly-in" data-fly="bottom" data-fly-delay="0.4" style="right:-2%;top:3%;width:380px;height:380px">
+    <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=800&fit=crop" alt="">
   </div>
-  <!-- Cinematic fly-in: 3D diamond / premium -->
-  <div class="fly-in glow-cyan" data-fly="left" data-fly-delay="0.7" style="left:4%;bottom:12%;width:200px;height:200px">
-    <img src="https://img.icons8.com/3d-fluency/512/diamond.png" alt="">
+  <!-- Cinematic fly-in: dark aurora / light -->
+  <div class="fly-in float2" data-fly="left" data-fly-delay="0.7" style="left:-1%;bottom:8%;width:280px;height:280px">
+    <img src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=800&h=800&fit=crop" alt="">
   </div>
   <div class="vision-box">
     <div class="v-card ai">

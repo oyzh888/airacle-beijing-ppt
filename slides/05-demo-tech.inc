@@ -1,13 +1,13 @@
   <div class="tag ai">TECHNOLOGY & APP</div>
   <h2 class="stitle ai">技术能力 · <span class="acc">产品矩阵</span></h2>
   <p class="sub ai">自研AI生成引擎 + C端创意工具生态</p>
-  <!-- Cinematic fly-in: 3D phone -->
-  <div class="fly-in glow-pink" data-fly="right" data-fly-delay="0.5" style="right:1%;top:8%;width:260px;height:260px">
-    <img src="https://img.icons8.com/3d-fluency/512/iphone-14.png" alt="">
+  <!-- Cinematic fly-in: dark tech abstract -->
+  <div class="fly-in" data-fly="right" data-fly-delay="0.5" style="right:-2%;top:5%;width:380px;height:380px">
+    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=800&fit=crop" alt="">
   </div>
-  <!-- Cinematic fly-in: 3D magic wand / sparkle -->
-  <div class="fly-in glow-gold" data-fly="top" data-fly-delay="0.7" style="left:2%;top:12%;width:180px;height:180px">
-    <img src="https://img.icons8.com/3d-fluency/512/magic-wand.png" alt="">
+  <!-- Cinematic fly-in: dark matrix / code flow -->
+  <div class="fly-in float2" data-fly="top" data-fly-delay="0.7" style="left:-1%;top:8%;width:260px;height:260px">
+    <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=800&h=800&fit=crop" alt="">
   </div>
   <div class="grid g2" style="max-width:1060px">
     <div class="gc ai" data-delay=".1" style="position:relative;overflow:hidden">
