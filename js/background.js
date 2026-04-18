@@ -2,11 +2,13 @@
  * background.js
  *
  * Layer 1 — bgCanvas (z-index:0, behind text):
- *   Stars + constellation lines
+ *   Stars + constellation lines (Three.js)
  *
- * Layer 2 — fgCanvas (z-index:15, in front of text):
- *   Translucent floating 3D geometry that "interweaves" with content
- *   Creates depth illusion — some shapes drift in front, some behind
+ * Layer 2 — Cinematic Background System (CSS/GSAP):
+ *   Unsplash images with Ken Burns effect + crossfade on slide change
+ *
+ * Layer 3 — Floating Typography (CSS):
+ *   Decorative drifting large text elements
  *
  * + Ambient mesh blob parallax (CSS elements)
  */
@@ -96,155 +98,155 @@ document.addEventListener('mousemove', e => {
 })();
 
 // ============================================================
-// LAYER 2: FLOATING 3D GEOMETRY (in front of text — interweaves)
+// LAYER 2: CINEMATIC BACKGROUND SYSTEM (CSS + GSAP)
 // ============================================================
-(function initFloatingGeometry() {
-  const c = document.getElementById('fgCanvas');
-  if (!c) return;
-  const scene = new THREE.Scene();
-  const cam = new THREE.PerspectiveCamera(50, innerWidth / innerHeight, 0.1, 100);
-  cam.position.z = 30;
-  const renderer = new THREE.WebGLRenderer({ canvas: c, alpha: true, antialias: true });
-  renderer.setSize(innerWidth, innerHeight);
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+(function initCinematicBg() {
+  const container = document.getElementById('slideBgLayer');
+  if (!container) return;
 
-  // Wireframe material — ghostly, translucent
-  function wireMat(color, opacity) {
-    return new THREE.MeshBasicMaterial({
-      color, wireframe: true, transparent: true, opacity,
-      depthWrite: false, blending: THREE.AdditiveBlending
-    });
-  }
+  const images = [
+    'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop',
+    'https://images.unsplash.com/photo-1639322537228-f710d846310a?w=1920&h=1080&fit=crop',
+    'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&h=1080&fit=crop',
+    'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&h=1080&fit=crop',
+    'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1920&h=1080&fit=crop',
+    'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1920&h=1080&fit=crop',
+    'https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=1920&h=1080&fit=crop',
+    'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1920&h=1080&fit=crop'
+  ];
 
-  // Edge-glow material (slightly thicker lines, different color)
-  function edgeMat(color, opacity) {
-    return new THREE.LineBasicMaterial({
-      color, transparent: true, opacity,
-      depthWrite: false, blending: THREE.AdditiveBlending
-    });
-  }
+  const kbClasses = ['kb1', 'kb2', 'kb3', 'kb4'];
+  let currentIndex = 0;
 
-  // ---- Create floating shapes ----
-  const shapes = [];
-
-  // Helper: create a wireframe mesh + its edge lines
-  function addShape(geometry, color, opacity, position, scale, rotSpeed) {
-    const mesh = new THREE.Mesh(geometry, wireMat(color, opacity * 0.4));
-    mesh.position.copy(position);
-    mesh.scale.setScalar(scale);
-    scene.add(mesh);
-
-    const edges = new THREE.EdgesGeometry(geometry);
-    const line = new THREE.LineSegments(edges, edgeMat(color, opacity));
-    line.position.copy(position);
-    line.scale.setScalar(scale);
-    scene.add(line);
-
-    shapes.push({
-      mesh, line, rotSpeed,
-      basePos: position.clone(),
-      floatOffset: Math.random() * Math.PI * 2,
-      floatSpeed: .3 + Math.random() * .4,
-      floatAmp: .8 + Math.random() * 1.2
-    });
-  }
-
-  // Icosahedron — top right area
-  addShape(
-    new THREE.IcosahedronGeometry(1, 1),
-    0x00d4ff, 0.12,
-    new THREE.Vector3(14, 8, -5), 3.5,
-    { x: .001, y: .002, z: .0005 }
-  );
-
-  // Octahedron — left side
-  addShape(
-    new THREE.OctahedronGeometry(1, 0),
-    0x7b68ee, 0.10,
-    new THREE.Vector3(-16, -4, -8), 2.8,
-    { x: .0015, y: .001, z: .002 }
-  );
-
-  // Torus — center-ish, large and subtle
-  addShape(
-    new THREE.TorusGeometry(1, .35, 8, 20),
-    0x00d4ff, 0.06,
-    new THREE.Vector3(2, -10, -12), 4.5,
-    { x: .0008, y: .0015, z: .0003 }
-  );
-
-  // Dodecahedron — top left
-  addShape(
-    new THREE.DodecahedronGeometry(1, 0),
-    0xff6b9d, 0.08,
-    new THREE.Vector3(-12, 10, -6), 2.2,
-    { x: .002, y: .0008, z: .0015 }
-  );
-
-  // Small tetrahedrons scattered
-  for (let i = 0; i < 5; i++) {
-    addShape(
-      new THREE.TetrahedronGeometry(1, 0),
-      [0x00d4ff, 0x7b68ee, 0x00ffb0, 0xff6b9d, 0xffd700][i],
-      0.07 + Math.random() * .05,
-      new THREE.Vector3(
-        (Math.random() - .5) * 35,
-        (Math.random() - .5) * 22,
-        -3 - Math.random() * 15
-      ),
-      .8 + Math.random() * 1.2,
-      { x: .002 + Math.random() * .003, y: .002 + Math.random() * .003, z: .001 + Math.random() * .002 }
-    );
-  }
-
-  // Large ring — very subtle, background depth
-  addShape(
-    new THREE.TorusGeometry(1, .08, 6, 40),
-    0x7b68ee, 0.04,
-    new THREE.Vector3(8, 3, -18), 8,
-    { x: .0003, y: .0008, z: .0002 }
-  );
-
-  // Box frame — right side
-  addShape(
-    new THREE.BoxGeometry(1, 1, 1),
-    0x00ffb0, 0.07,
-    new THREE.Vector3(18, -8, -10), 2,
-    { x: .0012, y: .002, z: .001 }
-  );
-
-  window.addEventListener('resize', () => {
-    cam.aspect = innerWidth / innerHeight;
-    cam.updateProjectionMatrix();
-    renderer.setSize(innerWidth, innerHeight);
+  // Create a slide-bg div for each slide
+  images.forEach((url, i) => {
+    const div = document.createElement('div');
+    div.className = 'slide-bg ' + kbClasses[i % kbClasses.length] + (i === 0 ? ' active' : '');
+    div.style.backgroundImage = 'url(' + url + ')';
+    div.dataset.index = i;
+    container.appendChild(div);
   });
 
-  let t = 0;
-  (function anim() {
-    requestAnimationFrame(anim);
-    t += .008;
+  const bgDivs = container.querySelectorAll('.slide-bg');
 
-    shapes.forEach(s => {
-      // Rotate
-      s.mesh.rotation.x += s.rotSpeed.x;
-      s.mesh.rotation.y += s.rotSpeed.y;
-      s.mesh.rotation.z += s.rotSpeed.z;
-      s.line.rotation.copy(s.mesh.rotation);
+  // Global switch function
+  function switchSlideBg(index) {
+    if (index === currentIndex || index < 0 || index >= bgDivs.length) return;
+    const outgoing = bgDivs[currentIndex];
+    const incoming = bgDivs[index];
 
-      // Float (gentle sine wave drift)
-      const fy = Math.sin(t * s.floatSpeed + s.floatOffset) * s.floatAmp;
-      const fx = Math.cos(t * s.floatSpeed * .7 + s.floatOffset) * s.floatAmp * .5;
-      s.mesh.position.x = s.basePos.x + fx;
-      s.mesh.position.y = s.basePos.y + fy;
-      s.line.position.copy(s.mesh.position);
+    // Scale pulse on outgoing
+    gsap.to(outgoing, {
+      scale: 1.04,
+      opacity: 0,
+      duration: 0.6,
+      ease: 'power2.in',
+      onComplete: function() {
+        outgoing.classList.remove('active');
+        gsap.set(outgoing, { scale: 1 });
+      }
     });
 
-    // Mouse parallax — shapes react to cursor
-    cam.position.x += (_mouse.nx * 4 - cam.position.x) * .02;
-    cam.position.y += (-_mouse.ny * 3 - cam.position.y) * .02;
-    cam.lookAt(new THREE.Vector3(0, 0, -5));
+    // Incoming: start slightly scaled, fade in
+    gsap.set(incoming, { scale: 1.06, opacity: 0 });
+    incoming.classList.add('active');
+    gsap.to(incoming, {
+      scale: 1,
+      opacity: 1,
+      duration: 0.8,
+      ease: 'power2.out',
+      delay: 0.1
+    });
 
-    renderer.render(scene, cam);
+    currentIndex = index;
+  }
+
+  // Expose globally
+  window.switchSlideBg = switchSlideBg;
+
+  // Auto-detect slide changes via MutationObserver on .slide elements
+  function observeSlides() {
+    const slides = document.querySelectorAll('.slide');
+    if (!slides.length) return;
+
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(m) {
+        if (m.type === 'attributes' && m.attributeName === 'class') {
+          const el = m.target;
+          if (el.classList.contains('slide') && el.classList.contains('active')) {
+            const idx = parseInt(el.dataset.i, 10);
+            if (!isNaN(idx)) switchSlideBg(idx);
+          }
+        }
+      });
+    });
+
+    slides.forEach(function(slide) {
+      observer.observe(slide, { attributes: true, attributeFilter: ['class'] });
+    });
+  }
+
+  // Slides may not exist yet (loaded dynamically), so wait for them
+  if (document.querySelectorAll('.slide').length > 0) {
+    observeSlides();
+  } else {
+    const deckObserver = new MutationObserver(function(mutations, obs) {
+      if (document.querySelectorAll('.slide').length > 0) {
+        obs.disconnect();
+        observeSlides();
+      }
+    });
+    deckObserver.observe(document.body, { childList: true, subtree: true });
+  }
+})();
+
+// ============================================================
+// LAYER 3: FLOATING TYPOGRAPHY (decorative drifting text)
+// ============================================================
+(function initFloatingText() {
+  const container = document.getElementById('floatingTextLayer');
+  if (!container) return;
+
+  const words = [
+    { text: 'AI', size: '14vw', opacity: 0.025 },
+    { text: 'AIRACLE', size: '10vw', opacity: 0.02 },
+    { text: '智能', size: '12vw', opacity: 0.03 },
+    { text: 'GLOBAL', size: '9vw', opacity: 0.022 },
+    { text: '创新', size: '11vw', opacity: 0.028 },
+    { text: 'FUTURE', size: '8vw', opacity: 0.02 },
+    { text: '数据', size: '10vw', opacity: 0.025 },
+    { text: 'NEURAL', size: '9vw', opacity: 0.022 }
+  ];
+
+  const driftAnims = ['floatDrift1', 'floatDrift2', 'floatDrift3', 'floatDrift4'];
+  const elements = [];
+
+  words.forEach(function(w, i) {
+    const el = document.createElement('div');
+    el.className = 'floating-text';
+    el.textContent = w.text;
+    el.style.fontSize = w.size;
+    el.style.opacity = w.opacity;
+    // Distribute across the viewport
+    el.style.top = (10 + Math.random() * 70) + '%';
+    el.style.left = (-5 + Math.random() * 90) + '%';
+    // CSS drift animation
+    var duration = 30 + Math.random() * 30;
+    var delay = Math.random() * -20;
+    el.style.animation = driftAnims[i % driftAnims.length] + ' ' + duration + 's ease-in-out ' + delay + 's infinite';
+    container.appendChild(el);
+    elements.push({ el: el, factor: 8 + i * 4 });
+  });
+
+  // Mouse parallax for floating text
+  (function updateParallax() {
+    elements.forEach(function(item) {
+      var tx = _mouse.nx * item.factor;
+      var ty = _mouse.ny * item.factor;
+      item.el.style.marginLeft = tx + 'px';
+      item.el.style.marginTop = ty + 'px';
+    });
+    requestAnimationFrame(updateParallax);
   })();
 })();
 

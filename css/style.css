@@ -49,7 +49,55 @@ html,body {
 
 /* ----- 2. Background & Ambient ----- */
 #bgCanvas { position:fixed; top:0; left:0; width:100%; height:100%; z-index:0; pointer-events:none; }
-#fgCanvas { position:fixed; top:0; left:0; width:100%; height:100%; z-index:15; pointer-events:none; }
+/* Slide Background Layer */
+.slide-bg-layer {
+  position:fixed; top:0; left:0; width:100%; height:100%; z-index:1;
+  pointer-events:none; overflow:hidden;
+}
+.slide-bg {
+  position:absolute; top:0; left:0; width:100%; height:100%;
+  background-size:cover; background-position:center;
+  opacity:0; transition:opacity 1s cubic-bezier(.16,1,.3,1);
+  will-change:opacity,transform;
+}
+.slide-bg.active {
+  opacity:1;
+}
+.slide-bg::after {
+  content:''; position:absolute; inset:0;
+  background:
+    linear-gradient(180deg, rgba(2,2,3,.82) 0%, rgba(2,2,3,.55) 40%, rgba(2,2,3,.75) 100%),
+    linear-gradient(135deg, rgba(0,40,80,.3) 0%, transparent 50%);
+}
+/* Ken Burns animation */
+@keyframes kenBurns1 { 0%{transform:scale(1) translate(0,0)} 50%{transform:scale(1.08) translate(-1.5%,-1%)} 100%{transform:scale(1) translate(0,0)} }
+@keyframes kenBurns2 { 0%{transform:scale(1.05) translate(1%,0)} 50%{transform:scale(1) translate(-1%,1.5%)} 100%{transform:scale(1.05) translate(1%,0)} }
+@keyframes kenBurns3 { 0%{transform:scale(1) translate(0,1%)} 50%{transform:scale(1.1) translate(1%,-1%)} 100%{transform:scale(1) translate(0,1%)} }
+@keyframes kenBurns4 { 0%{transform:scale(1.06) translate(-1%,0.5%)} 50%{transform:scale(1) translate(0.5%,-0.5%)} 100%{transform:scale(1.06) translate(-1%,0.5%)} }
+.slide-bg.kb1 { animation:kenBurns1 20s ease-in-out infinite; }
+.slide-bg.kb2 { animation:kenBurns2 22s ease-in-out infinite; }
+.slide-bg.kb3 { animation:kenBurns3 18s ease-in-out infinite; }
+.slide-bg.kb4 { animation:kenBurns4 24s ease-in-out infinite; }
+
+/* Floating Typography Layer */
+.floating-text-layer {
+  position:fixed; top:0; left:0; width:100%; height:100%; z-index:2;
+  pointer-events:none; overflow:hidden;
+}
+.floating-text {
+  position:absolute;
+  font-family:var(--fe);
+  font-weight:900;
+  color:rgba(255,255,255,.025);
+  white-space:nowrap;
+  user-select:none;
+  will-change:transform;
+  line-height:1;
+}
+@keyframes floatDrift1 { 0%{transform:translate(0,0)} 50%{transform:translate(30px,-40px)} 100%{transform:translate(0,0)} }
+@keyframes floatDrift2 { 0%{transform:translate(0,0)} 50%{transform:translate(-40px,25px)} 100%{transform:translate(0,0)} }
+@keyframes floatDrift3 { 0%{transform:translate(0,0)} 50%{transform:translate(20px,35px)} 100%{transform:translate(0,0)} }
+@keyframes floatDrift4 { 0%{transform:translate(0,0)} 50%{transform:translate(-25px,-30px)} 100%{transform:translate(0,0)} }
 .noise {
   position:fixed; top:0; left:0; width:100%; height:100%; z-index:1;
   pointer-events:none; opacity:.035;
