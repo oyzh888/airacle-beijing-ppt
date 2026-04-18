@@ -1,0 +1,149 @@
+/**
+ * Slide Deck Engine
+ * - GSAP transitions (scale + blur + slide)
+ * - Counter animations
+ * - Progress bars
+ * - Character split animation
+ * - Keyboard / Touch / Wheel navigation
+ *
+ * Exports: window.D = { go(delta), goTo(index) }
+ */
+const D = (() => {
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  let cur = 0, busy = false;
+  const labels = ['封面','公司','团队','AI员工','技术','商务','贡献','愿景'];
+
+  // ---- Build Minimap ----
+  const mm = document.getElementById('minimap');
+  if (mm) slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'minimap-dot' + (i === 0 ? ' active' : '');
+    d.dataset.label = labels[i] || '';
+    d.onclick = () => goTo(i);
+    mm.appendChild(d);
+  });
+
+  // ---- Build Bottom Nav ----
+  const bn = document.getElementById('bnav');
+  if (bn) slides.forEach((_, i) => {
+    const d = document.createElement('button');
+    d.className = 'bnav-dot' + (i === 0 ? ' active' : '');
+    d.onclick = () => goTo(i);
+    bn.appendChild(d);
+  });
+
+  // ---- UI update ----
+  function ui() {
+    const sNum = document.getElementById('sNum');
+    const sTotal = document.getElementById('sTotal');
+    const prog = document.getElementById('progress');
+    if (sNum) sNum.textContent = String(cur + 1).padStart(2, '0');
+    if (sTotal) sTotal.textContent = String(total).padStart(2, '0');
+    if (prog) prog.style.width = ((cur + 1) / total * 100) + '%';
+    if (mm) mm.querySelectorAll('.minimap-dot').forEach((d, i) => d.classList.toggle('active', i === cur));
+    if (bn) bn.querySelectorAll('.bnav-dot').forEach((d, i) => d.classList.toggle('active', i === cur));
+  }
+
+  // ---- Animate slide content ----
+  function animSlide(slide) {
+    // Staggered items
+    slide.querySelectorAll('.ai').forEach((el, i) => {
+      const d = parseFloat(el.dataset.delay || 0) + i * .06;
+      gsap.fromTo(el, { opacity: 0, y: 40, rotateX: -8 }, { opacity: 1, y: 0, rotateX: 0, duration: .7, delay: d + .15, ease: 'power3.out' });
+    });
+
+    // Hero title character split
+    const hero = slide.querySelector('.hero');
+    if (hero && !hero.dataset.split) {
+      hero.dataset.split = '1';
+      const txt = hero.textContent; hero.textContent = '';
+      [...txt].forEach(ch => {
+        const s = document.createElement('span');
+        s.className = 'char'; s.textContent = ch; s.style.display = 'inline-block';
+        hero.appendChild(s);
+      });
+    }
+    if (hero) {
+      hero.querySelectorAll('.char').forEach((ch, i) => {
+        gsap.fromTo(ch, { opacity: 0, y: 60, rotateX: -40, scale: .8 },
+          { opacity: 1, y: 0, rotateX: 0, scale: 1, duration: .7, delay: .1 + i * .05, ease: 'back.out(1.5)' });
+      });
+    }
+
+    // Counter animation
+    slide.querySelectorAll('[data-count]').forEach(el => {
+      const target = parseInt(el.dataset.count);
+      const o = { v: 0 };
+      gsap.to(o, { v: target, duration: 1.8, delay: .4, ease: 'power2.out', onUpdate: () => { el.textContent = Math.round(o.v); } });
+    });
+
+    // Tech & contrib bars
+    slide.querySelectorAll('.tbar-fill[data-w]').forEach(el => { gsap.to(el, { width: el.dataset.w + '%', duration: 1.5, delay: .5, ease: 'power2.out' }); });
+    slide.querySelectorAll('.cbar-fill[data-w]').forEach(el => { gsap.to(el, { width: el.dataset.w + '%', duration: 1.8, delay: .4, ease: 'power2.out' }); });
+  }
+
+  // ---- Transition ----
+  async function goTo(n) {
+    if (n === cur || busy || n < 0 || n >= total) return;
+    busy = true;
+    const dir = n > cur ? 1 : -1;
+    const old = slides[cur], nw = slides[n];
+    cur = n; ui();
+
+    // Animate out
+    await new Promise(res => gsap.to(old, {
+      opacity: 0, scale: .94, x: dir * -60, filter: 'blur(6px)',
+      duration: .35, ease: 'power2.in',
+      onComplete: () => { old.classList.remove('active'); gsap.set(old, { x: 0, scale: 1, filter: 'none' }); res(); }
+    }));
+
+    // Reset bars
+    nw.querySelectorAll('.tbar-fill,.cbar-fill').forEach(el => { el.style.width = '0%'; });
+
+    // Animate in
+    gsap.set(nw, { opacity: 0, scale: 1.04, x: dir * 60, filter: 'blur(6px)' });
+    nw.classList.add('active');
+    await new Promise(res => gsap.to(nw, {
+      opacity: 1, scale: 1, x: 0, filter: 'blur(0px)',
+      duration: .45, ease: 'power2.out', onComplete: res
+    }));
+
+    animSlide(nw);
+    busy = false;
+  }
+
+  function go(d) { goTo(cur + d); }
+
+  // ---- Keyboard ----
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); go(1); }
+    if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); go(-1); }
+    if (e.key === 'Home') goTo(0);
+    if (e.key === 'End') goTo(total - 1);
+    const num = parseInt(e.key);
+    if (num >= 1 && num <= total) goTo(num - 1);
+  });
+
+  // ---- Touch ----
+  let tx = 0, ty = 0;
+  document.addEventListener('touchstart', e => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - tx;
+    const dy = e.changedTouches[0].clientY - ty;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 50) { dx < 0 ? go(1) : go(-1); }
+  });
+
+  // ---- Wheel ----
+  let wc = false;
+  document.addEventListener('wheel', e => {
+    if (wc) return; wc = true; setTimeout(() => wc = false, 700);
+    if (e.deltaY > 25) go(1); else if (e.deltaY < -25) go(-1);
+  }, { passive: true });
+
+  // ---- Init ----
+  ui();
+  setTimeout(() => animSlide(slides[0]), 100);
+
+  return { go, goTo };
+})();
