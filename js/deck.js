@@ -91,24 +91,31 @@ const D = (() => {
     const old = slides[cur], nw = slides[n];
     cur = n; ui();
 
-    // Animate out
+    // Animate out — fade + slide + blur
     await new Promise(res => gsap.to(old, {
-      opacity: 0, scale: .94, x: dir * -60, filter: 'blur(6px)',
+      opacity: 0, x: dir * -80, filter: 'blur(6px)',
       duration: .35, ease: 'power2.in',
-      onComplete: () => { old.classList.remove('active'); gsap.set(old, { x: 0, scale: 1, filter: 'none' }); res(); }
+      onComplete: () => {
+        old.classList.remove('active');
+        gsap.set(old, { opacity: 1, x: 0, filter: 'none' });
+        res();
+      }
     }));
 
-    // Reset bars
+    // Reset bars & hide all animated children BEFORE showing slide
     nw.querySelectorAll('.tbar-fill,.cbar-fill').forEach(el => { el.style.width = '0%'; });
+    nw.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30 }));
+    nw.querySelectorAll('.char').forEach(el => gsap.set(el, { opacity: 0 }));
 
-    // Animate in
-    gsap.set(nw, { opacity: 0, scale: 1.04, x: dir * 60, filter: 'blur(6px)' });
+    // Animate in — slide container handles position/blur only, children stay hidden
+    gsap.set(nw, { x: dir * 60, filter: 'blur(4px)' });
     nw.classList.add('active');
     await new Promise(res => gsap.to(nw, {
-      opacity: 1, scale: 1, x: 0, filter: 'blur(0px)',
-      duration: .45, ease: 'power2.out', onComplete: res
+      x: 0, filter: 'blur(0px)',
+      duration: .4, ease: 'power2.out', onComplete: res
     }));
 
+    // Now animate children in (single pass, no double-flash)
     animSlide(nw);
     busy = false;
   }
@@ -143,7 +150,11 @@ const D = (() => {
 
   // ---- Init ----
   ui();
-  setTimeout(() => animSlide(slides[0]), 100);
+  // Hide children first, then animate them in (prevents double flash on load)
+  if (slides[0]) {
+    slides[0].querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30 }));
+    setTimeout(() => animSlide(slides[0]), 150);
+  }
 
   return { go, goTo };
 })();
