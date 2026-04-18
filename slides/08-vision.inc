@@ -1,3 +1,11 @@
+  <!-- Cinematic fly-in: 3D crystal ball -->
+  <div class="fly-in glow-purple" data-fly="bottom" data-fly-delay="0.4" style="right:5%;top:8%;width:280px;height:280px">
+    <img src="https://img.icons8.com/3d-fluency/512/crystal-ball.png" alt="">
+  </div>
+  <!-- Cinematic fly-in: 3D diamond / premium -->
+  <div class="fly-in glow-cyan" data-fly="left" data-fly-delay="0.7" style="left:4%;bottom:12%;width:200px;height:200px">
+    <img src="https://img.icons8.com/3d-fluency/512/diamond.png" alt="">
+  </div>
   <div class="vision-box">
     <div class="v-card ai">
       <div class="tag" style="justify-content:center">OUR VISION</div>

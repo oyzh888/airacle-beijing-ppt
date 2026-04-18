@@ -314,7 +314,30 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 .hover-slide { transition:all .3s; }
 .hover-slide:hover { background:rgba(0,212,255,.07) !important; transform:translateX(4px); }
 
-/* ----- 16. Responsive ----- */
+/* ----- 16. Cinematic Fly-In Elements ----- */
+.fly-in {
+  position:absolute;
+  pointer-events:none;
+  z-index:5;
+  will-change:transform,opacity;
+  filter:drop-shadow(0 0 40px rgba(0,180,255,.2));
+  opacity:0;
+}
+.fly-in img {
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+/* Glow pulse on fly-in images */
+.fly-in.glow-cyan { filter:drop-shadow(0 0 50px rgba(0,212,255,.25)) drop-shadow(0 0 20px rgba(0,212,255,.15)); }
+.fly-in.glow-purple { filter:drop-shadow(0 0 50px rgba(123,104,238,.25)) drop-shadow(0 0 20px rgba(123,104,238,.15)); }
+.fly-in.glow-pink { filter:drop-shadow(0 0 50px rgba(255,107,157,.2)) drop-shadow(0 0 20px rgba(255,107,157,.12)); }
+.fly-in.glow-gold { filter:drop-shadow(0 0 50px rgba(255,215,0,.2)) drop-shadow(0 0 20px rgba(255,215,0,.12)); }
+/* Subtle idle float after landing */
+@keyframes idleFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+.fly-in.landed { animation:idleFloat 4s ease-in-out infinite; }
+
+/* ----- 17. Responsive ----- */
 @media(max-width:1024px) {
   .slide { padding:50px 32px 70px; }
   h1.hero { font-size:3.5rem; }

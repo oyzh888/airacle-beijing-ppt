@@ -81,6 +81,27 @@ const D = (() => {
     // Tech & contrib bars
     slide.querySelectorAll('.tbar-fill[data-w]').forEach(el => { gsap.to(el, { width: el.dataset.w + '%', duration: 1.5, delay: .5, ease: 'power2.out' }); });
     slide.querySelectorAll('.cbar-fill[data-w]').forEach(el => { gsap.to(el, { width: el.dataset.w + '%', duration: 1.8, delay: .4, ease: 'power2.out' }); });
+
+    // Cinematic fly-in elements
+    slide.querySelectorAll('.fly-in').forEach(el => {
+      const dir = el.dataset.fly || 'right';
+      const delay = parseFloat(el.dataset.flyDelay || 0.3);
+      el.classList.remove('landed');
+
+      // Starting position based on direction
+      const from = { opacity: 0, scale: 0.3, rotation: dir === 'left' ? -15 : dir === 'right' ? 15 : 0 };
+      if (dir === 'right') { from.x = 300; from.y = 40; }
+      else if (dir === 'left') { from.x = -300; from.y = 40; }
+      else if (dir === 'bottom') { from.x = 0; from.y = 300; }
+      else if (dir === 'top') { from.x = 0; from.y = -300; }
+
+      gsap.fromTo(el, from, {
+        opacity: 1, x: 0, y: 0, scale: 1, rotation: 0,
+        duration: 1.0, delay: delay,
+        ease: 'back.out(1.2)',
+        onComplete: () => el.classList.add('landed')
+      });
+    });
   }
 
   // ---- Transition ----
@@ -106,6 +127,10 @@ const D = (() => {
     nw.querySelectorAll('.tbar-fill,.cbar-fill').forEach(el => { el.style.width = '0%'; });
     nw.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30 }));
     nw.querySelectorAll('.char').forEach(el => gsap.set(el, { opacity: 0 }));
+    // Reset fly-in elements
+    nw.querySelectorAll('.fly-in').forEach(el => { el.classList.remove('landed'); gsap.set(el, { opacity: 0 }); });
+    // Hide fly-ins on the old slide too
+    old.querySelectorAll('.fly-in').forEach(el => { el.classList.remove('landed'); gsap.set(el, { opacity: 0 }); });
 
     // Animate in — slide container handles position/blur only, children stay hidden
     gsap.set(nw, { x: dir * 60, filter: 'blur(4px)' });
@@ -153,6 +178,7 @@ const D = (() => {
   // Hide children first, then animate them in (prevents double flash on load)
   if (slides[0]) {
     slides[0].querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30 }));
+    slides[0].querySelectorAll('.fly-in').forEach(el => gsap.set(el, { opacity: 0 }));
     setTimeout(() => animSlide(slides[0]), 150);
   }
 

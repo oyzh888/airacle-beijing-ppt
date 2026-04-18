@@ -1,6 +1,14 @@
   <div class="tag ai">PRODUCT SHOWCASE</div>
   <h2 class="stitle ai">产品展示 · <span class="acc">AI网红员工</span></h2>
   <p class="sub ai">OpenClaw — AI驱动的网红管理智能员工系统</p>
+  <!-- Cinematic fly-in: 3D robot -->
+  <div class="fly-in glow-purple" data-fly="bottom" data-fly-delay="0.5" style="right:2%;top:6%;width:300px;height:300px">
+    <img src="https://img.icons8.com/3d-fluency/512/robot-2.png" alt="">
+  </div>
+  <!-- Cinematic fly-in: 3D rocket -->
+  <div class="fly-in glow-cyan" data-fly="left" data-fly-delay="0.8" style="left:2%;bottom:8%;width:200px;height:200px">
+    <img src="https://img.icons8.com/3d-fluency/512/rocket.png" alt="">
+  </div>
   <div class="demo-wrap">
     <div class="demo-hero ai">
       <img src="https://images.unsplash.com/photo-1531746790095-e5cb157f210d?w=800&h=500&fit=crop" class="bg-img" alt="AI">
