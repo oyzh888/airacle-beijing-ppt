@@ -7,6 +7,7 @@
     <div class="cm-item"><div class="cm-dot"></div>2026年4月</div>
     <div class="cm-item"><div class="cm-dot"></div>公司介绍 & 产品演示</div>
   </div>
+  <div class="presenters ai">汇报展示人：Kevin, Steve, Penny</div>
   <!-- Cinematic fly-in: dark sci-fi neural network / AI brain -->
   <div class="fly-in" data-fly="right" data-fly-delay="0.6" style="right:-2%;top:5%;width:420px;height:420px">
     <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=800&fit=crop" alt="">

@@ -298,6 +298,18 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 .cover-meta { display:flex; gap:28px; margin-top:36px; }
 .cm-item { font-size:.82rem; color:var(--text3); display:flex; align-items:center; gap:8px; }
 .cm-dot { width:4px; height:4px; border-radius:50%; background:var(--purple); }
+.presenters {
+  margin-top:22px;
+  padding:10px 18px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.08);
+  background:linear-gradient(135deg,rgba(255,255,255,.04),rgba(0,212,255,.05));
+  color:var(--text);
+  font-size:.92rem;
+  letter-spacing:.6px;
+  font-weight:500;
+  box-shadow:0 10px 30px rgba(0,0,0,.16);
+}
 .scroll-cue { position:absolute; bottom:80px; left:50%; transform:translateX(-50%); display:flex; flex-direction:column; align-items:center; gap:8px; animation:cueBounce 2s ease-in-out infinite; }
 @keyframes cueBounce { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(-10px)} }
 .scroll-cue span { font-size:.68rem; color:var(--text3); letter-spacing:3px; font-family:var(--fm); }
@@ -349,4 +361,6 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   .demo-num { font-size:4rem; }
   .img-row { flex-direction:column; }
   .img-card { height:80px; }
+  .cover-meta { flex-direction:column; gap:10px; align-items:center; }
+  .presenters { font-size:.84rem; text-align:center; max-width:92vw; }
 }
