@@ -315,7 +315,9 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 .hover-slide:hover { background:rgba(0,212,255,.07) !important; transform:translateX(4px); }
 
 /* ----- 16. Cinematic Fly-In Elements ----- */
+/* TODO: 等找到合适的暗黑科技感PNG图后再启用 */
 .fly-in {
+  display: none !important;  /* 临时禁用 */
   position:absolute;
   pointer-events:none;
   z-index:5;
