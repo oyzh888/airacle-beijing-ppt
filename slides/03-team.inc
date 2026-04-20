@@ -11,25 +11,25 @@
         <div class="tc-badge b-prod">PRODUCT & DEV</div>
       </div>
       <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#00ffb0,#00aa70)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=PY&backgroundColor=00aa70" alt="P"></div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#00ffb0,#00aa70)"><img src="materials/02-团队头像/penny.jpg" alt="Penny"></div>
         <div class="tc-name">Penny</div>
         <div class="tc-role">COO 首席运营官</div>
         <div class="tc-badge b-ops">OPERATIONS</div>
       </div>
       <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#5544cc)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=JK&backgroundColor=5544cc" alt="J"></div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#5544cc)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=JK&backgroundColor=5544cc" alt="Jack"></div>
         <div class="tc-name">Jack</div>
         <div class="tc-role">算法工程师</div>
         <div class="tc-badge b-ai">AI ALGORITHM</div>
       </div>
       <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#ffd700,#cc9900)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=JQ&backgroundColor=cc9900" alt="J"></div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#ffd700,#cc9900)"><img src="materials/02-团队头像/jingqiong.jpg" alt="Jingqiong"></div>
         <div class="tc-name">Jingqiong</div>
         <div class="tc-role">人力行政负责人</div>
         <div class="tc-badge b-hr">HR & ADMIN</div>
       </div>
       <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#ff6b9d,#cc3366)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=JD&backgroundColor=cc3366" alt="J"></div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#ff6b9d,#cc3366)"><img src="materials/02-团队头像/judy.jpg" alt="Judy"></div>
         <div class="tc-name">Judy</div>
         <div class="tc-role">网红营销负责人</div>
         <div class="tc-badge b-mkt">MARKETING</div>
