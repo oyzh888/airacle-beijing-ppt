@@ -49,14 +49,15 @@ const D = (() => {
     gsap.killTweensOf(slide);
     slide.querySelectorAll('.ai,.char,.fly-in,.tbar-fill,.cbar-fill,[data-count]').forEach(el => {
       gsap.killTweensOf(el);
-      gsap.set(el, { clearProps: 'all' });
+      gsap.killTweensOf(el, 'opacity,x,y,scale,rotation,filter,width');
+      gsap.set(el, { clearProps: 'opacity,x,y,scale,rotation,filter,width' });
     });
     slide.querySelectorAll('.tbar-fill,.cbar-fill').forEach(el => { el.style.width = '0%'; });
     slide.querySelectorAll('[data-count]').forEach(el => {
       const raw = el.dataset.count;
       el.textContent = raw && raw !== '2024' ? '0' : raw;
     });
-    slide.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30, rotateX: 0 }));
+    slide.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 0, x: 0, rotateX: 0 }));
     slide.querySelectorAll('.char').forEach(el => gsap.set(el, { opacity: 0, y: 60, rotateX: -40, scale: .8 }));
     slide.querySelectorAll('.fly-in').forEach(el => {
       el.classList.remove('landed');
@@ -69,7 +70,7 @@ const D = (() => {
     // Staggered items
     slide.querySelectorAll('.ai').forEach((el) => {
       const d = parseFloat(el.dataset.delay || 0);
-      gsap.fromTo(el, { opacity: 0 }, { opacity: 1, duration: .28, delay: d + .04, ease: 'power1.out' });
+      gsap.to(el, { opacity: 1, duration: .2, delay: d + .02, ease: 'none', overwrite: 'auto' });
     });
 
     // Hero title character split
@@ -85,8 +86,8 @@ const D = (() => {
     }
     if (hero) {
       hero.querySelectorAll('.char').forEach((ch, i) => {
-        gsap.fromTo(ch, { opacity: 0, y: 60, rotateX: -40, scale: .8 },
-          { opacity: 1, y: 0, rotateX: 0, scale: 1, duration: .7, delay: .1 + i * .05, ease: 'back.out(1.5)' });
+        gsap.fromTo(ch, { opacity: 0, y: 20, rotateX: 0, scale: 1 },
+          { opacity: 1, y: 0, rotateX: 0, scale: 1, duration: .24, delay: .04 + i * .02, ease: 'power1.out', overwrite: 'auto' });
       });
     }
 
