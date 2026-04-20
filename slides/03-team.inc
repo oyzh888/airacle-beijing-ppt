@@ -39,8 +39,8 @@
     <div class="grid ai" style="grid-template-columns:1.3fr 1fr 1fr 1fr;gap:12px" data-delay=".24">
       <div class="tc founder magnetic">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#ff6b9d)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=SV&backgroundColor=7b68ee" alt="S"></div>
-        <div class="tc-name">Steve</div>
-        <div class="tc-role">CEO / CTO · 创始人</div>
+        <div class="tc-name">Steve Ouyang</div>
+        <div class="tc-role">创始人 · CEO / CTO</div>
         <div class="tc-badge b-fdr">FOUNDER · AI</div>
         <div style="font-size:.7rem;color:var(--text3);margin-top:6px;line-height:1.4">硅谷融资 · 国际化战略<br>AI系统架构</div>
       </div>
