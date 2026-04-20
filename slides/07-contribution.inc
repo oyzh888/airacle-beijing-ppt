@@ -5,7 +5,7 @@
     <div class="gc ai" data-delay=".1" style="border-color:rgba(0,255,176,.1)">
       <div class="ico g">&#x1f3d7;&#xfe0f;</div>
       <h3 style="color:var(--green)">扎根北京 · 共同成长</h3>
-      <div style="margin-top:20px;display:flex;flex-direction:column;gap:16px">
+      <div class="contribution-stack" style="margin-top:20px;display:flex;flex-direction:column;gap:16px">
         <div class="gc contribution-item" style="padding:18px;border-radius:16px;background:rgba(0,255,176,.04);border-color:rgba(0,255,176,.1)">
           <div style="font-size:.95rem;color:#fff;font-weight:600">立足北京创新生态</div>
           <div style="font-size:.82rem;color:var(--text2);margin-top:8px;line-height:1.7">依托北京良好的创新生态和产业基础，持续推进技术创新、成果转化和业务发展。</div>
