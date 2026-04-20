@@ -36,7 +36,7 @@
             </div>
             <div class="search-status">LIVE MATCHING</div>
           </div>
-          <div class="search-prompt">帮我找美国 TikTok 汽车博主，粉丝量大，适合新能源车品牌合作，优先男性受众。</div>
+          <div class="search-prompt" contenteditable="true" spellcheck="false">帮我找美国 TikTok 汽车博主，粉丝量大，适合新能源车品牌合作，优先男性受众。</div>
           <div class="search-filters">
             <span>市场：美国</span>
             <span>平台：TikTok</span>
@@ -47,29 +47,35 @@
             <div class="search-result-card">
               <div class="search-rank">01</div>
               <div class="search-meta">
-                <div class="search-name">Daniel Mac</div>
+                <div class="search-name-row"><div class="search-name">Daniel Mac</div><div class="search-score-inline">96</div></div>
                 <div class="search-handle">@itsdanielmac · 豪车采访 / 高净值车主内容</div>
                 <div class="search-tags"><span>14M 粉丝</span><span>美国受众强</span><span>汽车品牌适配高</span></div>
               </div>
-              <div class="search-score">96</div>
+              <div class="search-reason">AI 推荐理由：受众与汽车消费决策高度相关，适合品牌曝光与讨论制造。</div>
+              </div>
+              <button class="search-action" type="button">查看建议</button>
             </div>
             <div class="search-result-card">
               <div class="search-rank">02</div>
               <div class="search-meta">
-                <div class="search-name">Supercar Blondie</div>
+                <div class="search-name-row"><div class="search-name">Supercar Blondie</div><div class="search-score-inline">93</div></div>
                 <div class="search-handle">@supercarblondie · 豪车 / 概念车 / 科技感内容</div>
                 <div class="search-tags"><span>20M+ 粉丝</span><span>全球影响力</span><span>高端品牌适配</span></div>
               </div>
-              <div class="search-score">93</div>
+              <div class="search-reason">AI 推荐理由：适合高端车型发布、技术亮点传播与国际市场声量放大。</div>
+              </div>
+              <button class="search-action" type="button">查看建议</button>
             </div>
             <div class="search-result-card">
               <div class="search-rank">03</div>
               <div class="search-meta">
-                <div class="search-name">Vehicle Virgins</div>
+                <div class="search-name-row"><div class="search-name">Vehicle Virgins</div><div class="search-score-inline">89</div></div>
                 <div class="search-handle">@vehiclevirgins · 性能车评测 / 购车内容</div>
                 <div class="search-tags"><span>车迷纯度高</span><span>转化意图强</span><span>测评合作适配</span></div>
               </div>
-              <div class="search-score">89</div>
+              <div class="search-reason">AI 推荐理由：内容偏测评导向，适合深度种草和性能卖点传达。</div>
+              </div>
+              <button class="search-action" type="button">查看建议</button>
             </div>
           </div>
         </div>
