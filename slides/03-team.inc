@@ -26,58 +26,56 @@
         <div style="font-size:.8rem;color:var(--text2);margin-top:14px;line-height:1.75">曾先后担任 TikTok、Kwai、Bigo 等海外平台运营负责人，长期深耕全球化网红营销与海外市场增长，对中东、欧美及东南亚市场的达人生态、用户运营和商业化协同拥有丰富经验。</div>
       </div>
     </div>
-    <div class="grid g2 ai" style="gap:14px;margin-bottom:6px;align-items:start">
-      <div>
-        <div class="tg-title ai" data-delay=".18">&#x1f4cd; 北京团队</div>
-        <div class="grid ai" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:12px">
-          <div class="tc magnetic" style="padding:16px 12px">
-            <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="materials/02-团队头像/kevin.jpg" alt="Kevin"></div>
-            <div class="tc-name">Kevin</div>
-            <div class="tc-role">产品负责人</div>
-            <div class="tc-badge b-prod">PRODUCT</div>
-          </div>
-          <div class="tc magnetic" style="padding:16px 12px">
-            <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#5544cc)"><img src="materials/02-团队头像/jack.jpg" alt="Jack"></div>
-            <div class="tc-name">Jack</div>
-            <div class="tc-role">算法工程师</div>
-            <div class="tc-badge b-ai">AI ALGORITHM</div>
-          </div>
-          <div class="tc magnetic" style="padding:16px 12px">
-            <div class="tc-avatar" style="background:linear-gradient(135deg,#ffd700,#cc9900)"><img src="materials/02-团队头像/jingqiong.jpg" alt="Jingqiong"></div>
-            <div class="tc-name">Jingqiong</div>
-            <div class="tc-role">人力行政负责人</div>
-            <div class="tc-badge b-hr">HR & ADMIN</div>
-          </div>
-          <div class="tc magnetic" style="padding:16px 12px">
-            <div class="tc-avatar" style="background:linear-gradient(135deg,#ff6b9d,#cc3366)"><img src="materials/02-团队头像/judy.jpg" alt="Jood"></div>
-            <div class="tc-name">Jood</div>
-            <div class="tc-role">网红营销负责人</div>
-            <div class="tc-badge b-mkt">MARKETING</div>
-          </div>
-        </div>
+    <div class="tg-title ai" data-delay=".18">&#x1f465; 核心执行团队</div>
+    <div class="grid ai" style="grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin-bottom:6px;align-items:start">
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="materials/02-团队头像/kevin.jpg" alt="Kevin"></div>
+        <div class="tc-name">Kevin</div>
+        <div class="tc-role">产品负责人</div>
+        <div class="tc-badge b-prod">PRODUCT</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
       </div>
-      <div>
-        <div class="tg-title ai" data-delay=".24">&#x1f30e; 硅谷团队</div>
-        <div class="grid ai" style="grid-template-columns:repeat(3,minmax(0,1fr));gap:12px">
-          <div class="tc magnetic" style="padding:16px 12px">
-            <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#7b68ee)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI1&backgroundColor=0088cc" alt="AI员工A"></div>
-            <div class="tc-name">AI 员工 A</div>
-            <div class="tc-role">Creator Growth Agent</div>
-            <div class="tc-badge b-ai">AI EMPLOYEE</div>
-          </div>
-          <div class="tc magnetic" style="padding:16px 12px">
-            <div class="tc-avatar" style="background:linear-gradient(135deg,#00b4d8,#0077b6)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI2&backgroundColor=0077b6" alt="AI员工B"></div>
-            <div class="tc-name">AI 员工 B</div>
-            <div class="tc-role">Campaign Ops Agent</div>
-            <div class="tc-badge b-fs">GLOBAL AI</div>
-          </div>
-          <div class="tc magnetic" style="padding:16px 12px">
-            <div class="tc-avatar" style="background:linear-gradient(135deg,#06d6a0,#118ab2)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI3&backgroundColor=118ab2" alt="AI员工C"></div>
-            <div class="tc-name">AI 员工 C</div>
-            <div class="tc-role">Content Strategy Agent</div>
-            <div class="tc-badge b-prod">AI SYSTEM</div>
-          </div>
-        </div>
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#5544cc)"><img src="materials/02-团队头像/jack.jpg" alt="Jack"></div>
+        <div class="tc-name">Jack</div>
+        <div class="tc-role">算法工程师</div>
+        <div class="tc-badge b-ai">AI ALGORITHM</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
+      </div>
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#ffd700,#cc9900)"><img src="materials/02-团队头像/jingqiong.jpg" alt="Jingqiong"></div>
+        <div class="tc-name">Jingqiong</div>
+        <div class="tc-role">人力行政负责人</div>
+        <div class="tc-badge b-hr">HR & ADMIN</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
+      </div>
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#ff6b9d,#cc3366)"><img src="materials/02-团队头像/judy.jpg" alt="Jood"></div>
+        <div class="tc-name">Jood</div>
+        <div class="tc-role">网红营销负责人</div>
+        <div class="tc-badge b-mkt">MARKETING</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
+      </div>
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#7b68ee)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI1&backgroundColor=0088cc" alt="AI员工A"></div>
+        <div class="tc-name">AI 员工 A</div>
+        <div class="tc-role">Creator Growth Agent</div>
+        <div class="tc-badge b-ai">AI EMPLOYEE</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">硅谷团队</div>
+      </div>
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#00b4d8,#0077b6)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI2&backgroundColor=0077b6" alt="AI员工B"></div>
+        <div class="tc-name">AI 员工 B</div>
+        <div class="tc-role">Campaign Ops Agent</div>
+        <div class="tc-badge b-fs">GLOBAL AI</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">硅谷团队</div>
+      </div>
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#06d6a0,#118ab2)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI3&backgroundColor=118ab2" alt="AI员工C"></div>
+        <div class="tc-name">AI 员工 C</div>
+        <div class="tc-role">Content Strategy Agent</div>
+        <div class="tc-badge b-prod">AI SYSTEM</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">硅谷团队</div>
       </div>
     </div>
   </div>
