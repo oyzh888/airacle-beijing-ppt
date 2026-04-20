@@ -16,7 +16,7 @@
       results: [
         { rank: '01', name: 'Daniel Mac', handle: '@itsdanielmac · 豪车采访 / 高净值车主内容', tags: ['14M 粉丝', '美国受众强', '汽车品牌适配高'], score: 96, reason: '受众与汽车消费决策高度相关，适合品牌曝光与讨论制造。', url: 'https://www.tiktok.com/@itsdanielmac?lang=en' },
         { rank: '02', name: 'Supercar Blondie', handle: '@supercarblondie · 豪车 / 概念车 / 科技感内容', tags: ['20M+ 粉丝', '全球影响力', '高端品牌适配'], score: 93, reason: '适合高端车型发布、技术亮点传播与国际市场声量放大。', url: 'https://www.tiktok.com/@supercarblondie?lang=en' },
-        { rank: '03', name: 'Vehicle Virgins', handle: '@vehiclevirgins · 性能车评测 / 购车内容', tags: ['车迷纯度高', '转化意图强', '测评合作适配'], score: 89, reason: '内容偏测评导向，适合深度种草和性能卖点传达。', url: 'https://www.tiktok.com/@vehiclevirgins?lang=en' }
+        { rank: '03', name: 'Vehicle Virgins', handle: '@parkernirenstein · 性能车评测 / 购车内容', tags: ['车迷纯度高', '转化意图强', '测评合作适配'], score: 89, reason: '内容偏测评导向，适合深度种草和性能卖点传达。', url: 'https://www.tiktok.com/@parkernirenstein?lang=en' }
       ]
     },
     {
