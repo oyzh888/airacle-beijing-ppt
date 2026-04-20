@@ -6,6 +6,7 @@
   const statusEl = root.querySelector('.search-status');
   const filtersEl = root.querySelector('.search-filters');
   const resultsEl = root.querySelector('.search-results');
+  const detailBodyEl = root.querySelector('.search-detail-body');
 
   const scenarios = [
     {
@@ -46,8 +47,8 @@
     promptEl.textContent = s.prompt;
     statusEl.textContent = s.status;
     filtersEl.innerHTML = s.filters.map(f => `<span>${f}</span>`).join('');
-    resultsEl.innerHTML = s.results.map(r => `
-      <div class="search-result-card">
+    resultsEl.innerHTML = s.results.map((r, i) => `
+      <div class="search-result-card${i === 0 ? ' active' : ''}" data-reason="${r.reason.replace(/"/g, '&quot;')}">
         <div class="search-rank">${r.rank}</div>
         <div class="search-meta">
           <div class="search-name-row">
@@ -61,15 +62,21 @@
         <button class="search-action" type="button">查看建议</button>
       </div>
     `).join('');
+    detailBodyEl.textContent = `AI 推荐理由：${s.results[0].reason} 下一步建议：发起首轮合作沟通，结合预算与品牌调性生成邀约话术，并同步输出达人优先级列表。`;
   }
 
   renderScenario(scenarios[idx]);
 
   root.addEventListener('click', (e) => {
+    const action = e.target.closest('.search-action');
     const card = e.target.closest('.search-result-card');
     if (!card) return;
     resultsEl.querySelectorAll('.search-result-card').forEach(el => el.classList.remove('active'));
     card.classList.add('active');
+    if (action || card) {
+      const reason = card.dataset.reason || '';
+      detailBodyEl.textContent = `AI 推荐理由：${reason} 下一步建议：输出合作方式、预算区间、内容形式和执行排期，供运营团队直接推进。`;
+    }
   });
 
   setInterval(() => {

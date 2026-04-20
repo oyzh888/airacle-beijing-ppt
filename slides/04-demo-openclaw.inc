@@ -43,40 +43,10 @@
             <span>垂类：汽车</span>
             <span>需求：品牌合作</span>
           </div>
-          <div class="search-results">
-            <div class="search-result-card">
-              <div class="search-rank">01</div>
-              <div class="search-meta">
-                <div class="search-name-row"><div class="search-name">Daniel Mac</div><div class="search-score-inline">96</div></div>
-                <div class="search-handle">@itsdanielmac · 豪车采访 / 高净值车主内容</div>
-                <div class="search-tags"><span>14M 粉丝</span><span>美国受众强</span><span>汽车品牌适配高</span></div>
-              </div>
-              <div class="search-reason">AI 推荐理由：受众与汽车消费决策高度相关，适合品牌曝光与讨论制造。</div>
-              </div>
-              <button class="search-action" type="button">查看建议</button>
-            </div>
-            <div class="search-result-card">
-              <div class="search-rank">02</div>
-              <div class="search-meta">
-                <div class="search-name-row"><div class="search-name">Supercar Blondie</div><div class="search-score-inline">93</div></div>
-                <div class="search-handle">@supercarblondie · 豪车 / 概念车 / 科技感内容</div>
-                <div class="search-tags"><span>20M+ 粉丝</span><span>全球影响力</span><span>高端品牌适配</span></div>
-              </div>
-              <div class="search-reason">AI 推荐理由：适合高端车型发布、技术亮点传播与国际市场声量放大。</div>
-              </div>
-              <button class="search-action" type="button">查看建议</button>
-            </div>
-            <div class="search-result-card">
-              <div class="search-rank">03</div>
-              <div class="search-meta">
-                <div class="search-name-row"><div class="search-name">Vehicle Virgins</div><div class="search-score-inline">89</div></div>
-                <div class="search-handle">@vehiclevirgins · 性能车评测 / 购车内容</div>
-                <div class="search-tags"><span>车迷纯度高</span><span>转化意图强</span><span>测评合作适配</span></div>
-              </div>
-              <div class="search-reason">AI 推荐理由：内容偏测评导向，适合深度种草和性能卖点传达。</div>
-              </div>
-              <button class="search-action" type="button">查看建议</button>
-            </div>
+          <div class="search-results"></div>
+          <div class="search-detail-panel">
+            <div class="search-detail-title">合作建议</div>
+            <div class="search-detail-body">点击“查看建议”后，展示 AI 生成的推荐理由、合作方式、预算建议与下一步执行动作。</div>
           </div>
         </div>
       </div>

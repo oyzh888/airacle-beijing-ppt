@@ -324,7 +324,7 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 }
 .search-result-card {
   display:grid;
-  grid-template-columns:44px 1fr 52px;
+  grid-template-columns:44px 1fr 96px;
   gap:14px;
   align-items:center;
   padding:14px 16px;
@@ -384,6 +384,25 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   font-size:.75rem;
   color:#9fb0d9;
   line-height:1.6;
+}
+.search-detail-panel {
+  margin-top:12px;
+  padding:14px 16px;
+  border-radius:16px;
+  background:rgba(6,12,28,.72);
+  border:1px solid rgba(0,212,255,.12);
+}
+.search-detail-title {
+  font-size:.76rem;
+  color:var(--cyan);
+  letter-spacing:1.2px;
+  font-weight:700;
+  margin-bottom:8px;
+}
+.search-detail-body {
+  font-size:.82rem;
+  color:var(--text2);
+  line-height:1.75;
 }
 .search-action {
   border:none;
@@ -524,6 +543,7 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   .search-header { flex-direction:column; }
   .search-result-card { grid-template-columns:1fr; }
   .search-name-row { align-items:flex-start; }
+  .search-action { width:100%; }
   .stats { gap:28px; }
   .business-stats { gap:14px; justify-content:center; margin-bottom:6px; }
   .business-stats .st { min-width:120px; }
