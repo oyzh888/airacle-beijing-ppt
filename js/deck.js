@@ -135,24 +135,11 @@ const D = (() => {
     clearSlideAnimations(old);
     clearSlideAnimations(nw);
 
-    // Animate out — fade + slide + blur
-    await new Promise(res => gsap.to(old, {
-      opacity: 0, x: dir * -56, filter: 'blur(4px)',
-      duration: .24, ease: 'power2.inOut',
-      onComplete: () => {
-        old.classList.remove('active');
-        gsap.set(old, { opacity: 1, x: 0, filter: 'none' });
-        res();
-      }
-    }));
+    old.classList.remove('active');
+    gsap.set(old, { opacity: 0, x: 0, filter: 'none' });
 
-    // Animate in — no slide drift, just clean reveal
-    gsap.set(nw, { x: 0, filter: 'none' });
     nw.classList.add('active');
-    await new Promise(res => gsap.to(nw, {
-      opacity: 1,
-      duration: .12, ease: 'none', onComplete: res
-    }));
+    gsap.set(nw, { opacity: 1, x: 0, filter: 'none' });
 
     // Now animate children in (single pass, no double-flash)
     animSlide(nw);

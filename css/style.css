@@ -342,10 +342,6 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 .cursor-trail { position:fixed; width:4px; height:4px; background:rgba(0,212,255,.3); border-radius:50%; pointer-events:none; z-index:9997; }
 .magnetic { transition:transform .3s cubic-bezier(.4,0,.2,1); }
 
-/* Helper: hover-slide for inline items */
-.hover-slide { transition:all .3s; }
-.hover-slide:hover { background:rgba(0,212,255,.07) !important; transform:translateX(4px); }
-
 /* ----- 16. Cinematic Fly-In Elements ----- */
 /* TODO: 等找到合适的暗黑科技感PNG图后再启用 */
 .fly-in {
