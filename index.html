@@ -85,7 +85,7 @@
   });
 
   // Now init all JS modules (they depend on .slide elements existing)
-  const scripts = ['js/background.js', 'js/cursor.js', 'js/deck.js', 'js/ai-search-demo.js'];
+  const scripts = ['js/background.js', 'js/cursor.js', 'js/deck.js', 'js/ai-search-demo.js', 'js/lightbox.js'];
   for (const src of scripts) {
     await new Promise((resolve, reject) => {
       const s = document.createElement('script');
