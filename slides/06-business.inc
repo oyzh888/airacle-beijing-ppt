@@ -8,7 +8,7 @@
       <div class="tl" style="margin-top:14px">
         <div class="tl-i"><div class="tl-d">2026</div><div class="tl-t">走访 <strong>Snapchat 总部</strong>，洽谈平台级深度合作</div></div>
         <div class="tl-i"><div class="tl-d">2025</div><div class="tl-t"><strong>沙特头部网红</strong>签约；<strong>欧洲</strong>市场拓展</div></div>
-        <div class="tl-i"><div class="tl-d">2024</div><div class="tl-t">公司成立，完成融资，搭建核心团队</div></div>
+        <div class="tl-i"><div class="tl-d">2024</div><div class="tl-t">公司成立，搭建核心团队</div></div>
       </div>
       <div class="img-row">
         <div class="img-card"><img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=300&h=200&fit=crop" alt="Snapchat"><div class="img-overlay"><div class="img-label">Snapchat 总部参访</div></div></div>
