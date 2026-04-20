@@ -130,7 +130,26 @@ html,body {
 .logo-cube .l { background:linear-gradient(135deg,var(--green),var(--cyan)); transform:rotateY(-90deg) translateZ(17px); }
 .logo-cube .r { background:linear-gradient(135deg,var(--pink),var(--orange)); transform:rotateY(90deg) translateZ(17px); }
 .logo-name { font-family:var(--fe); font-weight:800; font-size:1.15rem; background:linear-gradient(135deg,var(--cyan),var(--purple)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:3px; }
-.topbar-right { display:flex; align-items:center; gap:20px; }
+.topbar-right { display:flex; align-items:center; gap:14px; }
+.fullscreen-btn {
+  appearance:none;
+  border:none;
+  background:rgba(255,255,255,.06);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:999px;
+  padding:8px 14px;
+  font-size:.76rem;
+  font-weight:700;
+  letter-spacing:.4px;
+  cursor:pointer;
+  transition:all .2s ease;
+}
+.fullscreen-btn:hover {
+  background:rgba(0,212,255,.14);
+  border-color:rgba(0,212,255,.32);
+  color:var(--cyan);
+}
 .slide-num { font-family:var(--fm); font-size:.85rem; color:var(--text3); }
 .slide-num .cur { color:var(--cyan); font-weight:600; font-size:1.2rem; }
 

@@ -148,12 +148,24 @@ const D = (() => {
 
   function go(d) { goTo(cur + d); }
 
+  function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen?.();
+    } else {
+      document.exitFullscreen?.();
+    }
+  }
+
+  const btnFullscreen = document.getElementById('btnFullscreen');
+  if (btnFullscreen) btnFullscreen.onclick = toggleFullscreen;
+
   // ---- Keyboard ----
   document.addEventListener('keydown', e => {
     if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') { e.preventDefault(); go(1); }
     if (e.key === 'ArrowLeft' || e.key === 'Backspace') { e.preventDefault(); go(-1); }
     if (e.key === 'Home') goTo(0);
     if (e.key === 'End') goTo(total - 1);
+    if (e.key === 'f' || e.key === 'F') { e.preventDefault(); toggleFullscreen(); }
     const num = parseInt(e.key);
     if (num >= 1 && num <= total) goTo(num - 1);
   });
