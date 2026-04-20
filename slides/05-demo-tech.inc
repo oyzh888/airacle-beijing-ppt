@@ -51,7 +51,12 @@
           <div class="product-shot-label">大规模数据集管理平台</div>
         </div>
       </div>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px">
+      <!-- Knockit App -->
+      <div class="product-shot" style="margin-top:12px">
+        <img src="materials/03-产品截图/knockit_1st_ios_app_of_the_company/app_screenshot.png" alt="Knockit App" style="width:100%;border-radius:10px">
+        <div class="product-shot-label">Knockit — 公司首款 iOS App · App Store 5.0 评分</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px">
         <div class="hover-slide" style="display:flex;align-items:center;gap:8px;padding:9px 14px;background:rgba(0,212,255,.03);border:1px solid rgba(0,212,255,.06);border-radius:12px;transition:all .3s;flex:1;min-width:180px">
           <span style="color:var(--cyan);font-size:1rem">&#x2726;</span>
           <span style="font-size:.82rem;color:var(--text2)">覆盖 Instagram / TikTok / YouTube / Snapchat</span>
