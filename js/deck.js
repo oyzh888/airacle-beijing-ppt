@@ -146,12 +146,12 @@ const D = (() => {
       }
     }));
 
-    // Animate in — slide container handles position/blur only, children stay hidden
-    gsap.set(nw, { x: dir * 42, filter: 'blur(2px)' });
+    // Animate in — no slide drift, just clean reveal
+    gsap.set(nw, { x: 0, filter: 'none' });
     nw.classList.add('active');
     await new Promise(res => gsap.to(nw, {
-      x: 0, filter: 'blur(0px)',
-      duration: .26, ease: 'power2.out', onComplete: res
+      opacity: 1,
+      duration: .12, ease: 'none', onComplete: res
     }));
 
     // Now animate children in (single pass, no double-flash)

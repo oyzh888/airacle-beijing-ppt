@@ -132,24 +132,11 @@ document.addEventListener('mousemove', e => {
   // Global switch function
   function switchSlideBg(index) {
     if (index === currentIndex || index < 0 || index >= bgDivs.length) return;
-    const outgoing = bgDivs[currentIndex];
-    const incoming = bgDivs[index];
-
-    gsap.killTweensOf(outgoing);
-    gsap.killTweensOf(incoming);
-
-    outgoing.classList.remove('active');
-    gsap.set(outgoing, { opacity: 0, scale: 1 });
-
-    gsap.set(incoming, { opacity: 0, scale: 1 });
-    incoming.classList.add('active');
-    gsap.to(incoming, {
-      opacity: 1,
-      duration: 0.22,
-      ease: 'none',
-      overwrite: 'auto'
+    bgDivs.forEach((bg, i) => {
+      gsap.killTweensOf(bg);
+      bg.classList.toggle('active', i === index);
+      gsap.set(bg, { opacity: i === index ? 1 : 0, scale: 1, clearProps: 'transform' });
     });
-
     currentIndex = index;
   }
 
