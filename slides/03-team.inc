@@ -5,7 +5,7 @@
     <div class="grid g2 ai" style="gap:14px;margin-bottom:16px;align-items:stretch">
       <div class="gc magnetic" style="padding:20px 22px;border-color:rgba(123,104,238,.16)">
         <div style="display:flex;align-items:flex-start;gap:16px">
-          <div class="tc-avatar" style="margin:0;width:68px;height:68px;background:linear-gradient(135deg,#7b68ee,#ff6b9d)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=SV&backgroundColor=7b68ee" alt="Steve Ouyang"></div>
+          <div class="tc-avatar" style="margin:0;width:68px;height:68px;background:linear-gradient(135deg,#7b68ee,#ff6b9d)"><img src="materials/02-团队头像/steve.jpeg" alt="Steve Ouyang"></div>
           <div style="flex:1">
             <div class="tc-name" style="font-size:1.15rem">Steve Ouyang</div>
             <div class="tc-role" style="font-size:.86rem">创始人 · CEO / CTO</div>

@@ -6,14 +6,19 @@
       <div class="ico c">&#x2708;&#xfe0f;</div>
       <h3>全球商务拓展</h3>
       <div class="tl" style="margin-top:14px">
-        <div class="tl-i"><div class="tl-d">2026</div><div class="tl-t">走访 <strong>Snapchat 总部</strong>，洽谈平台级深度合作</div></div>
-        <div class="tl-i"><div class="tl-d">2025</div><div class="tl-t"><strong>沙特头部网红</strong>签约；<strong>欧洲</strong>市场拓展</div></div>
-        <div class="tl-i"><div class="tl-d">2024</div><div class="tl-t">公司成立，搭建核心团队</div></div>
+        <div class="tl-i"><div class="tl-d">2026</div><div class="tl-t">走访 <strong>Snapchat 总部</strong>、<strong>TikTok LA</strong>，洽谈平台级深度合作</div></div>
+        <div class="tl-i"><div class="tl-d">2025</div><div class="tl-t"><strong>沙特头部网红</strong>签约；<strong>欧洲</strong>市场拓展；<strong>好莱坞导演</strong>内容合作</div></div>
+        <div class="tl-i"><div class="tl-d">2024</div><div class="tl-t">公司成立；完成<strong>首轮融资</strong>；首款 <strong>iOS App</strong> 上线</div></div>
       </div>
       <div class="img-row">
-        <div class="img-card"><img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=300&h=200&fit=crop" alt="Snapchat"><div class="img-overlay"><div class="img-label">Snapchat 总部参访</div></div></div>
-        <div class="img-card"><img src="https://images.unsplash.com/photo-1466442929976-97f336a657be?w=300&h=200&fit=crop" alt="Saudi"><div class="img-overlay"><div class="img-label">沙特网红合作</div></div></div>
-        <div class="img-card"><img src="https://images.unsplash.com/photo-1493707553966-283afac8c358?w=300&h=200&fit=crop" alt="Europe"><div class="img-overlay"><div class="img-label">欧洲商务出差</div></div></div>
+        <div class="img-card"><img src="materials/04-商务出差/LA-tiktok-snap/15A0FFC4-276C-44FA-B0DA-6EB68A0555BA_1_105_c.jpeg" alt="Snapchat"><div class="img-overlay"><div class="img-label">Snapchat 总部参访</div></div></div>
+        <div class="img-card"><img src="materials/04-商务出差/LA-tiktok-snap/99D96F5D-443D-4877-AEC1-5211F3D41B4D_1_105_c.jpeg" alt="TikTok"><div class="img-overlay"><div class="img-label">TikTok LA 总部</div></div></div>
+        <div class="img-card"><img src="materials/04-商务出差/沙特/049EEC64-4517-449E-B93F-4705D254E238_1_102_o.jpeg" alt="Saudi"><div class="img-overlay"><div class="img-label">沙特网红合作</div></div></div>
+      </div>
+      <div class="img-row" style="margin-top:8px">
+        <div class="img-card"><img src="materials/04-商务出差/欧洲/F40570C1-EC34-40D6-87D6-8232154D9DD5_1_102_o.jpeg" alt="Europe"><div class="img-overlay"><div class="img-label">欧洲商务拓展</div></div></div>
+        <div class="img-card"><img src="materials/04-商务出差/LA-tiktok-snap/hollewood_director_collaboration.jpeg" alt="Hollywood"><div class="img-overlay"><div class="img-label">好莱坞导演合作</div></div></div>
+        <div class="img-card"><img src="materials/04-商务出差/US_pitch_1st_investment/FD9D78A3-BD3E-4095-B751-FBADBFED8ED9_1_106_c.jpeg" alt="Investment"><div class="img-overlay"><div class="img-label">首轮融资</div></div></div>
       </div>
     </div>
     <div class="gc ai" data-delay=".2">
