@@ -12,7 +12,7 @@ const D = (() => {
   const slides = document.querySelectorAll('.slide');
   const total = slides.length;
   let cur = 0, busy = false;
-  const labels = ['封面','公司','团队','AI员工','技术','商务','贡献','愿景'];
+  const labels = ['封面','公司','团队','AI员工','技术','商务','客户','贡献','愿景'];
 
   // ---- Build Minimap ----
   const mm = document.getElementById('minimap');
