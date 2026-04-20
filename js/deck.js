@@ -45,6 +45,19 @@ const D = (() => {
     if (bn) bn.querySelectorAll('.bnav-dot').forEach((d, i) => d.classList.toggle('active', i === cur));
   }
 
+  function clearSlideAnimations(slide) {
+    gsap.killTweensOf(slide);
+    slide.querySelectorAll('.ai,.char,.fly-in,.tbar-fill,.cbar-fill,[data-count]').forEach(el => gsap.killTweensOf(el));
+    slide.querySelectorAll('.tbar-fill,.cbar-fill').forEach(el => { el.style.width = '0%'; });
+    slide.querySelectorAll('[data-count]').forEach(el => { el.textContent = '0'; });
+    slide.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30, rotateX: 0, clearProps: 'transform' }));
+    slide.querySelectorAll('.char').forEach(el => gsap.set(el, { opacity: 0, y: 60, rotateX: -40, scale: .8 }));
+    slide.querySelectorAll('.fly-in').forEach(el => {
+      el.classList.remove('landed');
+      gsap.set(el, { opacity: 0, x: 0, y: 0, scale: 1, rotation: 0 });
+    });
+  }
+
   // ---- Animate slide content ----
   function animSlide(slide) {
     // Staggered items
@@ -112,6 +125,9 @@ const D = (() => {
     const old = slides[cur], nw = slides[n];
     cur = n; ui();
 
+    clearSlideAnimations(old);
+    clearSlideAnimations(nw);
+
     // Animate out — fade + slide + blur
     await new Promise(res => gsap.to(old, {
       opacity: 0, x: dir * -80, filter: 'blur(6px)',
@@ -122,15 +138,6 @@ const D = (() => {
         res();
       }
     }));
-
-    // Reset bars & hide all animated children BEFORE showing slide
-    nw.querySelectorAll('.tbar-fill,.cbar-fill').forEach(el => { el.style.width = '0%'; });
-    nw.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30 }));
-    nw.querySelectorAll('.char').forEach(el => gsap.set(el, { opacity: 0 }));
-    // Reset fly-in elements
-    nw.querySelectorAll('.fly-in').forEach(el => { el.classList.remove('landed'); gsap.set(el, { opacity: 0 }); });
-    // Hide fly-ins on the old slide too
-    old.querySelectorAll('.fly-in').forEach(el => { el.classList.remove('landed'); gsap.set(el, { opacity: 0 }); });
 
     // Animate in — slide container handles position/blur only, children stay hidden
     gsap.set(nw, { x: dir * 60, filter: 'blur(4px)' });
@@ -177,8 +184,8 @@ const D = (() => {
   ui();
   // Hide children first, then animate them in (prevents double flash on load)
   if (slides[0]) {
-    slides[0].querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30 }));
-    slides[0].querySelectorAll('.fly-in').forEach(el => gsap.set(el, { opacity: 0 }));
+    clearSlideAnimations(slides[0]);
+    slides[0].querySelectorAll('[data-count]').forEach(el => { el.textContent = '0'; });
     setTimeout(() => animSlide(slides[0]), 150);
   }
 
