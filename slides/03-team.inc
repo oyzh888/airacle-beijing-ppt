@@ -5,10 +5,10 @@
     <div class="tg-title ai">&#x1f4cd; 北京总部 · 现场团队</div>
     <div class="grid g5 ai" style="gap:12px;margin-bottom:6px">
       <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=MX&backgroundColor=0077cc" alt="M"></div>
-        <div class="tc-name">Minxuan</div>
-        <div class="tc-role">产品总监 / 软件工程师</div>
-        <div class="tc-badge b-prod">PRODUCT & DEV</div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="materials/02-团队头像/kevin.jpg" alt="Kevin"></div>
+        <div class="tc-name">Kevin</div>
+        <div class="tc-role">产品总监</div>
+        <div class="tc-badge b-prod">PRODUCT</div>
       </div>
       <div class="tc magnetic">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#00ffb0,#00aa70)"><img src="materials/02-团队头像/penny.jpg" alt="Penny"></div>
@@ -17,7 +17,7 @@
         <div class="tc-badge b-ops">OPERATIONS</div>
       </div>
       <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#5544cc)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=JK&backgroundColor=5544cc" alt="Jack"></div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#5544cc)"><img src="materials/02-团队头像/jack.jpg" alt="Jack"></div>
         <div class="tc-name">Jack</div>
         <div class="tc-role">算法工程师</div>
         <div class="tc-badge b-ai">AI ALGORITHM</div>
