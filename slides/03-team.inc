@@ -1,15 +1,26 @@
-  <div class="tag ai">CORE TEAM</div>
-  <h2 class="stitle ai"><span class="acc">核心</span>团队</h2>
-  <p class="sub ai">汇聚中美两地顶尖人才 · AI技术+商业运营双轮驱动</p>
+  <div class="tag ai">LEADERSHIP TEAM</div>
+  <h2 class="stitle ai"><span class="acc">核心管理</span>团队</h2>
+  <p class="sub ai">CEO 与 COO 双核带队 · AI 技术能力与全球化运营协同驱动</p>
   <div style="width:100%;max-width:1100px">
-    <div class="tg-title ai">&#x1f4cd; 北京总部 · 现场团队</div>
-    <div class="grid g5 ai" style="gap:12px;margin-bottom:6px">
-      <div class="tc magnetic founder">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#00ffb0,#00aa70)"><img src="materials/02-团队头像/penny.jpg" alt="Penny"></div>
-        <div class="tc-name">Penny</div>
+    <div class="tg-title ai">&#x2b50; 核心管理层</div>
+    <div class="grid ai" style="grid-template-columns:1.25fr 1.25fr;gap:16px;margin-bottom:18px">
+      <div class="tc founder magnetic" style="padding:20px;min-height:320px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#ff6b9d)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=SV&backgroundColor=7b68ee" alt="Steve Ouyang"></div>
+        <div class="tc-name">Steve Ouyang</div>
+        <div class="tc-role">创始人 · CEO</div>
+        <div class="tc-badge b-fdr">FOUNDER · CEO</div>
+        <div style="font-size:.78rem;color:var(--text2);margin-top:10px;line-height:1.7;text-align:center">毕业于清华大学与卡内基梅隆大学（CMU）计算机系，曾任 TikTok AI Lab、Meta 算法专家，在人工智能、自然语言处理及大规模推荐系统方面拥有丰富经验。</div>
+      </div>
+      <div class="tc founder magnetic" style="padding:20px;min-height:320px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#00ffb0,#00aa70)"><img src="materials/02-团队头像/penny.jpg" alt="Penny Wu"></div>
+        <div class="tc-name">Penny Wu</div>
         <div class="tc-role">联合创始人 · COO</div>
         <div class="tc-badge b-fdr">CO-FOUNDER · COO</div>
+        <div style="font-size:.78rem;color:var(--text2);margin-top:10px;line-height:1.7;text-align:center">长期从事全球化运营工作，曾负责沙特 Hektar“种草平台”、Jaco 海外直播平台、Bigo Live 等多个项目，对中东、欧美及东南亚市场的用户增长具有深刻理解。</div>
       </div>
+    </div>
+    <div class="tg-title ai" data-delay=".2">&#x1f465; 核心执行团队</div>
+    <div class="grid g4 ai" style="gap:12px;margin-bottom:6px">
       <div class="tc magnetic">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="materials/02-团队头像/kevin.jpg" alt="Kevin"></div>
         <div class="tc-name">Kevin</div>
@@ -29,38 +40,10 @@
         <div class="tc-badge b-hr">HR & ADMIN</div>
       </div>
       <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#ff6b9d,#cc3366)"><img src="materials/02-团队头像/judy.jpg" alt="Judy"></div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#ff6b9d,#cc3366)"><img src="materials/02-团队头像/judy.jpg" alt="Jood"></div>
         <div class="tc-name">Jood</div>
         <div class="tc-role">网红营销负责人</div>
         <div class="tc-badge b-mkt">MARKETING</div>
-      </div>
-    </div>
-    <div class="tg-title ai" data-delay=".2">&#x1f30e; 美国办公室 · 硅谷团队</div>
-    <div class="grid ai" style="grid-template-columns:1.3fr 1fr 1fr 1fr;gap:12px" data-delay=".24">
-      <div class="tc founder magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#ff6b9d)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=SV&backgroundColor=7b68ee" alt="S"></div>
-        <div class="tc-name">Steve Ouyang</div>
-        <div class="tc-role">创始人 · CEO / CTO</div>
-        <div class="tc-badge b-fdr">FOUNDER · AI</div>
-        <div style="font-size:.7rem;color:var(--text3);margin-top:6px;line-height:1.4">硅谷融资 · 国际化战略<br>AI系统架构</div>
-      </div>
-      <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#7b68ee)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI1&backgroundColor=0088cc" alt="AI"></div>
-        <div class="tc-name">AI 研究员</div>
-        <div class="tc-role">AI Engineer · 华人</div>
-        <div class="tc-badge b-ai">AI RESEARCH</div>
-      </div>
-      <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#00b4d8,#0077b6)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=AI2&backgroundColor=0077b6" alt="AI"></div>
-        <div class="tc-name">AI 研究员</div>
-        <div class="tc-role">AI Engineer · 国际人才</div>
-        <div class="tc-badge b-fs">GLOBAL TALENT</div>
-      </div>
-      <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#06d6a0,#118ab2)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=FS&backgroundColor=118ab2" alt="FS"></div>
-        <div class="tc-name">全栈工程师</div>
-        <div class="tc-role">Full-Stack Dev · 华人</div>
-        <div class="tc-badge b-prod">FULL STACK</div>
       </div>
     </div>
   </div>
