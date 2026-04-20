@@ -18,12 +18,17 @@
       <div class="demo-desc">基于大语言模型的智能网红管理平台。AI员工自主完成网红沟通、内容策划、账号运营全流程，7×24小时无间断自动化运营</div>
       <div class="gc ai" data-delay=".08" style="margin-bottom:18px;padding:16px 18px;border-radius:16px;background:rgba(0,212,255,.04);border-color:rgba(0,212,255,.1)">
         <div style="font-size:.78rem;color:var(--cyan);letter-spacing:1px;font-weight:700;margin-bottom:8px">AI 员工对话示例</div>
-        <div style="display:flex;flex-direction:column;gap:8px">
-          <div style="padding:10px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.82rem;color:var(--text2)">
-            <strong style="color:#fff">品牌方：</strong>这周想找 20 个北美母婴达人，预算 1 万美金以内。
+        <div style="display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:stretch">
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="padding:10px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.82rem;color:var(--text2)">
+              <strong style="color:#fff">品牌方：</strong>这周想找 20 个北美母婴达人，预算 1 万美金以内。
+            </div>
+            <div style="padding:10px 12px;background:rgba(0,255,176,.05);border:1px solid rgba(0,255,176,.08);border-radius:12px;font-size:.82rem;color:var(--text2)">
+              <strong style="color:var(--green)">AI 员工：</strong>已匹配 32 位候选达人，筛出 18 位高性价比账号，并生成首轮英文邀约话术与报价建议。
+            </div>
           </div>
-          <div style="padding:10px 12px;background:rgba(0,255,176,.05);border:1px solid rgba(0,255,176,.08);border-radius:12px;font-size:.82rem;color:var(--text2)">
-            <strong style="color:var(--green)">AI 员工：</strong>已匹配 32 位候选达人，筛出 18 位高性价比账号，并生成首轮英文邀约话术与报价建议。
+          <div class="demo-video-card">
+            <video class="demo-video" src="materials/demo-video.mp4" autoplay muted loop playsinline preload="metadata" controls></video>
           </div>
         </div>
       </div>

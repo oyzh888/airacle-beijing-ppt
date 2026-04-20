@@ -534,6 +534,22 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 .fly-in.landed.float2 { animation:idleFloat2 6s ease-in-out infinite; }
 
 /* ----- 17. Responsive ----- */
+.demo-video-card {
+  min-height:164px;
+  border-radius:14px;
+  overflow:hidden;
+  border:1px solid rgba(0,212,255,.12);
+  background:rgba(6,12,28,.78);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.03);
+}
+.demo-video {
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  background:#050816;
+}
+
 @media(max-width:1024px) {
   .slide { padding:64px 32px 104px; }
   h1.hero { font-size:3.5rem; }
@@ -541,6 +557,7 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   .g2,.g3,.g5 { grid-template-columns:1fr; }
   .feat-grid { grid-template-columns:1fr; }
   .search-header { flex-direction:column; }
+  .demo-video-card { min-height:220px; }
   .search-result-card { grid-template-columns:1fr; }
   .search-name-row { align-items:flex-start; }
   .search-action { width:100%; }
