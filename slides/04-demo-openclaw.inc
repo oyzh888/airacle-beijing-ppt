@@ -27,6 +27,53 @@
           </div>
         </div>
       </div>
+      <div class="ai-search-demo ai" data-delay=".12">
+        <div class="search-shell">
+          <div class="search-header">
+            <div>
+              <div class="search-kicker">AI 员工实战界面</div>
+              <div class="search-heading">自然语言搜索网红</div>
+            </div>
+            <div class="search-status">LIVE MATCHING</div>
+          </div>
+          <div class="search-prompt">帮我找美国 TikTok 汽车博主，粉丝量大，适合新能源车品牌合作，优先男性受众。</div>
+          <div class="search-filters">
+            <span>市场：美国</span>
+            <span>平台：TikTok</span>
+            <span>垂类：汽车</span>
+            <span>需求：品牌合作</span>
+          </div>
+          <div class="search-results">
+            <div class="search-result-card">
+              <div class="search-rank">01</div>
+              <div class="search-meta">
+                <div class="search-name">Daniel Mac</div>
+                <div class="search-handle">@itsdanielmac · 豪车采访 / 高净值车主内容</div>
+                <div class="search-tags"><span>14M 粉丝</span><span>美国受众强</span><span>汽车品牌适配高</span></div>
+              </div>
+              <div class="search-score">96</div>
+            </div>
+            <div class="search-result-card">
+              <div class="search-rank">02</div>
+              <div class="search-meta">
+                <div class="search-name">Supercar Blondie</div>
+                <div class="search-handle">@supercarblondie · 豪车 / 概念车 / 科技感内容</div>
+                <div class="search-tags"><span>20M+ 粉丝</span><span>全球影响力</span><span>高端品牌适配</span></div>
+              </div>
+              <div class="search-score">93</div>
+            </div>
+            <div class="search-result-card">
+              <div class="search-rank">03</div>
+              <div class="search-meta">
+                <div class="search-name">Vehicle Virgins</div>
+                <div class="search-handle">@vehiclevirgins · 性能车评测 / 购车内容</div>
+                <div class="search-tags"><span>车迷纯度高</span><span>转化意图强</span><span>测评合作适配</span></div>
+              </div>
+              <div class="search-score">89</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="feat-grid">
         <div class="feat-item ai" data-delay=".15">
           <div class="feat-chk c">&#x2713;</div>
