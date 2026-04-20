@@ -23,7 +23,7 @@
             <div class="tc-badge b-fdr" style="margin-top:6px">CO-FOUNDER · COO</div>
           </div>
         </div>
-        <div style="font-size:.8rem;color:var(--text2);margin-top:14px;line-height:1.75">长期从事全球化运营工作，曾负责沙特 Hektar“种草平台”、Jaco 海外直播平台、Bigo Live 等多个项目，对中东、欧美及东南亚市场的用户增长具有深刻理解。</div>
+        <div style="font-size:.8rem;color:var(--text2);margin-top:14px;line-height:1.75">曾先后担任 TikTok、Kwai、Bigo 等海外平台运营负责人，长期深耕全球化网红营销与海外市场增长，对中东、欧美及东南亚市场的达人生态、用户运营和商业化协同拥有丰富经验。</div>
       </div>
     </div>
     <div class="tg-title ai" data-delay=".18">&#x1f465; 核心执行团队</div>
