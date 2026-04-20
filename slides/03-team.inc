@@ -30,7 +30,7 @@
       </div>
       <div class="tc magnetic">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#ff6b9d,#cc3366)"><img src="materials/02-团队头像/judy.jpg" alt="Judy"></div>
-        <div class="tc-name">Judy</div>
+        <div class="tc-name">Jood</div>
         <div class="tc-role">网红营销负责人</div>
         <div class="tc-badge b-mkt">MARKETING</div>
       </div>
