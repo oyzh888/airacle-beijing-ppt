@@ -203,9 +203,16 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   min-height:136px;
   height:136px;
   display:flex;
-  align-items:center;
+  align-items:stretch;
 }
 .contribution-item > div { width:100%; }
+.contribution-item-inner {
+  width:100%;
+  min-height:100%;
+  height:100%;
+  display:flex;
+  align-items:flex-start;
+}
 .st { text-align:center; }
 .st-n { font-family:var(--fe); font-size:4rem; font-weight:900; line-height:1; background:linear-gradient(135deg,var(--cyan),var(--purple)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
 .st-n .u { font-size:1.2rem; font-weight:700; -webkit-text-fill-color:var(--cyan); }
