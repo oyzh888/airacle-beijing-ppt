@@ -36,7 +36,7 @@
     <div class="st"><div class="st-n"><span data-count="10">0</span><span class="u">+</span></div><div class="st-l">覆盖国家与地区</div></div>
     <div class="st"><div class="st-n"><span data-count="3">0</span><span class="u"> 大类</span></div><div class="st-l">核心客户场景</div></div>
   </div>
-  <div class="grid g3 ai" data-delay=".4" style="max-width:1060px">
+  <div class="grid g3 ai" data-delay=".4" style="max-width:1060px;margin-top:8px">
     <div class="gc magnetic">
       <div class="ico c">&#128722;</div>
       <h3>电商客户</h3>
