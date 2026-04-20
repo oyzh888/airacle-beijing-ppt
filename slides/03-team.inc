@@ -12,7 +12,7 @@
             <div class="tc-badge b-fdr" style="margin-top:6px">FOUNDER · CEO / CTO</div>
           </div>
         </div>
-        <div style="font-size:.8rem;color:var(--text2);margin-top:14px;line-height:1.75">毕业于清华大学与卡内基梅隆大学（CMU）计算机系，曾任 TikTok AI Lab、Meta 算法专家，在人工智能、自然语言处理及大规模推荐系统方面拥有丰富经验。</div>
+        <div style="font-size:.8rem;color:var(--text2);margin-top:14px;line-height:1.75">毕业于清华大学与卡内基梅隆大学（CMU）计算机系，曾任 TikTok AI Lab、Meta 算法专家，长期深耕人工智能、自然语言处理与大规模推荐系统，在前沿算法研发和AI产品落地方面拥有丰富经验。</div>
       </div>
       <div class="gc magnetic" style="padding:20px 22px;border-color:rgba(0,255,176,.16)">
         <div style="display:flex;align-items:flex-start;gap:16px">
