@@ -135,27 +135,19 @@ document.addEventListener('mousemove', e => {
     const outgoing = bgDivs[currentIndex];
     const incoming = bgDivs[index];
 
-    // Scale pulse on outgoing
-    gsap.to(outgoing, {
-      scale: 1.04,
-      opacity: 0,
-      duration: 0.6,
-      ease: 'power2.in',
-      onComplete: function() {
-        outgoing.classList.remove('active');
-        gsap.set(outgoing, { scale: 1 });
-      }
-    });
+    gsap.killTweensOf(outgoing);
+    gsap.killTweensOf(incoming);
 
-    // Incoming: start slightly scaled, fade in
-    gsap.set(incoming, { scale: 1.06, opacity: 0 });
+    outgoing.classList.remove('active');
+    gsap.set(outgoing, { opacity: 0, scale: 1 });
+
+    gsap.set(incoming, { opacity: 0, scale: 1 });
     incoming.classList.add('active');
     gsap.to(incoming, {
-      scale: 1,
       opacity: 1,
-      duration: 0.8,
-      ease: 'power2.out',
-      delay: 0.1
+      duration: 0.22,
+      ease: 'none',
+      overwrite: 'auto'
     });
 
     currentIndex = index;
