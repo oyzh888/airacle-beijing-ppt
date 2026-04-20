@@ -148,7 +148,7 @@ html,body {
 .minimap-dot.active::after { color:var(--cyan); }
 
 /* Bottom nav */
-.bottom-nav { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); z-index:100; display:flex; gap:4px; padding:8px 14px; background:rgba(5,5,16,.7); border-radius:40px; border:1px solid rgba(255,255,255,.04); backdrop-filter:blur(20px); }
+.bottom-nav { position:fixed; bottom:12px; left:50%; transform:translateX(-50%); z-index:100; display:flex; gap:4px; padding:8px 14px; background:rgba(5,5,16,.7); border-radius:40px; border:1px solid rgba(255,255,255,.04); backdrop-filter:blur(20px); }
 .bnav-dot { width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,.1); border:none; cursor:pointer; transition:all .4s; padding:0; }
 .bnav-dot:hover { background:rgba(0,212,255,.3); }
 .bnav-dot.active { width:32px; border-radius:4px; background:linear-gradient(90deg,var(--cyan),var(--purple)); box-shadow:0 0 14px rgba(0,212,255,.3); }
@@ -353,7 +353,7 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 
 /* ----- 17. Responsive ----- */
 @media(max-width:1024px) {
-  .slide { padding:50px 32px 70px; }
+  .slide { padding:50px 32px 82px; }
   h1.hero { font-size:3.5rem; }
   h2.stitle { font-size:2rem; }
   .g2,.g3,.g5 { grid-template-columns:1fr; }
