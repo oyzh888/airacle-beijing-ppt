@@ -67,9 +67,9 @@ const D = (() => {
   // ---- Animate slide content ----
   function animSlide(slide) {
     // Staggered items
-    slide.querySelectorAll('.ai').forEach((el, i) => {
-      const d = parseFloat(el.dataset.delay || 0) + i * .06;
-      gsap.fromTo(el, { opacity: 0, y: 40, rotateX: -8 }, { opacity: 1, y: 0, rotateX: 0, duration: .7, delay: d + .15, ease: 'power3.out' });
+    slide.querySelectorAll('.ai').forEach((el) => {
+      const d = parseFloat(el.dataset.delay || 0);
+      gsap.fromTo(el, { opacity: 0, y: 24, rotateX: 0 }, { opacity: 1, y: 0, rotateX: 0, duration: .45, delay: d + .08, ease: 'power2.out' });
     });
 
     // Hero title character split

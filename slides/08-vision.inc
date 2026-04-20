@@ -9,10 +9,10 @@
   <div class="vision-box">
     <div class="v-card ai">
       <div class="tag" style="justify-content:center">OUR VISION</div>
-      <div class="v-quote ai">Airacle：让AI创造属于这个时代的奇迹<br>赋能创作者与品牌共生增长</div>
+      <div class="v-quote ai">让AI创造属于这个时代的奇迹<br>赋能创作者与品牌共生增长</div>
       <div class="v-div"></div>
-      <p style="font-size:1.05rem;color:var(--cyan);margin:20px auto 8px;font-weight:600;max-width:760px;line-height:1.8">AIRACLE: Where AI Creates the Miracles of Our Time, Empowering Creators and Brands to Grow Together</p>
-      <p style="font-size:.88rem;color:var(--text3);letter-spacing:2px">Airacle · 北京 · 2026</p>
+      <p style="font-size:1.02rem;color:var(--cyan);margin:20px auto 8px;font-weight:600;max-width:760px;line-height:1.8">Where AI Creates the Miracles of Our Time, Empowering Creators and Brands to Grow Together</p>
+      <p style="font-size:.88rem;color:var(--text3);letter-spacing:2px">北京 · 2026</p>
     </div>
     <div class="cover-meta ai" data-delay=".3" style="justify-content:center;margin-top:32px">
       <div class="cm-item"><div class="cm-dot"></div>beijing.airacle.tech</div>

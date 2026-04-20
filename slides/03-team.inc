@@ -35,8 +35,8 @@
         <div class="tc-badge b-mkt">MARKETING</div>
       </div>
     </div>
-    <div class="tg-title ai" data-delay=".15">&#x1f30e; 美国办公室 · 硅谷团队</div>
-    <div class="grid" style="grid-template-columns:1.3fr 1fr 1fr 1fr;gap:12px" class="ai" data-delay=".2">
+    <div class="tg-title ai" data-delay=".2">&#x1f30e; 美国办公室 · 硅谷团队</div>
+    <div class="grid ai" style="grid-template-columns:1.3fr 1fr 1fr 1fr;gap:12px" data-delay=".24">
       <div class="tc founder magnetic">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#ff6b9d)"><img src="https://api.dicebear.com/7.x/initials/svg?seed=SV&backgroundColor=7b68ee" alt="S"></div>
         <div class="tc-name">Steve</div>
