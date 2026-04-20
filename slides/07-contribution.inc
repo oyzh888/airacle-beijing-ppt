@@ -25,31 +25,25 @@
       <h3 style="color:var(--purple)">全球人才 & 硅谷资本</h3>
       <div class="contribution-stack" style="margin-top:20px;display:flex;flex-direction:column;gap:16px">
         <div class="gc contribution-item" style="padding:18px;border-radius:16px;background:rgba(123,104,238,.04);border-color:rgba(123,104,238,.08)">
-          <div class="contribution-item-inner" style="display:flex;align-items:flex-start;gap:12px">
-            <div style="width:40px;height:40px;border-radius:12px;background:rgba(123,104,238,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.2rem">&#x1f9d1;&#x200d;&#x1f4bb;</div>
-            <div>
-              <div style="font-size:.92rem;color:#fff;font-weight:600">全球AI人才招募</div>
-              <div style="font-size:.78rem;color:var(--text2);margin-top:4px;line-height:1.65">面向全球持续引进算法、工程与产品人才，依托北京平台吸引更多高端创新资源集聚。</div>
-            </div>
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+            <div style="width:32px;height:32px;border-radius:10px;background:rgba(123,104,238,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem">&#x1f9d1;&#x200d;&#x1f4bb;</div>
+            <div style="font-size:.95rem;color:#fff;font-weight:600">全球AI人才招募</div>
           </div>
+          <div style="font-size:.82rem;color:var(--text2);line-height:1.7">面向全球持续引进算法、工程与产品人才，依托北京平台吸引更多高端创新资源集聚。</div>
         </div>
         <div class="gc contribution-item" style="padding:18px;border-radius:16px;background:rgba(0,212,255,.04);border-color:rgba(0,212,255,.08)">
-          <div class="contribution-item-inner" style="display:flex;align-items:flex-start;gap:12px">
-            <div style="width:40px;height:40px;border-radius:12px;background:rgba(0,212,255,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.2rem">&#x1f4b8;</div>
-            <div>
-              <div style="font-size:.92rem;color:#fff;font-weight:600">对接硅谷顶级风投</div>
-              <div style="font-size:.78rem;color:var(--text2);margin-top:4px;line-height:1.65">持续链接国际资本、技术网络与产业伙伴，为北京业务拓展和全球化发展提供长期支撑。</div>
-            </div>
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+            <div style="width:32px;height:32px;border-radius:10px;background:rgba(0,212,255,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem">&#x1f4b8;</div>
+            <div style="font-size:.95rem;color:#fff;font-weight:600">对接硅谷顶级风投</div>
           </div>
+          <div style="font-size:.82rem;color:var(--text2);line-height:1.7">持续链接国际资本、技术网络与产业伙伴，为北京业务拓展和全球化发展提供长期支撑。</div>
         </div>
         <div class="gc contribution-item" style="padding:18px;border-radius:16px;background:rgba(255,107,157,.04);border-color:rgba(255,107,157,.08)">
-          <div class="contribution-item-inner" style="display:flex;align-items:flex-start;gap:12px">
-            <div style="width:40px;height:40px;border-radius:12px;background:rgba(255,107,157,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.2rem">&#x1f3af;</div>
-            <div>
-              <div style="font-size:.92rem;color:#fff;font-weight:600">打造 "AI+出海" 标杆</div>
-              <div style="font-size:.78rem;color:var(--text2);margin-top:4px;line-height:1.65">形成面向全球市场的AI营销与增长范式，进一步树立北京AI出海企业的示范案例与产业影响力。</div>
-            </div>
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+            <div style="width:32px;height:32px;border-radius:10px;background:rgba(255,107,157,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem">&#x1f3af;</div>
+            <div style="font-size:.95rem;color:#fff;font-weight:600">打造 "AI+出海" 标杆</div>
           </div>
+          <div style="font-size:.82rem;color:var(--text2);line-height:1.7">形成面向全球市场的AI营销与增长范式，进一步树立北京AI出海企业的示范案例与产业影响力。</div>
         </div>
       </div>
     </div>
