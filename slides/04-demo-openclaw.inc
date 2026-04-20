@@ -11,13 +11,31 @@
   </div>
   <div class="demo-wrap">
     <div class="demo-hero ai">
-      <img src="https://images.unsplash.com/photo-1531746790095-e5cb157f210d?w=800&h=500&fit=crop" class="bg-img" alt="AI">
+      <img src="materials/03-产品截图/marketing_agent/telegram_ai_employee/telegram_employee_cluster.png" class="bg-img" alt="AI Employee Cluster" style="opacity:.12">
       <div class="demo-num">01</div>
       <div class="demo-badge primary">&#x2728; DEMO 1 · OpenClaw</div>
       <div class="demo-title">AI 网红员工系统</div>
       <div class="demo-desc">基于大语言模型的智能网红管理平台。AI员工自主完成网红沟通、内容策划、账号运营全流程，7×24小时无间断自动化运营</div>
-      <div class="gc ai" data-delay=".08" style="margin-bottom:18px;padding:16px 18px;border-radius:16px;background:rgba(0,212,255,.04);border-color:rgba(0,212,255,.1)">
-        <div style="font-size:.78rem;color:var(--cyan);letter-spacing:1px;font-weight:700;margin-bottom:8px">AI 员工对话示例</div>
+      <!-- Real product screenshots gallery -->
+      <div class="gc ai" data-delay=".06" style="margin-bottom:14px;padding:14px;border-radius:16px;background:rgba(0,212,255,.03);border-color:rgba(0,212,255,.08)">
+        <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1px;font-weight:700;margin-bottom:10px">AI 员工产品实录</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+          <div class="product-shot">
+            <img src="materials/03-产品截图/marketing_agent/telegram_ai_employee/ecommerce_ai_employee.png" alt="电商AI员工">
+            <div class="product-shot-label">电商数据分析 AI</div>
+          </div>
+          <div class="product-shot">
+            <img src="materials/03-产品截图/marketing_agent/telegram_ai_employee/marketing_ai_employee.png" alt="营销AI员工">
+            <div class="product-shot-label">内容营销 AI</div>
+          </div>
+          <div class="product-shot">
+            <img src="materials/03-产品截图/marketing_agent/marketing_video_analysis/demo_ui.png" alt="视频分析平台">
+            <div class="product-shot-label">视频分析平台</div>
+          </div>
+        </div>
+      </div>
+      <div class="gc ai" data-delay=".10" style="margin-bottom:14px;padding:14px 18px;border-radius:16px;background:rgba(0,212,255,.04);border-color:rgba(0,212,255,.1)">
+        <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1px;font-weight:700;margin-bottom:8px">AI 员工对话示例</div>
         <div style="display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:stretch">
           <div style="display:flex;flex-direction:column;gap:8px">
             <div style="padding:10px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.82rem;color:var(--text2)">
