@@ -47,10 +47,16 @@ const D = (() => {
 
   function clearSlideAnimations(slide) {
     gsap.killTweensOf(slide);
-    slide.querySelectorAll('.ai,.char,.fly-in,.tbar-fill,.cbar-fill,[data-count]').forEach(el => gsap.killTweensOf(el));
+    slide.querySelectorAll('.ai,.char,.fly-in,.tbar-fill,.cbar-fill,[data-count]').forEach(el => {
+      gsap.killTweensOf(el);
+      gsap.set(el, { clearProps: 'all' });
+    });
     slide.querySelectorAll('.tbar-fill,.cbar-fill').forEach(el => { el.style.width = '0%'; });
-    slide.querySelectorAll('[data-count]').forEach(el => { el.textContent = '0'; });
-    slide.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30, rotateX: 0, clearProps: 'transform' }));
+    slide.querySelectorAll('[data-count]').forEach(el => {
+      const raw = el.dataset.count;
+      el.textContent = raw && raw !== '2024' ? '0' : raw;
+    });
+    slide.querySelectorAll('.ai').forEach(el => gsap.set(el, { opacity: 0, y: 30, rotateX: 0 }));
     slide.querySelectorAll('.char').forEach(el => gsap.set(el, { opacity: 0, y: 60, rotateX: -40, scale: .8 }));
     slide.querySelectorAll('.fly-in').forEach(el => {
       el.classList.remove('landed');
@@ -130,8 +136,8 @@ const D = (() => {
 
     // Animate out — fade + slide + blur
     await new Promise(res => gsap.to(old, {
-      opacity: 0, x: dir * -80, filter: 'blur(6px)',
-      duration: .35, ease: 'power2.in',
+      opacity: 0, x: dir * -56, filter: 'blur(4px)',
+      duration: .24, ease: 'power2.inOut',
       onComplete: () => {
         old.classList.remove('active');
         gsap.set(old, { opacity: 1, x: 0, filter: 'none' });
@@ -140,11 +146,11 @@ const D = (() => {
     }));
 
     // Animate in — slide container handles position/blur only, children stay hidden
-    gsap.set(nw, { x: dir * 60, filter: 'blur(4px)' });
+    gsap.set(nw, { x: dir * 42, filter: 'blur(2px)' });
     nw.classList.add('active');
     await new Promise(res => gsap.to(nw, {
       x: 0, filter: 'blur(0px)',
-      duration: .4, ease: 'power2.out', onComplete: res
+      duration: .26, ease: 'power2.out', onComplete: res
     }));
 
     // Now animate children in (single pass, no double-flash)
