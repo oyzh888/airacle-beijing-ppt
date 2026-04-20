@@ -30,7 +30,7 @@
       </div>
     </div>
   </div>
-  <div class="stats ai" data-delay=".35" style="margin-bottom:24px">
+  <div class="stats ai business-stats" data-delay=".35" style="margin-bottom:24px">
     <div class="st"><div class="st-n"><span data-count="100">0</span><span class="u">K+</span></div><div class="st-l">合作网红</div></div>
     <div class="st"><div class="st-n"><span data-count="50">0</span><span class="u">+</span></div><div class="st-l">合作伙伴</div></div>
     <div class="st"><div class="st-n"><span data-count="10">0</span><span class="u">+</span></div><div class="st-l">覆盖国家与地区</div></div>
