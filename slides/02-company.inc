@@ -3,7 +3,7 @@
   <p class="sub ai">成立于2024年10月 · 扎根北京 · 面向全球发展</p>
   <div class="stats ai" style="margin-bottom:36px">
     <div class="st"><div class="st-n">2024</div><div class="st-l">成立时间</div></div>
-    <div class="st"><div class="st-n">全球</div><div class="st-l">业务布局</div></div>
+    <div class="st"><div class="st-n">50<span class="u">+</span></div><div class="st-l">客户数量</div></div>
     <div class="st"><div class="st-n">10<span class="u">+</span></div><div class="st-l">核心成员</div></div>
     <div class="st"><div class="st-n">3</div><div class="st-l">产品线</div></div>
   </div>
@@ -16,8 +16,8 @@
     </div>
     <div class="gc magnetic ai" data-delay=".2">
       <div class="ico p">&#x1f30f;</div>
-      <h3>全球资源链接</h3>
-      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:6px">持续链接国际技术、资本与产业资源，为公司全球化发展提供长期支撑</p>
+      <h3>拓展硅谷人才与技术资源</h3>
+      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:6px">持续拓展硅谷人才、技术网络与产业资源，为公司产品创新和全球化发展提供支撑</p>
       <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=200&fit=crop" style="width:100%;height:90px;object-fit:cover;border-radius:12px;margin-top:14px;opacity:.6" alt="SF">
     </div>
     <div class="gc magnetic ai" data-delay=".3">
