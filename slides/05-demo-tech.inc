@@ -19,6 +19,10 @@
       <div class="tbar-item"><div class="tbar-top"><span class="tbar-label">图片生成质量</span><span class="tbar-val">95%</span></div><div class="tbar-track"><div class="tbar-fill fc" data-w="95"></div></div></div>
       <div class="tbar-item"><div class="tbar-top"><span class="tbar-label">短剧智能度</span><span class="tbar-val">90%</span></div><div class="tbar-track"><div class="tbar-fill fg" data-w="90"></div></div></div>
       <div class="tbar-item"><div class="tbar-top"><span class="tbar-label">生成速度 vs 行业</span><span class="tbar-val">3x</span></div><div class="tbar-track"><div class="tbar-fill fp" data-w="85"></div></div></div>
+      <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <video src="materials/03-产品截图/video_playlets_gen/samples/hero-api-DK_opt2.mp4" autoplay muted loop playsinline style="width:100%;border-radius:10px;border:1px solid rgba(255,255,255,.06)"></video>
+        <video src="materials/03-产品截图/video_playlets_gen/samples/163805ab5f25e3b9169d5eb9f154c5ac4cc7573a.mp4" autoplay muted loop playsinline style="width:100%;border-radius:10px;border:1px solid rgba(255,255,255,.06)"></video>
+      </div>
     </div>
     <div class="gc ai" data-delay=".2" style="position:relative;overflow:hidden">
       <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop" style="position:absolute;top:0;right:0;width:50%;height:100%;object-fit:cover;opacity:.06;mask-image:linear-gradient(to left,rgba(0,0,0,.5),transparent);-webkit-mask-image:linear-gradient(to left,rgba(0,0,0,.5),transparent)" alt="">
