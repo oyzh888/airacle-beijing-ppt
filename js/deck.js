@@ -69,7 +69,7 @@ const D = (() => {
     // Staggered items
     slide.querySelectorAll('.ai').forEach((el) => {
       const d = parseFloat(el.dataset.delay || 0);
-      gsap.fromTo(el, { opacity: 0, y: 24, rotateX: 0 }, { opacity: 1, y: 0, rotateX: 0, duration: .45, delay: d + .08, ease: 'power2.out' });
+      gsap.fromTo(el, { opacity: 0 }, { opacity: 1, duration: .28, delay: d + .04, ease: 'power1.out' });
     });
 
     // Hero title character split
