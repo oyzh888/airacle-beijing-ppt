@@ -19,9 +19,6 @@
       <div class="tbar-item"><div class="tbar-top"><span class="tbar-label">图片生成质量</span><span class="tbar-val">95%</span></div><div class="tbar-track"><div class="tbar-fill fc" data-w="95"></div></div></div>
       <div class="tbar-item"><div class="tbar-top"><span class="tbar-label">短剧智能度</span><span class="tbar-val">90%</span></div><div class="tbar-track"><div class="tbar-fill fg" data-w="90"></div></div></div>
       <div class="tbar-item"><div class="tbar-top"><span class="tbar-label">生成速度 vs 行业</span><span class="tbar-val">3x</span></div><div class="tbar-track"><div class="tbar-fill fp" data-w="85"></div></div></div>
-      <div style="margin-top:12px;padding:10px 14px;background:rgba(255,107,157,.05);border:1px solid rgba(255,107,157,.08);border-radius:10px;font-size:.82rem;color:var(--text2)">
-        &#x1f4ca; VS <span style="color:var(--pink);font-weight:700">Kugo.ai</span> 生成质量领先，成本降低40%
-      </div>
     </div>
     <div class="gc ai" data-delay=".2" style="position:relative;overflow:hidden">
       <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop" style="position:absolute;top:0;right:0;width:50%;height:100%;object-fit:cover;opacity:.06;mask-image:linear-gradient(to left,rgba(0,0,0,.5),transparent);-webkit-mask-image:linear-gradient(to left,rgba(0,0,0,.5),transparent)" alt="">

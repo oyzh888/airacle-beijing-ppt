@@ -2,7 +2,7 @@
   <h2 class="stitle ai"><span class="acc">公司</span>概况</h2>
   <p class="sub ai">成立于2024年10月 · 中美双总部 · AI技术赋能全球网红营销生态</p>
   <div class="stats ai" style="margin-bottom:36px">
-    <div class="st"><div class="st-n"><span data-count="2024">0</span></div><div class="st-l">成立年份</div></div>
+    <div class="st"><div class="st-n">2024</div><div class="st-l">成立时间</div></div>
     <div class="st"><div class="st-n"><span data-count="2">0</span><span class="u"> 国</span></div><div class="st-l">中美双总部</div></div>
     <div class="st"><div class="st-n"><span data-count="10">0</span><span class="u">+</span></div><div class="st-l">核心成员</div></div>
     <div class="st"><div class="st-n"><span data-count="3">0</span></div><div class="st-l">产品线</div></div>

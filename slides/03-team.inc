@@ -4,17 +4,17 @@
   <div style="width:100%;max-width:1100px">
     <div class="tg-title ai">&#x1f4cd; 北京总部 · 现场团队</div>
     <div class="grid g5 ai" style="gap:12px;margin-bottom:6px">
+      <div class="tc magnetic founder">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#00ffb0,#00aa70)"><img src="materials/02-团队头像/penny.jpg" alt="Penny"></div>
+        <div class="tc-name">Penny</div>
+        <div class="tc-role">联合创始人 · COO</div>
+        <div class="tc-badge b-fdr">CO-FOUNDER · COO</div>
+      </div>
       <div class="tc magnetic">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="materials/02-团队头像/kevin.jpg" alt="Kevin"></div>
         <div class="tc-name">Kevin</div>
         <div class="tc-role">产品总监</div>
         <div class="tc-badge b-prod">PRODUCT</div>
-      </div>
-      <div class="tc magnetic">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#00ffb0,#00aa70)"><img src="materials/02-团队头像/penny.jpg" alt="Penny"></div>
-        <div class="tc-name">Penny</div>
-        <div class="tc-role">COO 首席运营官</div>
-        <div class="tc-badge b-ops">OPERATIONS</div>
       </div>
       <div class="tc magnetic">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#7b68ee,#5544cc)"><img src="materials/02-团队头像/jack.jpg" alt="Jack"></div>
