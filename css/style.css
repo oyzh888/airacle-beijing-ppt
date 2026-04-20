@@ -113,8 +113,9 @@ html,body {
 .deck { position:relative; width:100%; height:100%; z-index:10; }
 .slide {
   position:absolute; top:0; left:0; width:100%; height:100%;
-  display:flex; flex-direction:column; justify-content:center; align-items:center;
-  padding:70px 80px 80px; opacity:0; visibility:hidden; perspective:1200px;
+  display:flex; flex-direction:column; justify-content:flex-start; align-items:center;
+  padding:88px 80px 120px; opacity:0; visibility:hidden; perspective:1200px;
+  overflow-y:auto;
 }
 .slide.active { opacity:1; visibility:visible; }
 
@@ -353,7 +354,7 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 
 /* ----- 17. Responsive ----- */
 @media(max-width:1024px) {
-  .slide { padding:50px 32px 82px; }
+  .slide { padding:64px 32px 104px; }
   h1.hero { font-size:3.5rem; }
   h2.stitle { font-size:2rem; }
   .g2,.g3,.g5 { grid-template-columns:1fr; }
