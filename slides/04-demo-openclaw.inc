@@ -57,6 +57,9 @@
               <strong style="color:var(--green)">AI 员工：</strong>24 小时内已收到 6 位达人回复，3 位确认合作意向，2 位还价中（已自动生成回复建议），1 位询问产品详情（已发送产品手册）。另外 4 位将在 48 小时后自动跟进。<br><br>
               <span style="color:var(--cyan)">已生成《中东TikTok网红全名单》，含达人详情、报价、沟通状态、超链接，可直接下载 Excel。</span>
             </div>
+            <a href="materials/03-产品截图/marketing_agent/telegram_ai_employee/中东TikTok网红全名单_带超链接.xlsx" download class="download-btn" style="display:inline-flex;align-items:center;gap:8px;margin-top:8px;padding:8px 18px;background:linear-gradient(135deg,var(--cyan),var(--purple));color:#fff;border-radius:10px;font-size:.76rem;font-weight:700;text-decoration:none;letter-spacing:.5px;transition:all .3s cubic-bezier(.16,1,.3,1);cursor:pointer">
+              <span style="font-size:1rem">&#x1f4e5;</span> 下载《中东TikTok网红全名单》.xlsx
+            </a>
           </div>
           <div class="demo-video-card">
             <video class="demo-video" src="materials/demo-video.mp4" autoplay muted loop playsinline preload="metadata" controls></video>

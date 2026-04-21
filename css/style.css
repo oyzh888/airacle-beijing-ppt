@@ -641,6 +641,12 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   transform:scale(1.2);
 }
 
+/* Download button */
+.download-btn:hover {
+  transform:translateY(-2px) scale(1.04);
+  box-shadow:0 8px 24px rgba(0,180,255,.3);
+}
+
 /* Chat scroll bar styling */
 .chat-scroll::-webkit-scrollbar { width:4px; }
 .chat-scroll::-webkit-scrollbar-track { background:transparent; }
