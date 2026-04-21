@@ -2,118 +2,245 @@
   <h2 class="stitle ai">社会贡献 · <span class="acc">发展愿景</span></h2>
   <p class="sub ai">扎根北京，与城市共同成长，持续创造产业价值与全球影响力</p>
 
-  <!-- Data overview — key metrics bar -->
-  <div class="gc ai" data-delay=".06" style="max-width:1060px;width:100%;padding:24px 32px;margin-bottom:20px;border-color:rgba(0,212,255,.1)">
-    <div style="font-size:.72rem;color:var(--cyan);letter-spacing:2px;font-weight:700;margin-bottom:16px;text-align:center">&#x1f4ca; 核心发展数据</div>
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center">
-      <div>
-        <div style="font-family:var(--fe);font-size:2.4rem;font-weight:900;background:linear-gradient(135deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1"><span data-count="10">0</span>+</div>
-        <div style="font-size:.76rem;color:var(--text2);margin-top:4px">核心团队成员</div>
-        <div style="font-size:.66rem;color:var(--text3);margin-top:2px">清华 · CMU · Meta · 字节</div>
-      </div>
-      <div>
-        <div style="font-family:var(--fe);font-size:2.4rem;font-weight:900;background:linear-gradient(135deg,var(--green),var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1"><span data-count="100">0</span>K+</div>
-        <div style="font-size:.76rem;color:var(--text2);margin-top:4px">合作网红</div>
-        <div style="font-size:.66rem;color:var(--text3);margin-top:2px">覆盖 15+ 国家与地区</div>
-      </div>
-      <div>
-        <div style="font-family:var(--fe);font-size:2.4rem;font-weight:900;background:linear-gradient(135deg,var(--purple),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1"><span data-count="3">0</span></div>
-        <div style="font-size:.76rem;color:var(--text2);margin-top:4px">核心产品线</div>
-        <div style="font-size:.66rem;color:var(--text3);margin-top:2px">AI员工 · 视频生成 · App</div>
-      </div>
-      <div>
-        <div style="font-family:var(--fe);font-size:2.4rem;font-weight:900;background:linear-gradient(135deg,var(--gold),var(--orange));-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1"><span data-count="15">0</span></div>
-        <div style="font-size:.76rem;color:var(--text2);margin-top:4px">学术论文发表</div>
-        <div style="font-size:.66rem;color:var(--text3);margin-top:2px">NeurIPS · CVPR · ECCV</div>
-      </div>
-    </div>
-  </div>
+  <div style="width:100%;max-width:1100px">
+    <!-- Row 1: Charts — bar chart + line chart + pie -->
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:18px">
 
-  <!-- Development roadmap chart -->
-  <div class="gc ai" data-delay=".1" style="max-width:1060px;width:100%;padding:24px 32px;margin-bottom:20px;border-color:rgba(123,104,238,.1)">
-    <div style="font-size:.72rem;color:var(--purple);letter-spacing:2px;font-weight:700;margin-bottom:16px;text-align:center">&#x1f680; 发展路线图 · 在京布局规划</div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
-      <!-- Phase 1 -->
-      <div style="padding:18px;border-radius:16px;background:rgba(0,212,255,.04);border:1px solid rgba(0,212,255,.1);position:relative">
-        <div style="position:absolute;top:12px;right:14px;font-family:var(--fm);font-size:.62rem;color:var(--cyan);padding:2px 8px;border-radius:20px;background:rgba(0,212,255,.1)">已完成</div>
-        <div style="font-family:var(--fm);font-size:.72rem;color:var(--cyan);font-weight:700;margin-bottom:6px">PHASE 1 · 2024</div>
-        <div style="font-size:.95rem;color:#fff;font-weight:700;margin-bottom:10px">创立与验证</div>
-        <div style="display:flex;flex-direction:column;gap:6px">
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--green)">&#x2713;</span> 北京公司注册成立</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--green)">&#x2713;</span> 核心技术团队组建</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--green)">&#x2713;</span> AI员工系统 MVP 上线</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--green)">&#x2713;</span> 首批 50+ 客户签约</div>
+      <!-- Bar Chart: Revenue growth -->
+      <div class="gc ai" data-delay=".06" style="padding:20px;border-color:rgba(0,212,255,.1)">
+        <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1.5px;font-weight:700;margin-bottom:14px">&#x1f4c8; 营收增长趋势</div>
+        <div style="display:flex;align-items:flex-end;gap:12px;height:160px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.06);position:relative">
+          <!-- Y axis labels -->
+          <div style="position:absolute;left:-2px;top:0;font-size:.55rem;color:var(--text3)">$50M</div>
+          <div style="position:absolute;left:-2px;top:50%;font-size:.55rem;color:var(--text3)">$25M</div>
+          <!-- Bars -->
+          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+            <div style="width:100%;height:15%;background:linear-gradient(180deg,var(--cyan),rgba(0,212,255,.3));border-radius:6px 6px 0 0;min-height:8px;transition:height 1s"></div>
+            <div style="font-size:.6rem;color:var(--text3)">Q1</div>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+            <div style="width:100%;height:28%;background:linear-gradient(180deg,var(--cyan),rgba(0,212,255,.3));border-radius:6px 6px 0 0;min-height:8px"></div>
+            <div style="font-size:.6rem;color:var(--text3)">Q2</div>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+            <div style="width:100%;height:52%;background:linear-gradient(180deg,var(--purple),rgba(123,104,238,.3));border-radius:6px 6px 0 0;min-height:8px"></div>
+            <div style="font-size:.6rem;color:var(--text3)">Q3</div>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+            <div style="width:100%;height:78%;background:linear-gradient(180deg,var(--purple),rgba(123,104,238,.3));border-radius:6px 6px 0 0;min-height:8px"></div>
+            <div style="font-size:.6rem;color:var(--text3)">Q4</div>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+            <div style="width:100%;height:100%;background:linear-gradient(180deg,var(--pink),rgba(255,107,157,.3));border-radius:6px 6px 0 0;min-height:8px;position:relative">
+              <div style="position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:.6rem;color:var(--pink);font-weight:700;white-space:nowrap">$50M</div>
+            </div>
+            <div style="font-size:.6rem;color:var(--text3)">2026</div>
+          </div>
         </div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:8px;text-align:center">2024 Q4 起步 → 2026 年目标 $50M+</div>
       </div>
-      <!-- Phase 2 -->
-      <div style="padding:18px;border-radius:16px;background:rgba(123,104,238,.04);border:1px solid rgba(123,104,238,.1);position:relative">
-        <div style="position:absolute;top:12px;right:14px;font-family:var(--fm);font-size:.62rem;color:var(--purple);padding:2px 8px;border-radius:20px;background:rgba(123,104,238,.1)">进行中</div>
-        <div style="font-family:var(--fm);font-size:.72rem;color:var(--purple);font-weight:700;margin-bottom:6px">PHASE 2 · 2025</div>
-        <div style="font-size:.95rem;color:#fff;font-weight:700;margin-bottom:10px">规模化增长</div>
-        <div style="display:flex;flex-direction:column;gap:6px">
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--green)">&#x2713;</span> 完成首轮融资</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--green)">&#x2713;</span> 合作网红突破 10万+</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--cyan)">&#x25B6;</span> 视频生成技术产品化</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--cyan)">&#x25B6;</span> 北京团队扩至 20 人</div>
-        </div>
-      </div>
-      <!-- Phase 3 -->
-      <div style="padding:18px;border-radius:16px;background:rgba(255,107,157,.04);border:1px solid rgba(255,107,157,.1);position:relative">
-        <div style="position:absolute;top:12px;right:14px;font-family:var(--fm);font-size:.62rem;color:var(--pink);padding:2px 8px;border-radius:20px;background:rgba(255,107,157,.1)">规划中</div>
-        <div style="font-family:var(--fm);font-size:.72rem;color:var(--pink);font-weight:700;margin-bottom:6px">PHASE 3 · 2026</div>
-        <div style="font-size:.95rem;color:#fff;font-weight:700;margin-bottom:10px">全球化扩张</div>
-        <div style="display:flex;flex-direction:column;gap:6px">
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--green)">&#x2713;</span> 首款 iOS App 上线</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--text3)">&#x25CB;</span> 年营收目标 $50M+</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--text3)">&#x25CB;</span> 深化北京产业协同</div>
-          <div style="font-size:.76rem;color:var(--text2);display:flex;align-items:center;gap:6px"><span style="color:var(--text3)">&#x25CB;</span> 申报高新技术企业</div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Two columns: Beijing contribution + Global -->
-  <div class="grid g2 contribution-grid" style="max-width:1060px">
-    <div class="gc ai" data-delay=".16" style="border-color:rgba(0,255,176,.1)">
-      <div class="ico g" style="width:44px;height:44px;font-size:1.1rem">&#x1f3d7;&#xfe0f;</div>
-      <h3 style="color:var(--green);font-size:1.05rem">扎根北京 · 城市共生</h3>
-      <!-- Progress bars for Beijing contribution -->
-      <div style="margin-top:16px;display:flex;flex-direction:column;gap:14px">
-        <div class="cbar">
-          <div class="cbar-top"><div class="cbar-title">在京就业岗位创造</div><div class="cbar-val">20+</div></div>
-          <div class="cbar-track"><div class="cbar-fill cg" style="width:65%"></div></div>
-          <div class="cbar-note">2025 年底目标 · 覆盖算法、产品、运营、市场岗位</div>
+      <!-- Line Chart: Team growth (SVG) -->
+      <div class="gc ai" data-delay=".1" style="padding:20px;border-color:rgba(123,104,238,.1)">
+        <div style="font-size:.72rem;color:var(--purple);letter-spacing:1.5px;font-weight:700;margin-bottom:14px">&#x1f465; 团队规模增长</div>
+        <svg viewBox="0 0 200 120" style="width:100%;height:160px" preserveAspectRatio="xMidYMid meet">
+          <!-- Grid lines -->
+          <line x1="30" y1="10" x2="30" y2="100" stroke="rgba(255,255,255,.06)" stroke-width=".5"/>
+          <line x1="30" y1="100" x2="190" y2="100" stroke="rgba(255,255,255,.06)" stroke-width=".5"/>
+          <line x1="30" y1="70" x2="190" y2="70" stroke="rgba(255,255,255,.04)" stroke-width=".5" stroke-dasharray="3,3"/>
+          <line x1="30" y1="40" x2="190" y2="40" stroke="rgba(255,255,255,.04)" stroke-width=".5" stroke-dasharray="3,3"/>
+          <!-- Y labels -->
+          <text x="26" y="103" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">0</text>
+          <text x="26" y="73" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">20</text>
+          <text x="26" y="43" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">40</text>
+          <text x="26" y="13" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">60</text>
+          <!-- Area fill -->
+          <path d="M50,95 L90,85 L130,65 L170,30 L170,100 L50,100 Z" fill="url(#areaGrad)" opacity=".3"/>
+          <defs><linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7b68ee"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
+          <!-- Line -->
+          <polyline points="50,95 90,85 130,65 170,30" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs><linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#ff6b9d"/></linearGradient></defs>
+          <!-- Data points -->
+          <circle cx="50" cy="95" r="3.5" fill="#00d4ff" stroke="#050510" stroke-width="1.5"/>
+          <circle cx="90" cy="85" r="3.5" fill="#7b68ee" stroke="#050510" stroke-width="1.5"/>
+          <circle cx="130" cy="65" r="3.5" fill="#7b68ee" stroke="#050510" stroke-width="1.5"/>
+          <circle cx="170" cy="30" r="4" fill="#ff6b9d" stroke="#050510" stroke-width="1.5"/>
+          <!-- Labels -->
+          <text x="50" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">2024</text>
+          <text x="90" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">H1'25</text>
+          <text x="130" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">H2'25</text>
+          <text x="170" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">2026</text>
+          <!-- Value labels -->
+          <text x="50" y="90" fill="#00d4ff" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">4</text>
+          <text x="90" y="80" fill="#7b68ee" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">10</text>
+          <text x="130" y="59" fill="#7b68ee" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">25</text>
+          <text x="170" y="24" fill="#ff6b9d" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">50+</text>
+        </svg>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:4px;text-align:center">含北京 + 硅谷双团队</div>
+      </div>
+
+      <!-- Donut Chart: Business composition -->
+      <div class="gc ai" data-delay=".14" style="padding:20px;border-color:rgba(0,255,176,.1)">
+        <div style="font-size:.72rem;color:var(--green);letter-spacing:1.5px;font-weight:700;margin-bottom:14px">&#x1f4ca; 业务构成</div>
+        <div style="display:flex;align-items:center;gap:16px">
+          <svg viewBox="0 0 120 120" style="width:130px;height:130px;flex-shrink:0">
+            <!-- Background ring -->
+            <circle cx="60" cy="60" r="48" fill="none" stroke="rgba(255,255,255,.04)" stroke-width="14"/>
+            <!-- Segments: e-commerce 45%, live 30%, gaming 15%, other 10% -->
+            <circle cx="60" cy="60" r="48" fill="none" stroke="#00d4ff" stroke-width="14" stroke-dasharray="135.72 166.08" stroke-dashoffset="0" transform="rotate(-90 60 60)" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="48" fill="none" stroke="#7b68ee" stroke-width="14" stroke-dasharray="90.48 211.32" stroke-dashoffset="-135.72" transform="rotate(-90 60 60)" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="48" fill="none" stroke="#ff6b9d" stroke-width="14" stroke-dasharray="45.24 256.56" stroke-dashoffset="-226.2" transform="rotate(-90 60 60)" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="48" fill="none" stroke="#ffd700" stroke-width="14" stroke-dasharray="30.16 271.64" stroke-dashoffset="-271.44" transform="rotate(-90 60 60)" stroke-linecap="round"/>
+            <!-- Center text -->
+            <text x="60" y="55" fill="#fff" font-size="14" text-anchor="middle" font-weight="900" font-family="var(--fe)">$10M</text>
+            <text x="60" y="70" fill="#4a5070" font-size="8" text-anchor="middle" font-family="var(--fm)">累计GMV</text>
+          </svg>
+          <div style="display:flex;flex-direction:column;gap:8px;flex:1">
+            <div style="display:flex;align-items:center;gap:6px"><div style="width:10px;height:10px;border-radius:3px;background:var(--cyan)"></div><span style="font-size:.74rem;color:var(--text2)">电商 45%</span></div>
+            <div style="display:flex;align-items:center;gap:6px"><div style="width:10px;height:10px;border-radius:3px;background:var(--purple)"></div><span style="font-size:.74rem;color:var(--text2)">直播 30%</span></div>
+            <div style="display:flex;align-items:center;gap:6px"><div style="width:10px;height:10px;border-radius:3px;background:var(--pink)"></div><span style="font-size:.74rem;color:var(--text2)">游戏 15%</span></div>
+            <div style="display:flex;align-items:center;gap:6px"><div style="width:10px;height:10px;border-radius:3px;background:var(--gold)"></div><span style="font-size:.74rem;color:var(--text2)">其他 10%</span></div>
+          </div>
         </div>
-        <div class="cbar">
-          <div class="cbar-top"><div class="cbar-title">年度税收贡献增速</div><div class="cbar-val">300%+</div></div>
-          <div class="cbar-track"><div class="cbar-fill cp" style="width:80%"></div></div>
-          <div class="cbar-note">随业务规模扩大持续增长</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:10px;text-align:center">电商为核心驱动，直播高速增长</div>
+      </div>
+    </div>
+
+    <!-- Row 2: Influencer growth bar chart + KPI cards -->
+    <div style="display:grid;grid-template-columns:1.2fr .8fr;gap:16px;margin-bottom:18px">
+      <!-- Horizontal stacked bar: influencer by region -->
+      <div class="gc ai" data-delay=".18" style="padding:20px;border-color:rgba(0,212,255,.08)">
+        <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1.5px;font-weight:700;margin-bottom:14px">&#x1f30d; 合作网红地区分布 · 10万+</div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><span style="font-size:.74rem;color:var(--text2)">中东 & 北非</span><span style="font-size:.74rem;color:var(--cyan);font-weight:700;font-family:var(--fm)">35%</span></div>
+            <div style="height:20px;background:rgba(255,255,255,.04);border-radius:10px;overflow:hidden"><div style="width:35%;height:100%;background:linear-gradient(90deg,var(--cyan),var(--purple));border-radius:10px"></div></div>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><span style="font-size:.74rem;color:var(--text2)">东南亚</span><span style="font-size:.74rem;color:var(--purple);font-weight:700;font-family:var(--fm)">25%</span></div>
+            <div style="height:20px;background:rgba(255,255,255,.04);border-radius:10px;overflow:hidden"><div style="width:25%;height:100%;background:linear-gradient(90deg,var(--purple),var(--pink));border-radius:10px"></div></div>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><span style="font-size:.74rem;color:var(--text2)">北美</span><span style="font-size:.74rem;color:var(--pink);font-weight:700;font-family:var(--fm)">20%</span></div>
+            <div style="height:20px;background:rgba(255,255,255,.04);border-radius:10px;overflow:hidden"><div style="width:20%;height:100%;background:linear-gradient(90deg,var(--pink),var(--orange));border-radius:10px"></div></div>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><span style="font-size:.74rem;color:var(--text2)">欧洲</span><span style="font-size:.74rem;color:var(--green);font-weight:700;font-family:var(--fm)">12%</span></div>
+            <div style="height:20px;background:rgba(255,255,255,.04);border-radius:10px;overflow:hidden"><div style="width:12%;height:100%;background:linear-gradient(90deg,var(--green),var(--cyan));border-radius:10px"></div></div>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><span style="font-size:.74rem;color:var(--text2)">其他地区</span><span style="font-size:.74rem;color:var(--gold);font-weight:700;font-family:var(--fm)">8%</span></div>
+            <div style="height:20px;background:rgba(255,255,255,.04);border-radius:10px;overflow:hidden"><div style="width:8%;height:100%;background:linear-gradient(90deg,var(--gold),var(--orange));border-radius:10px"></div></div>
+          </div>
         </div>
-        <div class="cbar">
-          <div class="cbar-top"><div class="cbar-title">北京产业协同覆盖</div><div class="cbar-val">5+</div></div>
-          <div class="cbar-track"><div class="cbar-fill co" style="width:55%"></div></div>
-          <div class="cbar-note">高校合作 · 产业园入驻 · 行业联盟 · 人才培养</div>
+      </div>
+
+      <!-- KPI cards grid -->
+      <div class="gc ai" data-delay=".22" style="padding:20px;border-color:rgba(255,107,157,.08)">
+        <div style="font-size:.72rem;color:var(--pink);letter-spacing:1.5px;font-weight:700;margin-bottom:14px">&#x1f3af; 核心 KPI</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div style="padding:14px;border-radius:14px;background:rgba(0,212,255,.04);border:1px solid rgba(0,212,255,.08);text-align:center">
+            <div style="font-family:var(--fe);font-size:1.6rem;font-weight:900;color:var(--cyan);line-height:1"><span data-count="15">0</span>+</div>
+            <div style="font-size:.66rem;color:var(--text3);margin-top:4px">覆盖国家</div>
+          </div>
+          <div style="padding:14px;border-radius:14px;background:rgba(123,104,238,.04);border:1px solid rgba(123,104,238,.08);text-align:center">
+            <div style="font-family:var(--fe);font-size:1.6rem;font-weight:900;color:var(--purple);line-height:1"><span data-count="50">0</span>+</div>
+            <div style="font-size:.66rem;color:var(--text3);margin-top:4px">品牌客户</div>
+          </div>
+          <div style="padding:14px;border-radius:14px;background:rgba(0,255,176,.04);border:1px solid rgba(0,255,176,.08);text-align:center">
+            <div style="font-family:var(--fe);font-size:1.6rem;font-weight:900;color:var(--green);line-height:1"><span data-count="15">0</span></div>
+            <div style="font-size:.66rem;color:var(--text3);margin-top:4px">学术论文</div>
+          </div>
+          <div style="padding:14px;border-radius:14px;background:rgba(255,215,0,.04);border:1px solid rgba(255,215,0,.08);text-align:center">
+            <div style="font-family:var(--fe);font-size:1.6rem;font-weight:900;color:var(--gold);line-height:1"><span data-count="3">0</span></div>
+            <div style="font-size:.66rem;color:var(--text3);margin-top:4px">产品线</div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="gc ai" data-delay=".2" style="border-color:rgba(123,104,238,.12)">
-      <div class="ico p" style="width:44px;height:44px;font-size:1.1rem">&#x1f30d;</div>
-      <h3 style="color:var(--purple);font-size:1.05rem">全球链接 · 产业赋能</h3>
-      <div style="margin-top:16px;display:flex;flex-direction:column;gap:14px">
-        <div class="cbar">
-          <div class="cbar-top"><div class="cbar-title">汇聚全球AI人才</div><div class="cbar-val">4 国</div></div>
-          <div class="cbar-track"><div class="cbar-fill cp" style="width:70%"></div></div>
-          <div class="cbar-note">中国 · 美国 · 沙特 · 西班牙，核心成员来自 Meta、字节、Adobe</div>
+
+    <!-- Row 3: Development roadmap -->
+    <div class="gc ai" data-delay=".26" style="padding:22px 28px;margin-bottom:18px;border-color:rgba(123,104,238,.1)">
+      <div style="font-size:.72rem;color:var(--purple);letter-spacing:2px;font-weight:700;margin-bottom:16px;text-align:center">&#x1f680; 发展路线图 · 在京布局规划</div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px">
+        <div style="padding:16px;border-radius:14px;background:rgba(0,212,255,.04);border:1px solid rgba(0,212,255,.1);position:relative">
+          <div style="position:absolute;top:10px;right:12px;font-family:var(--fm);font-size:.58rem;color:var(--cyan);padding:2px 7px;border-radius:20px;background:rgba(0,212,255,.1)">已完成</div>
+          <div style="font-family:var(--fm);font-size:.68rem;color:var(--cyan);font-weight:700;margin-bottom:4px">PHASE 1 · 2024</div>
+          <div style="font-size:.88rem;color:#fff;font-weight:700;margin-bottom:8px">创立与验证</div>
+          <div style="display:flex;flex-direction:column;gap:5px">
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 北京公司注册成立</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 核心技术团队组建</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> AI员工系统 MVP 上线</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 首批 50+ 客户签约</div>
+          </div>
         </div>
-        <div class="cbar">
-          <div class="cbar-top"><div class="cbar-title">连接硅谷资本与资源</div><div class="cbar-val">$10M+</div></div>
-          <div class="cbar-track"><div class="cbar-fill cg" style="width:75%"></div></div>
-          <div class="cbar-note">对接国际资本、NVIDIA、TikTok 等技术网络</div>
+        <div style="padding:16px;border-radius:14px;background:rgba(123,104,238,.04);border:1px solid rgba(123,104,238,.1);position:relative">
+          <div style="position:absolute;top:10px;right:12px;font-family:var(--fm);font-size:.58rem;color:var(--purple);padding:2px 7px;border-radius:20px;background:rgba(123,104,238,.1)">进行中</div>
+          <div style="font-family:var(--fm);font-size:.68rem;color:var(--purple);font-weight:700;margin-bottom:4px">PHASE 2 · 2025</div>
+          <div style="font-size:.88rem;color:#fff;font-weight:700;margin-bottom:8px">规模化增长</div>
+          <div style="display:flex;flex-direction:column;gap:5px">
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 完成首轮融资</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 合作网红突破 10万+</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--cyan)">&#x25B6;</span> 视频生成技术产品化</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--cyan)">&#x25B6;</span> 北京团队扩至 20 人</div>
+          </div>
         </div>
-        <div class="cbar">
-          <div class="cbar-top"><div class="cbar-title">AI出海示范效应</div><div class="cbar-val">15+ 国</div></div>
-          <div class="cbar-track"><div class="cbar-fill co" style="width:85%"></div></div>
-          <div class="cbar-note">面向全球市场的AI营销范式 · 北京AI出海标杆</div>
+        <div style="padding:16px;border-radius:14px;background:rgba(255,107,157,.04);border:1px solid rgba(255,107,157,.1);position:relative">
+          <div style="position:absolute;top:10px;right:12px;font-family:var(--fm);font-size:.58rem;color:var(--pink);padding:2px 7px;border-radius:20px;background:rgba(255,107,157,.1)">规划中</div>
+          <div style="font-family:var(--fm);font-size:.68rem;color:var(--pink);font-weight:700;margin-bottom:4px">PHASE 3 · 2026</div>
+          <div style="font-size:.88rem;color:#fff;font-weight:700;margin-bottom:8px">全球化扩张</div>
+          <div style="display:flex;flex-direction:column;gap:5px">
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 首款 iOS App 上线</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 年营收目标 $50M+</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 深化北京产业协同</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 申报高新技术企业</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 4: Beijing contribution + Global enablement -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div class="gc ai" data-delay=".3" style="padding:20px;border-color:rgba(0,255,176,.1)">
+        <div class="ico g" style="width:38px;height:38px;font-size:1rem;margin-bottom:10px">&#x1f3d7;&#xfe0f;</div>
+        <h3 style="color:var(--green);font-size:.98rem;margin-bottom:14px">扎根北京 · 城市共生</h3>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="cbar">
+            <div class="cbar-top"><div class="cbar-title">在京就业岗位</div><div class="cbar-val">20+</div></div>
+            <div class="cbar-track"><div class="cbar-fill cg" style="width:65%"></div></div>
+            <div class="cbar-note">覆盖算法、产品、运营、市场岗位</div>
+          </div>
+          <div class="cbar">
+            <div class="cbar-top"><div class="cbar-title">年度税收增速</div><div class="cbar-val">300%+</div></div>
+            <div class="cbar-track"><div class="cbar-fill cp" style="width:80%"></div></div>
+            <div class="cbar-note">随业务规模扩大持续增长</div>
+          </div>
+          <div class="cbar">
+            <div class="cbar-top"><div class="cbar-title">产业协同覆盖</div><div class="cbar-val">5+</div></div>
+            <div class="cbar-track"><div class="cbar-fill co" style="width:55%"></div></div>
+            <div class="cbar-note">高校 · 产业园 · 行业联盟 · 人才培养</div>
+          </div>
+        </div>
+      </div>
+      <div class="gc ai" data-delay=".34" style="padding:20px;border-color:rgba(123,104,238,.12)">
+        <div class="ico p" style="width:38px;height:38px;font-size:1rem;margin-bottom:10px">&#x1f30d;</div>
+        <h3 style="color:var(--purple);font-size:.98rem;margin-bottom:14px">全球链接 · 产业赋能</h3>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="cbar">
+            <div class="cbar-top"><div class="cbar-title">全球AI人才汇聚</div><div class="cbar-val">4 国</div></div>
+            <div class="cbar-track"><div class="cbar-fill cp" style="width:70%"></div></div>
+            <div class="cbar-note">中国 · 美国 · 沙特 · 西班牙</div>
+          </div>
+          <div class="cbar">
+            <div class="cbar-top"><div class="cbar-title">硅谷资本对接</div><div class="cbar-val">$10M+</div></div>
+            <div class="cbar-track"><div class="cbar-fill cg" style="width:75%"></div></div>
+            <div class="cbar-note">NVIDIA · TikTok · 国际资本网络</div>
+          </div>
+          <div class="cbar">
+            <div class="cbar-top"><div class="cbar-title">AI出海示范效应</div><div class="cbar-val">15+ 国</div></div>
+            <div class="cbar-track"><div class="cbar-fill co" style="width:85%"></div></div>
+            <div class="cbar-note">北京AI出海标杆 · 全球营销范式</div>
+          </div>
         </div>
       </div>
     </div>

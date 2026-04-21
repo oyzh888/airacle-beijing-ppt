@@ -41,11 +41,11 @@
           <span>AliExpress</span>
         </div>
         <div class="partner-logo-item" style="flex-direction:row;gap:8px;padding:10px 12px;min-width:auto">
-          <img src="https://cdn.simpleicons.org/temu/f47325" alt="Temu" style="width:20px;height:20px">
+          <div style="width:20px;height:20px;border-radius:50%;background:linear-gradient(135deg,#f47325,#ff6b00);display:flex;align-items:center;justify-content:center;font-size:.55rem;font-weight:900;color:#fff">T</div>
           <span>Temu</span>
         </div>
         <div class="partner-logo-item" style="flex-direction:row;gap:8px;padding:10px 12px;min-width:auto">
-          <img src="https://cdn.simpleicons.org/shein/ff6b9d" alt="SHEIN" style="width:20px;height:20px">
+          <div style="width:20px;height:20px;border-radius:50%;background:linear-gradient(135deg,#ff6b9d,#e83e8c);display:flex;align-items:center;justify-content:center;font-size:.5rem;font-weight:900;color:#fff">S</div>
           <span>SHEIN</span>
         </div>
       </div>
@@ -159,11 +159,11 @@
         <div>AliExpress</div>
       </div>
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/temu/f47325" alt="Temu" style="width:28px;height:28px">
+        <div style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#f47325,#ff6b00);display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:900;color:#fff">T</div>
         <div>Temu</div>
       </div>
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/shein/ff6b9d" alt="SHEIN" style="width:28px;height:28px">
+        <div style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#ff6b9d,#e83e8c);display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:900;color:#fff">S</div>
         <div>SHEIN</div>
       </div>
       <div class="partner-logo-item">
