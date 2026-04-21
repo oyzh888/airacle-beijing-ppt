@@ -845,10 +845,20 @@ html:fullscreen .st-l,
 body:fullscreen .st-l {
   font-size:1rem;
 }
+html:fullscreen .vision-box,
+body:fullscreen .vision-box {
+  max-width:1120px;
+}
+html:fullscreen .v-card,
+body:fullscreen .v-card {
+  width:100%;
+  max-width:1120px;
+  padding:64px 88px;
+}
 html:fullscreen .v-quote,
 body:fullscreen .v-quote {
   font-size:4rem;
-  line-height:1.4;
+  line-height:1.32;
 }
 html:fullscreen .demo-title,
 body:fullscreen .demo-title {
