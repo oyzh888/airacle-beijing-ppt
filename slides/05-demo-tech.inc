@@ -20,14 +20,16 @@
       </div>
     </div>
 
-    <!-- Section 2: Video Generation Demos — all 4 videos playing simultaneously -->
+    <!-- Section 2: Video Generation Demos -->
     <div class="gc ai" data-delay=".15" style="overflow:hidden">
       <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1.5px;font-weight:700;margin-bottom:12px">AI 短剧 & 视频生成实录 · 同时播放</div>
-      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">
-        <div class="product-shot">
-          <video src="materials/03-产品截图/video_playlets_gen/samples/hero-api-DK_opt2.mp4" autoplay muted loop playsinline style="width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:10px"></video>
-          <div class="product-shot-label">短剧 Demo 1</div>
-        </div>
+      <!-- Demo 1: standalone hero row -->
+      <div class="product-shot" style="margin-bottom:12px">
+        <video src="materials/03-产品截图/video_playlets_gen/samples/hero-api-DK_opt2.mp4" autoplay muted loop playsinline style="width:100%;max-height:360px;object-fit:contain;border-radius:10px;background:#000"></video>
+        <div class="product-shot-label">短剧 Demo 1 · 主打展示</div>
+      </div>
+      <!-- Demo 2-4: shared row -->
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
         <div class="product-shot">
           <video src="materials/03-产品截图/video_playlets_gen/samples/163805ab5f25e3b9169d5eb9f154c5ac4cc7573a.mp4" autoplay muted loop playsinline style="width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:10px"></video>
           <div class="product-shot-label">短剧 Demo 2</div>
