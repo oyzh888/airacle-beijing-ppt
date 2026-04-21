@@ -1,4 +1,4 @@
-  <div class="cover-badge ai"><div class="pulse-dot"></div>SILICON VALLEY · BEIJING · AI</div>
+  <div class="cover-badge ai" style="margin-top:52px"><div class="pulse-dot"></div>SILICON VALLEY · BEIJING · AI</div>
   <h1 class="hero ai" id="heroTitle" style="margin-bottom:6px">Airacle</h1>
   <p style="font-size:1.42rem;color:rgba(255,255,255,.92);margin-top:0;font-weight:600;letter-spacing:.4px;text-align:center" class="ai">北京爱乐尔科技有限公司</p>
   <p class="cover-en ai" style="color:rgba(255,255,255,.82);margin-top:14px">Global AI-Driven Intelligent Marketing Technology Company</p>
