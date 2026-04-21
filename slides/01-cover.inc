@@ -1,7 +1,10 @@
   <div class="cover-badge ai"><div class="pulse-dot"></div>SILICON VALLEY · BEIJING · AI</div>
-  <h1 class="hero ai" id="heroTitle">Airacle <span style="font-size:.48em;font-weight:700;letter-spacing:0;color:var(--text2)">北京爱乐尔科技有限公司</span></h1>
-  <p class="cover-en ai">全球AI驱动的智能营销科技公司</p>
-  <p style="font-size:1.02rem;color:var(--text3);margin-top:10px;font-weight:500;letter-spacing:.6px" class="ai">Global AI-Driven Intelligent Marketing Technology Company</p>
+  <h1 class="hero ai" id="heroTitle" style="display:flex;flex-direction:column;align-items:center;gap:8px">
+    <span>Airacle</span>
+    <span style="font-size:.28em;font-weight:700;letter-spacing:.8px;color:var(--text2)">北京爱乐尔科技有限公司</span>
+  </h1>
+  <p class="cover-en ai">Global AI-Driven Intelligent Marketing Technology Company</p>
+  <p style="font-size:1.12rem;color:var(--text2);margin-top:10px;font-weight:500;letter-spacing:.2px" class="ai">全球AI驱动的智能营销科技公司</p>
   <div class="cover-meta ai">
     <div class="cm-item"><div class="cm-dot"></div>北京 · 顺义区</div>
     <div class="cm-item"><div class="cm-dot"></div>2026年4月</div>
