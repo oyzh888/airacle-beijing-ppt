@@ -172,6 +172,8 @@ const D = (() => {
 
   // ---- Touch & Wheel navigation DISABLED to prevent accidental page switches ----
   // Only keyboard arrows, minimap clicks, and bottom nav dots can change slides.
+  // Block wheel from bubbling to any legacy handler that might cause navigation
+  document.addEventListener('wheel', e => { /* do nothing — scroll within slide only */ }, { passive: true });
 
   // ---- Init ----
   ui();

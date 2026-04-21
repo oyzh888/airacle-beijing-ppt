@@ -37,7 +37,7 @@
       <div class="gc ai" data-delay=".10" style="margin-bottom:14px;padding:14px 18px;border-radius:16px;background:rgba(0,212,255,.04);border-color:rgba(0,212,255,.1)">
         <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1px;font-weight:700;margin-bottom:10px">AI 员工完整对话流程</div>
         <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:14px;align-items:stretch">
-          <div style="display:flex;flex-direction:column;gap:6px;max-height:320px;overflow-y:auto;padding-right:6px" class="chat-scroll">
+          <div style="display:flex;flex-direction:column;gap:6px;max-height:480px;overflow-y:auto;padding-right:6px" class="chat-scroll">
             <div style="padding:9px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.78rem;color:var(--text2)">
               <strong style="color:#fff">品牌方：</strong>这周想找 20 个中东 TikTok 母婴达人，预算 1 万美金以内，要求粉丝 10 万+。
             </div>
