@@ -23,7 +23,7 @@
       </div>
       <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
         <img src="materials/08-客户品牌/电商/ecommerce.jpg" alt="电商营销" style="width:100%;height:90px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">跨境电商达人营销（占位图）</div>
+        <div class="product-shot-label" style="font-size:.55rem">跨境电商客户投放案例</div>
       </div>
       <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:10px">
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">达人合作覆盖率</div><div class="tbar-val">92%</div></div><div class="tbar-track"><div class="tbar-fill fc" style="width:92%"></div></div></div>
@@ -59,8 +59,8 @@
         </div>
       </div>
       <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
-        <img src="materials/08-客户品牌/直播/livestream.jpg" alt="直播运营" style="width:100%;height:90px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">主播运营与投流（占位图）</div>
+        <img src="materials/08-客户品牌/直播/livestream.jpg" alt="直播运营" style="width:100%;height:90px;object-fit:cover;object-position:center 45%;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">直播客户运营案例</div>
       </div>
       <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:10px">
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">主播留存率</div><div class="tbar-val">85%</div></div><div class="tbar-track"><div class="tbar-fill fp" style="width:85%"></div></div></div>
@@ -107,8 +107,8 @@
         </div>
       </div>
       <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
-        <img src="materials/08-客户品牌/游戏/game_ui.jpg" alt="游戏营销" style="width:100%;height:80px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">游戏内容营销（占位图）</div>
+        <img src="materials/08-客户品牌/游戏/gaming2.jpg" alt="游戏营销" style="width:100%;height:80px;object-fit:cover;object-position:center 42%;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">游戏客户出海推广案例</div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
@@ -136,8 +136,8 @@
         </div>
       </div>
       <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
-        <img src="materials/08-客户品牌/汽车/byd.jpg" alt="汽车营销" style="width:100%;height:80px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">汽车品牌合作（占位图）</div>
+        <img src="materials/08-客户品牌/汽车/suv.jpg" alt="汽车营销" style="width:100%;height:80px;object-fit:cover;object-position:center 58%;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">汽车客户海外达人合作案例</div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
@@ -169,8 +169,8 @@
         </div>
       </div>
       <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
-        <img src="materials/08-客户品牌/手机/smartphones.jpg" alt="手机营销" style="width:100%;height:80px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">手机品牌合作（占位图）</div>
+        <img src="materials/08-客户品牌/手机/phone2.jpg" alt="手机营销" style="width:100%;height:80px;object-fit:cover;object-position:center 52%;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">手机客户达人种草案例</div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
@@ -201,9 +201,9 @@
           <div style="font-size:.62rem;color:var(--text3)">大模型品牌 · 海外宣传</div>
         </div>
       </div>
-      <div style="padding:10px;border-radius:10px;background:linear-gradient(135deg,rgba(0,255,176,.06),rgba(0,212,255,.06));border:1px solid rgba(0,255,176,.1);margin-bottom:8px;text-align:center;height:80px;display:flex;flex-direction:column;align-items:center;justify-content:center">
-        <div style="font-size:1.8rem;margin-bottom:4px">&#x1f9e0;</div>
-        <div style="font-size:.6rem;color:var(--green);font-weight:700">助力中国 AI 出海</div>
+      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
+        <img src="materials/03-产品截图/marketing_agent/telegram_ai_employee/marketing_ai_employee.png" alt="AI客户案例" style="width:100%;height:80px;object-fit:cover;object-position:center top;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">AI 品牌海外传播案例</div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
