@@ -216,7 +216,7 @@
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
               <img src="materials/04-商务出差/US_pitch_1st_investment/FD9D78A3-BD3E-4095-B751-FBADBFED8ED9_1_106_c.jpeg" alt="Pitch" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
-              <div class="product-shot-label">硅谷投资人路演</div>
+              <div class="product-shot-label">创作者线下大会</div>
             </div>
           </div>
         </div>
