@@ -33,11 +33,11 @@
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
         <div class="partner-logo-item" style="flex-direction:row;gap:8px;padding:10px 12px;min-width:auto">
-          <img src="https://cdn.simpleicons.org/tiktok/fff" alt="TikTok" style="width:20px;height:20px;filter:brightness(0.9)">
+          <div style="width:20px;height:20px;border-radius:50%;background:#000;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:.5rem;font-weight:900;color:#fff">&#x266B;</div>
           <span>TikTok Shop</span>
         </div>
         <div class="partner-logo-item" style="flex-direction:row;gap:8px;padding:10px 12px;min-width:auto">
-          <img src="https://cdn.simpleicons.org/aliexpress/ff4747" alt="AliExpress" style="width:20px;height:20px">
+          <div style="width:20px;height:20px;border-radius:50%;background:linear-gradient(135deg,#ff4747,#e62e2e);display:flex;align-items:center;justify-content:center;font-size:.45rem;font-weight:900;color:#fff">AE</div>
           <span>AliExpress</span>
         </div>
         <div class="partner-logo-item" style="flex-direction:row;gap:8px;padding:10px 12px;min-width:auto">
@@ -72,7 +72,7 @@
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
         <div class="partner-logo-item" style="flex-direction:row;gap:8px;padding:10px 12px;min-width:auto">
-          <img src="https://cdn.simpleicons.org/tiktok/fff" alt="TikTok" style="width:20px;height:20px;filter:brightness(0.9)">
+          <div style="width:20px;height:20px;border-radius:50%;background:#000;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:.5rem;font-weight:900;color:#fff">&#x266B;</div>
           <span>TikTok Live</span>
         </div>
         <div class="partner-logo-item" style="flex-direction:row;gap:8px;padding:10px 12px;min-width:auto">
@@ -137,45 +137,45 @@
   <!-- Platform & Technology Partners -->
   <div class="gc ai" data-delay=".2" style="max-width:1060px;width:100%;text-align:center;padding:24px 28px">
     <div style="font-size:.72rem;color:var(--cyan);letter-spacing:2px;font-weight:700;margin-bottom:16px">PLATFORM & TECHNOLOGY PARTNERS</div>
-    <div class="partner-logos">
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px">
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/tiktok/fff" alt="TikTok" style="width:28px;height:28px;filter:brightness(0.9)">
+        <div style="width:32px;height:32px;border-radius:50%;background:#000;border:1.5px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:900;color:#fff">&#x266B;</div>
         <div>TikTok</div>
       </div>
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/snapchat/fffc00" alt="Snapchat" style="width:28px;height:28px">
+        <div style="width:32px;height:32px;border-radius:50%;background:#fffc00;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:900;color:#000">&#x1f47b;</div>
         <div>Snapchat</div>
       </div>
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram" style="width:28px;height:28px">
+        <div style="width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:900;color:#fff">IG</div>
         <div>Instagram</div>
       </div>
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube" style="width:28px;height:28px">
+        <div style="width:32px;height:32px;border-radius:50%;background:#ff0000;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:900;color:#fff">&#x25B6;</div>
         <div>YouTube</div>
       </div>
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/aliexpress/ff4747" alt="AliExpress" style="width:28px;height:28px">
+        <div style="width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#ff4747,#e62e2e);display:flex;align-items:center;justify-content:center;font-size:.6rem;font-weight:900;color:#fff">AE</div>
         <div>AliExpress</div>
       </div>
       <div class="partner-logo-item">
-        <div style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#f47325,#ff6b00);display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:900;color:#fff">T</div>
+        <div style="width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#f47325,#ff6b00);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:900;color:#fff">T</div>
         <div>Temu</div>
       </div>
       <div class="partner-logo-item">
-        <div style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#ff6b9d,#e83e8c);display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:900;color:#fff">S</div>
+        <div style="width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#ff6b9d,#e83e8c);display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:900;color:#fff">S</div>
         <div>SHEIN</div>
       </div>
       <div class="partner-logo-item">
-        <div style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#7b68ee,#ff6b9d);display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800;color:#fff">B</div>
+        <div style="width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#7b68ee,#ff6b9d);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:800;color:#fff">B</div>
         <div>Bigo Live</div>
       </div>
       <div class="partner-logo-item">
-        <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="NVIDIA" style="width:28px;height:28px">
+        <div style="width:32px;height:32px;border-radius:50%;background:#76b900;display:flex;align-items:center;justify-content:center;font-size:.6rem;font-weight:900;color:#fff">NV</div>
         <div>NVIDIA</div>
       </div>
       <div class="partner-logo-item">
-        <div style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#ffd700,#ff8c42);display:flex;align-items:center;justify-content:center;font-size:.85rem">&#x1f3ac;</div>
+        <div style="width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#ffd700,#ff8c42);display:flex;align-items:center;justify-content:center;font-size:.85rem">&#x1f3ac;</div>
         <div>Hollywood</div>
       </div>
     </div>
