@@ -178,14 +178,6 @@
               <div class="product-shot-label">行业交流</div>
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/gtc_2026_sanjose/IMG_6668.jpeg" alt="GTC" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
-              <div class="product-shot-label">展区参观</div>
-            </div>
-            <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/gtc_2026_sanjose/IMG_6725.jpeg" alt="GTC" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
-              <div class="product-shot-label">GTC 合影</div>
-            </div>
-            <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
               <img src="materials/05-会议活动/gtc_2026_sanjose/IMG_6728.jpeg" alt="GTC" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
               <div class="product-shot-label">技术伙伴交流</div>
             </div>
@@ -204,16 +196,16 @@
               <div class="product-shot-label">NeurIPS 会场</div>
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_selfie_yann.png" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
-              <div class="product-shot-label">学术海报展示</div>
+              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_selfie_yann.png" alt="NeurIPS Yann LeCun" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
+              <div class="product-shot-label">与 Yann LeCun 合影</div>
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_selfie_peter.png" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
-              <div class="product-shot-label">学术交流</div>
+              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_selfie_peter.png" alt="NeurIPS Jeff Dean" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
+              <div class="product-shot-label">与 Jeff Dean 合影</div>
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_poster_session.png" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
-              <div class="product-shot-label">NeurIPS 合影</div>
+              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_poster_session.png" alt="NeurIPS Poster" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
+              <div class="product-shot-label">NeurIPS Poster Session</div>
             </div>
           </div>
           <div style="font-size:.78rem;color:var(--orange);font-weight:700;margin:12px 0 8px;letter-spacing:.5px">更多行业活动</div>
