@@ -45,32 +45,29 @@
           <line x1="30" y1="100" x2="190" y2="100" stroke="rgba(255,255,255,.06)" stroke-width=".5"/>
           <line x1="30" y1="70" x2="190" y2="70" stroke="rgba(255,255,255,.04)" stroke-width=".5" stroke-dasharray="3,3"/>
           <line x1="30" y1="40" x2="190" y2="40" stroke="rgba(255,255,255,.04)" stroke-width=".5" stroke-dasharray="3,3"/>
-          <!-- Y labels -->
+          <!-- Y labels (max 12) -->
           <text x="26" y="103" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">0</text>
-          <text x="26" y="73" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">20</text>
-          <text x="26" y="43" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">40</text>
-          <text x="26" y="13" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">60</text>
-          <!-- Area fill -->
-          <path d="M50,95 L90,85 L130,65 L170,30 L170,100 L50,100 Z" fill="url(#areaGrad)" opacity=".3"/>
+          <text x="26" y="73" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">4</text>
+          <text x="26" y="43" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">8</text>
+          <text x="26" y="13" fill="#4a5070" font-size="7" text-anchor="end" font-family="var(--fm)">12</text>
+          <!-- Area fill: 2024=2, 2025=4, 2026=10 -->
+          <path d="M50,85 L110,70 L170,25 L170,100 L50,100 Z" fill="url(#areaGrad)" opacity=".3"/>
           <defs><linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7b68ee"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
           <!-- Line -->
-          <polyline points="50,95 90,85 130,65 170,30" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="50,85 110,70 170,25" fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
           <defs><linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#ff6b9d"/></linearGradient></defs>
           <!-- Data points -->
-          <circle cx="50" cy="95" r="3.5" fill="#00d4ff" stroke="#050510" stroke-width="1.5"/>
-          <circle cx="90" cy="85" r="3.5" fill="#7b68ee" stroke="#050510" stroke-width="1.5"/>
-          <circle cx="130" cy="65" r="3.5" fill="#7b68ee" stroke="#050510" stroke-width="1.5"/>
-          <circle cx="170" cy="30" r="4" fill="#ff6b9d" stroke="#050510" stroke-width="1.5"/>
+          <circle cx="50" cy="85" r="3.5" fill="#00d4ff" stroke="#050510" stroke-width="1.5"/>
+          <circle cx="110" cy="70" r="3.5" fill="#7b68ee" stroke="#050510" stroke-width="1.5"/>
+          <circle cx="170" cy="25" r="4" fill="#ff6b9d" stroke="#050510" stroke-width="1.5"/>
           <!-- Labels -->
           <text x="50" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">2024</text>
-          <text x="90" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">H1'25</text>
-          <text x="130" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">H2'25</text>
+          <text x="110" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">2025</text>
           <text x="170" y="112" fill="#4a5070" font-size="7" text-anchor="middle" font-family="var(--fm)">2026</text>
           <!-- Value labels -->
-          <text x="50" y="90" fill="#00d4ff" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">4</text>
-          <text x="90" y="80" fill="#7b68ee" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">10</text>
-          <text x="130" y="59" fill="#7b68ee" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">25</text>
-          <text x="170" y="24" fill="#ff6b9d" font-size="7" text-anchor="middle" font-weight="bold" font-family="var(--fe)">50+</text>
+          <text x="50" y="79" fill="#00d4ff" font-size="8" text-anchor="middle" font-weight="bold" font-family="var(--fe)">2</text>
+          <text x="110" y="64" fill="#7b68ee" font-size="8" text-anchor="middle" font-weight="bold" font-family="var(--fe)">4</text>
+          <text x="170" y="19" fill="#ff6b9d" font-size="8" text-anchor="middle" font-weight="bold" font-family="var(--fe)">10</text>
         </svg>
         <div style="font-size:.68rem;color:var(--text3);margin-top:4px;text-align:center">含北京 + 硅谷双团队</div>
       </div>
@@ -203,9 +200,9 @@
         <h3 style="color:var(--green);font-size:.98rem;margin-bottom:14px">扎根北京 · 城市共生</h3>
         <div style="display:flex;flex-direction:column;gap:12px">
           <div class="cbar">
-            <div class="cbar-top"><div class="cbar-title">在京就业岗位</div><div class="cbar-val">20+</div></div>
+            <div class="cbar-top"><div class="cbar-title">在京就业岗位</div><div class="cbar-val">目标 20+</div></div>
             <div class="cbar-track"><div class="cbar-fill cg" style="width:65%"></div></div>
-            <div class="cbar-note">覆盖算法、产品、运营、市场岗位</div>
+            <div class="cbar-note">近两年目标，覆盖算法、产品、运营、市场岗位</div>
           </div>
           <div class="cbar">
             <div class="cbar-top"><div class="cbar-title">纳税贡献</div><div class="cbar-val">快速增长</div></div>
