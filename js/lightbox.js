@@ -9,10 +9,11 @@
   // Create overlay element
   const overlay = document.createElement('div');
   overlay.className = 'lightbox-overlay';
-  overlay.innerHTML = '<div class="lightbox-caption"></div>';
+  overlay.innerHTML = '<button class="lightbox-close" type="button" aria-label="关闭">✕</button><div class="lightbox-caption"></div>';
   document.body.appendChild(overlay);
 
   const caption = overlay.querySelector('.lightbox-caption');
+  const closeBtn = overlay.querySelector('.lightbox-close');
   let currentMedia = null;
 
   function open(src, type, label) {
@@ -55,6 +56,14 @@
     setTimeout(() => {
       if (currentMedia) { currentMedia.remove(); currentMedia = null; }
     }, 400);
+  }
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      close();
+    });
   }
 
   // Close on overlay click
