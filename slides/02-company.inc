@@ -51,19 +51,25 @@
     </div>
   </div>
   <div class="grid g3" style="margin-top:-10px">
-    <div class="gc magnetic ai" data-delay=".1" style="padding:24px 24px 22px">
-      <div class="ico c">&#x1f3e2;</div>
-      <h3>扎根北京</h3>
-      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:6px">立足北京开展核心产品研发、市场运营与产业协同，持续服务本地创新发展</p>
+    <div class="gc magnetic ai" data-delay=".1" style="padding:22px 22px 20px">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+        <div class="ico c" style="margin-bottom:0;width:46px;height:46px;font-size:1.2rem">&#x1f3e2;</div>
+        <h3 style="margin:0">扎根北京</h3>
+      </div>
+      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:0">立足北京开展核心产品研发、市场运营与产业协同，持续服务本地创新发展</p>
     </div>
-    <div class="gc magnetic ai" data-delay=".2" style="padding:24px 24px 22px">
-      <div class="ico p">&#x1f30f;</div>
-      <h3>拓展硅谷人才与技术资源</h3>
-      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:6px">持续拓展硅谷人才、技术网络与产业资源，为公司产品创新和全球化发展提供支撑</p>
+    <div class="gc magnetic ai" data-delay=".2" style="padding:22px 22px 20px">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+        <div class="ico p" style="margin-bottom:0;width:46px;height:46px;font-size:1.2rem">&#x1f30f;</div>
+        <h3 style="margin:0">拓展硅谷人才与技术资源</h3>
+      </div>
+      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:0">持续拓展硅谷人才、技术网络与产业资源，为公司产品创新和全球化发展提供支撑</p>
     </div>
-    <div class="gc magnetic ai" data-delay=".3" style="padding:24px 24px 22px">
-      <div class="ico k">&#x1f680;</div>
-      <h3>发展方向</h3>
-      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:6px">以AI赋能全球网红营销，打造面向国际市场的智能内容生成与网红管理平台</p>
+    <div class="gc magnetic ai" data-delay=".3" style="padding:22px 22px 20px">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+        <div class="ico k" style="margin-bottom:0;width:46px;height:46px;font-size:1.2rem">&#x1f680;</div>
+        <h3 style="margin:0">发展方向</h3>
+      </div>
+      <p style="font-size:.88rem;color:var(--text2);line-height:1.7;margin-top:0">以AI赋能全球网红营销，打造面向国际市场的智能内容生成与网红管理平台</p>
     </div>
   </div>
