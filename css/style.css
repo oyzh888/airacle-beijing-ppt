@@ -244,10 +244,17 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 .tc:hover { transform:translateY(-8px) scale(1.03); border-color:var(--cyan); box-shadow:0 12px 40px rgba(0,180,255,.12); }
 .tc.founder { border-color:rgba(123,104,238,.2); }
 .tc.founder:hover { border-color:var(--purple); box-shadow:0 12px 40px rgba(123,104,238,.15); }
-.tc-avatar { width:52px; height:52px; border-radius:50%; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.1rem; font-weight:800; color:#fff; position:relative; overflow:hidden; }
-.tc-avatar img { width:100%; height:100%; object-fit:cover; border-radius:50%; }
-.tc-avatar::after { content:''; position:absolute; inset:0; border-radius:50%; border:2px solid rgba(255,255,255,.1); }
+.tc-avatar { width:52px; height:52px; border-radius:50%; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.1rem; font-weight:800; color:#fff; position:relative; overflow:hidden; transition:all .45s cubic-bezier(.16,1,.3,1); }
+.tc-avatar img { width:100%; height:100%; object-fit:cover; border-radius:50%; transition:transform .45s cubic-bezier(.16,1,.3,1); }
+.tc:hover .tc-avatar { transform:scale(1.35); box-shadow:0 8px 30px rgba(0,180,255,.25); z-index:10; }
+.tc:hover .tc-avatar img { transform:scale(1.1); }
+.tc-avatar::after { content:''; position:absolute; inset:0; border-radius:50%; border:2px solid rgba(255,255,255,.1); transition:border-color .3s; }
+.tc:hover .tc-avatar::after { border-color:var(--cyan); }
 .tc.founder .tc-avatar { width:60px; height:60px; font-size:1.3rem; }
+/* Founder card avatar hover (larger cards) */
+.gc .tc-avatar { transition:all .45s cubic-bezier(.16,1,.3,1); }
+.gc:hover .tc-avatar { transform:scale(1.25); box-shadow:0 8px 24px rgba(0,180,255,.2); }
+.gc:hover .tc-avatar img { transform:scale(1.1); }
 .tc-name { font-size:1.05rem; font-weight:700; color:#fff; margin-bottom:3px; }
 .tc-role { font-size:.78rem; color:var(--text2); line-height:1.4; }
 .tc-badge { display:inline-block; font-size:.6rem; font-weight:700; padding:3px 10px; border-radius:20px; margin-top:8px; letter-spacing:1px; }
@@ -571,6 +578,73 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   box-shadow:0 12px 40px rgba(0,180,255,.2),0 0 0 1px rgba(0,212,255,.12);
   z-index:10;
 }
+
+/* ----- 11c. Partner Tags & Logos ----- */
+.partner-tags { display:flex; flex-wrap:wrap; gap:6px; }
+.partner-tag {
+  display:inline-block;
+  font-size:.7rem;
+  font-weight:600;
+  padding:4px 12px;
+  border-radius:20px;
+  letter-spacing:.3px;
+  border:1px solid transparent;
+  transition:all .3s cubic-bezier(.16,1,.3,1);
+  cursor:default;
+}
+.partner-tag:hover { transform:translateY(-2px) scale(1.06); box-shadow:0 6px 20px rgba(0,0,0,.3); }
+.pt-red { background:rgba(255,68,68,.12); color:#ff6b6b; border-color:rgba(255,68,68,.15); }
+.pt-orange { background:rgba(255,140,66,.12); color:var(--orange); border-color:rgba(255,140,66,.15); }
+.pt-pink { background:rgba(255,107,157,.12); color:var(--pink); border-color:rgba(255,107,157,.15); }
+.pt-purple { background:rgba(123,104,238,.12); color:var(--purple); border-color:rgba(123,104,238,.15); }
+.pt-cyan { background:rgba(0,212,255,.12); color:var(--cyan); border-color:rgba(0,212,255,.15); }
+.pt-green { background:rgba(0,255,176,.12); color:var(--green); border-color:rgba(0,255,176,.15); }
+.pt-blue { background:rgba(0,136,255,.12); color:#4dabff; border-color:rgba(0,136,255,.15); }
+.pt-gold { background:rgba(255,215,0,.12); color:var(--gold); border-color:rgba(255,215,0,.15); }
+
+.partner-logos {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+}
+.partner-logo-item {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+  padding:14px 18px;
+  border-radius:14px;
+  background:rgba(255,255,255,.02);
+  border:1px solid rgba(255,255,255,.05);
+  min-width:80px;
+  font-size:.72rem;
+  color:var(--text2);
+  font-weight:600;
+  letter-spacing:.3px;
+  transition:all .4s cubic-bezier(.16,1,.3,1);
+  cursor:default;
+}
+.partner-logo-item:hover {
+  transform:translateY(-6px) scale(1.08);
+  background:rgba(0,212,255,.06);
+  border-color:var(--cyan);
+  box-shadow:0 12px 30px rgba(0,180,255,.15);
+  color:#fff;
+}
+.partner-logo-icon {
+  font-size:1.6rem;
+  line-height:1;
+  transition:transform .4s cubic-bezier(.16,1,.3,1);
+}
+.partner-logo-item:hover .partner-logo-icon {
+  transform:scale(1.2);
+}
+
+/* Chat scroll bar styling */
+.chat-scroll::-webkit-scrollbar { width:4px; }
+.chat-scroll::-webkit-scrollbar-track { background:transparent; }
+.chat-scroll::-webkit-scrollbar-thumb { background:rgba(0,212,255,.2); border-radius:4px; }
 
 /* ----- 12. Contribution Bars ----- */
 .cbar { margin-bottom:20px; }

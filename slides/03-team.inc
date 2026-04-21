@@ -27,6 +27,7 @@
       </div>
     </div>
     <div class="tg-title ai" data-delay=".18">&#x1f465; 核心执行团队</div>
+    <p style="text-align:center;font-size:.76rem;color:var(--text3);margin:-8px 0 14px;letter-spacing:.3px">北京 4 人 + 硅谷 3 人 · 鼠标移到头像查看大图</p>
     <div class="grid ai" style="grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin-bottom:6px;align-items:start">
       <div class="tc magnetic" style="padding:16px 10px">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="materials/02-团队头像/kevin.jpg" alt="Kevin"></div>

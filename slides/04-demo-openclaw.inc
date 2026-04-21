@@ -35,14 +35,27 @@
         </div>
       </div>
       <div class="gc ai" data-delay=".10" style="margin-bottom:14px;padding:14px 18px;border-radius:16px;background:rgba(0,212,255,.04);border-color:rgba(0,212,255,.1)">
-        <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1px;font-weight:700;margin-bottom:8px">AI 员工对话示例</div>
-        <div style="display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:stretch">
-          <div style="display:flex;flex-direction:column;gap:8px">
-            <div style="padding:10px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.82rem;color:var(--text2)">
-              <strong style="color:#fff">品牌方：</strong>这周想找 20 个北美母婴达人，预算 1 万美金以内。
+        <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1px;font-weight:700;margin-bottom:10px">AI 员工完整对话流程</div>
+        <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:14px;align-items:stretch">
+          <div style="display:flex;flex-direction:column;gap:6px;max-height:320px;overflow-y:auto;padding-right:6px" class="chat-scroll">
+            <div style="padding:9px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.78rem;color:var(--text2)">
+              <strong style="color:#fff">品牌方：</strong>这周想找 20 个中东 TikTok 母婴达人，预算 1 万美金以内，要求粉丝 10 万+。
             </div>
-            <div style="padding:10px 12px;background:rgba(0,255,176,.05);border:1px solid rgba(0,255,176,.08);border-radius:12px;font-size:.82rem;color:var(--text2)">
-              <strong style="color:var(--green)">AI 员工：</strong>已匹配 32 位候选达人，筛出 18 位高性价比账号，并生成首轮英文邀约话术与报价建议。
+            <div style="padding:9px 12px;background:rgba(0,255,176,.05);border:1px solid rgba(0,255,176,.08);border-radius:12px;font-size:.78rem;color:var(--text2)">
+              <strong style="color:var(--green)">AI 员工：</strong>已扫描 TikTok 中东母婴垂类，匹配到 47 位候选达人。按互动率和性价比排序后，推荐 Top 22 位，平均 CPM $3.2，总预算预估 $8,400。正在生成首轮英文+阿拉伯语邀约话术。
+            </div>
+            <div style="padding:9px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.78rem;color:var(--text2)">
+              <strong style="color:#fff">品牌方：</strong>不错，先发前 10 个试试，顺便帮我看下他们最近的内容风格匹不匹配我们的产品。
+            </div>
+            <div style="padding:9px 12px;background:rgba(0,255,176,.05);border:1px solid rgba(0,255,176,.08);border-radius:12px;font-size:.78rem;color:var(--text2)">
+              <strong style="color:var(--green)">AI 员工：</strong>已分析 Top 10 达人最近 30 天内容，其中 8 位内容风格高度匹配（亲子日常+产品测评），2 位偏娱乐向建议替换。已通过 Telegram 自动发送邀约，附带品牌 Brief 和报价方案。
+            </div>
+            <div style="padding:9px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:12px;font-size:.78rem;color:var(--text2)">
+              <strong style="color:#fff">品牌方：</strong>有人回复了吗？
+            </div>
+            <div style="padding:9px 12px;background:rgba(0,255,176,.05);border:1px solid rgba(0,255,176,.08);border-radius:12px;font-size:.78rem;color:var(--text2)">
+              <strong style="color:var(--green)">AI 员工：</strong>24 小时内已收到 6 位达人回复，3 位确认合作意向，2 位还价中（已自动生成回复建议），1 位询问产品详情（已发送产品手册）。另外 4 位将在 48 小时后自动跟进。<br><br>
+              <span style="color:var(--cyan)">已生成《中东TikTok网红全名单》，含达人详情、报价、沟通状态、超链接，可直接下载 Excel。</span>
             </div>
           </div>
           <div class="demo-video-card">
