@@ -19,33 +19,21 @@
           <line x1="30" y1="5" x2="30" y2="100" stroke="rgba(255,255,255,.06)" stroke-width=".5"/>
           <line x1="30" y1="100" x2="190" y2="100" stroke="rgba(255,255,255,.08)" stroke-width=".5"/>
           <line x1="30" y1="52" x2="190" y2="52" stroke="rgba(255,255,255,.04)" stroke-width=".5" stroke-dasharray="3,3"/>
-          <!-- Y labels -->
-          <text x="26" y="9" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$10M</text>
-          <text x="26" y="55" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$5M</text>
-          <text x="26" y="103" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$0</text>
-          <!-- Bars (bottom at y=100, height = value/10*95) -->
-          <!-- 2024 Q4: $0.5M → h=4.75 -->
-          <rect x="38" y="95.25" width="22" height="4.75" rx="3" fill="url(#barG1)"/>
-          <text x="49" y="91" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$0.5M</text>
+          <!-- Bars — no specific amounts, show growth trend -->
+          <rect x="38" y="95" width="22" height="5" rx="3" fill="url(#barG1)"/>
           <text x="49" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">Q4'24</text>
-          <!-- 2025 H1: $1.5M → h=14.25 -->
-          <rect x="68" y="85.75" width="22" height="14.25" rx="3" fill="url(#barG1)"/>
-          <text x="79" y="82" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$1.5M</text>
+          <rect x="68" y="85" width="22" height="15" rx="3" fill="url(#barG1)"/>
           <text x="79" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H1'25</text>
-          <!-- 2025 H2: $3M → h=28.5 -->
-          <rect x="98" y="71.5" width="22" height="28.5" rx="3" fill="url(#barG2)"/>
-          <text x="109" y="67" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$3M</text>
+          <rect x="98" y="70" width="22" height="30" rx="3" fill="url(#barG2)"/>
           <text x="109" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H2'25</text>
-          <!-- 2026 H1: $6M → h=57 -->
-          <rect x="128" y="43" width="22" height="57" rx="3" fill="url(#barG2)"/>
-          <text x="139" y="39" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$6M</text>
+          <rect x="128" y="42" width="22" height="58" rx="3" fill="url(#barG2)"/>
           <text x="139" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H1'26</text>
-          <!-- 2026 Target: $10M → h=95 -->
           <rect x="158" y="5" width="22" height="95" rx="3" fill="url(#barG3)"/>
-          <text x="169" y="18" fill="#ff6b9d" font-size="7" text-anchor="middle" font-weight="bold" font-family="monospace">$10M</text>
           <text x="169" y="115" fill="#ff6b9d" font-size="6.5" text-anchor="middle" font-weight="bold" font-family="monospace">2026</text>
+          <!-- Trend arrow -->
+          <text x="110" y="30" fill="rgba(255,255,255,.15)" font-size="22" text-anchor="middle" font-family="var(--fm)">&#x2197;</text>
         </svg>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:4px;text-align:center">2024 Q4 起步 → 2026 年目标 $10M+</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:4px;text-align:center">营收持续高速增长 · 季度环比翻倍</div>
       </div>
 
       <!-- Line Chart: Team growth (SVG) -->
@@ -156,8 +144,8 @@
             <div style="font-size:.66rem;color:var(--text3);margin-top:4px">品牌客户</div>
           </div>
           <div style="padding:14px;border-radius:14px;background:rgba(0,255,176,.04);border:1px solid rgba(0,255,176,.08);text-align:center">
-            <div style="font-family:var(--fe);font-size:1.6rem;font-weight:900;color:var(--green);line-height:1"><span data-count="15">0</span></div>
-            <div style="font-size:.66rem;color:var(--text3);margin-top:4px">学术论文</div>
+            <div style="font-family:var(--fe);font-size:1.6rem;font-weight:900;color:var(--green);line-height:1">$<span data-count="5">0</span>M</div>
+            <div style="font-size:.66rem;color:var(--text3);margin-top:4px">营收目标 USD</div>
           </div>
           <div style="padding:14px;border-radius:14px;background:rgba(255,215,0,.04);border:1px solid rgba(255,215,0,.08);text-align:center">
             <div style="font-family:var(--fe);font-size:1.6rem;font-weight:900;color:var(--gold);line-height:1"><span data-count="3">0</span></div>
@@ -187,10 +175,10 @@
           <div style="font-family:var(--fm);font-size:.68rem;color:var(--purple);font-weight:700;margin-bottom:4px">PHASE 2 · 2025</div>
           <div style="font-size:.88rem;color:#fff;font-weight:700;margin-bottom:8px">规模化增长</div>
           <div style="display:flex;flex-direction:column;gap:5px">
-            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 完成首轮融资</div>
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 合作网红突破 10万+</div>
-            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--cyan)">&#x25B6;</span> 视频生成技术产品化</div>
-            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--cyan)">&#x25B6;</span> 北京团队扩至 20 人</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 沙特头部网红签约</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--cyan)">&#x25B6;</span> 欧洲 & 北美市场拓展</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--cyan)">&#x25B6;</span> NeurIPS 学术参会</div>
           </div>
         </div>
         <div style="padding:16px;border-radius:14px;background:rgba(255,107,157,.04);border:1px solid rgba(255,107,157,.1);position:relative">
@@ -199,8 +187,9 @@
           <div style="font-size:.88rem;color:#fff;font-weight:700;margin-bottom:8px">全球化扩张</div>
           <div style="display:flex;flex-direction:column;gap:5px">
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 首款 iOS App 上线</div>
-            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 年营收目标 $10M+</div>
-            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 深化北京产业协同</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 视频生成技术产品化</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 北京团队扩至 20 人</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 完成 $10M 融资目标</div>
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 申报高新技术企业</div>
           </div>
         </div>
@@ -219,14 +208,14 @@
             <div class="cbar-note">覆盖算法、产品、运营、市场岗位</div>
           </div>
           <div class="cbar">
-            <div class="cbar-top"><div class="cbar-title">年度税收增速</div><div class="cbar-val">300%+</div></div>
+            <div class="cbar-top"><div class="cbar-title">纳税贡献</div><div class="cbar-val">快速增长</div></div>
             <div class="cbar-track"><div class="cbar-fill cp" style="width:80%"></div></div>
-            <div class="cbar-note">随业务规模扩大持续增长</div>
+            <div class="cbar-note">纳税人和税额随业务规模持续快速增长</div>
           </div>
           <div class="cbar">
-            <div class="cbar-top"><div class="cbar-title">产业协同覆盖</div><div class="cbar-val">5+</div></div>
+            <div class="cbar-top"><div class="cbar-title">产业协同覆盖</div><div class="cbar-val">5+ 企业</div></div>
             <div class="cbar-track"><div class="cbar-fill co" style="width:55%"></div></div>
-            <div class="cbar-note">高校 · 产业园 · 行业联盟 · 人才培养</div>
+            <div class="cbar-note">5+ 北京本地企业深度合作</div>
           </div>
         </div>
       </div>
@@ -237,12 +226,12 @@
           <div class="cbar">
             <div class="cbar-top"><div class="cbar-title">全球AI人才汇聚</div><div class="cbar-val">4 国</div></div>
             <div class="cbar-track"><div class="cbar-fill cp" style="width:70%"></div></div>
-            <div class="cbar-note">中国 · 美国 · 沙特 · 西班牙</div>
+            <div class="cbar-note">中国 · 美国 · 沙特 · 新加坡</div>
           </div>
           <div class="cbar">
-            <div class="cbar-top"><div class="cbar-title">硅谷资本对接</div><div class="cbar-val">$10M+</div></div>
+            <div class="cbar-top"><div class="cbar-title">近2年融资目标</div><div class="cbar-val">$10M</div></div>
             <div class="cbar-track"><div class="cbar-fill cg" style="width:75%"></div></div>
-            <div class="cbar-note">NVIDIA · TikTok · 国际资本网络</div>
+            <div class="cbar-note">对接硅谷 · 国际资本网络</div>
           </div>
           <div class="cbar">
             <div class="cbar-top"><div class="cbar-title">AI出海示范效应</div><div class="cbar-val">15+ 国</div></div>
