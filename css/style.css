@@ -781,61 +781,70 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 
 html:fullscreen body,
 body:fullscreen {
-  font-size:24px;
+  font-size:20px;
 }
 html:fullscreen .slide,
 body:fullscreen .slide {
-  padding:108px 104px 140px;
+  padding:100px 96px 132px;
 }
 html:fullscreen .topbar,
 body:fullscreen .topbar {
-  padding:22px 42px;
+  padding:20px 40px;
 }
 html:fullscreen .logo-name,
 body:fullscreen .logo-name {
-  font-size:1.35rem;
+  font-size:1.26rem;
 }
 html:fullscreen .slide-num,
 body:fullscreen .slide-num {
-  font-size:1rem;
+  font-size:.94rem;
 }
 html:fullscreen .slide-num .cur,
 body:fullscreen .slide-num .cur {
-  font-size:1.45rem;
+  font-size:1.35rem;
 }
 html:fullscreen h1.hero,
 body:fullscreen h1.hero {
-  font-size:clamp(4.8rem,6.5vw,7rem);
+  font-size:clamp(4.4rem,6vw,6.2rem);
 }
 html:fullscreen h2.stitle,
 body:fullscreen h2.stitle {
-  font-size:clamp(3rem,4.2vw,4.2rem);
+  font-size:clamp(3.1rem,4.4vw,4.4rem);
+  line-height:1.08;
+  margin-bottom:10px;
 }
 html:fullscreen .sub,
 body:fullscreen .sub {
-  font-size:1.28rem;
-  line-height:1.8;
+  font-size:1rem;
+  line-height:1.65;
+  max-width:760px;
+  margin-bottom:28px;
 }
 html:fullscreen .tag,
 body:fullscreen .tag {
-  font-size:.92rem;
+  font-size:.82rem;
   letter-spacing:4px;
+  opacity:.78;
 }
 html:fullscreen .gc,
 html:fullscreen .tc,
+body:fullscreen .gc,
+body:fullscreen .tc {
+  font-size:1.04em;
+}
 html:fullscreen .product-shot-label,
 html:fullscreen .feat-txt,
 html:fullscreen .partner-logo-item,
 html:fullscreen .tbar-label,
-html:fullscreen .tbar-val,
-body:fullscreen .gc,
-body:fullscreen .tc,
 body:fullscreen .product-shot-label,
 body:fullscreen .feat-txt,
 body:fullscreen .partner-logo-item,
-body:fullscreen .tbar-label,
+body:fullscreen .tbar-label {
+  font-size:.96em;
+}
+html:fullscreen .tbar-val,
 body:fullscreen .tbar-val {
-  font-size:1.12em;
+  font-size:1.08em;
 }
 html:fullscreen .st-n,
 body:fullscreen .st-n {
@@ -843,7 +852,7 @@ body:fullscreen .st-n {
 }
 html:fullscreen .st-l,
 body:fullscreen .st-l {
-  font-size:1rem;
+  font-size:.92rem;
 }
 html:fullscreen .vision-box,
 body:fullscreen .vision-box {
@@ -853,7 +862,7 @@ html:fullscreen .v-card,
 body:fullscreen .v-card {
   width:100%;
   max-width:1120px;
-  padding:64px 88px;
+  padding:60px 84px;
 }
 html:fullscreen .v-quote,
 body:fullscreen .v-quote {
@@ -862,11 +871,11 @@ body:fullscreen .v-quote {
 }
 html:fullscreen .demo-title,
 body:fullscreen .demo-title {
-  font-size:2.6rem;
+  font-size:2.35rem;
 }
 html:fullscreen .demo-desc,
 body:fullscreen .demo-desc {
-  font-size:1.12rem;
+  font-size:1rem;
 }
 
 @media(max-width:1024px) {
