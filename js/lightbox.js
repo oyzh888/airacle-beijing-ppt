@@ -57,9 +57,9 @@
     }, 400);
   }
 
-  // Close on overlay click
+  // Close on overlay click, caption click, or clicking the expanded media itself
   overlay.addEventListener('click', (e) => {
-    if (e.target === overlay || e.target === caption) close();
+    if (e.target === overlay || e.target === caption || e.target === currentMedia) close();
   });
 
   // Close on Escape
