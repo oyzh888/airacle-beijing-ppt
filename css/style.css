@@ -781,41 +781,82 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
 
 html:fullscreen body,
 body:fullscreen {
-  font-size:20px;
+  font-size:24px;
 }
 html:fullscreen .slide,
 body:fullscreen .slide {
-  padding:96px 96px 128px;
+  padding:108px 104px 140px;
+}
+html:fullscreen .topbar,
+body:fullscreen .topbar {
+  padding:22px 42px;
+}
+html:fullscreen .logo-name,
+body:fullscreen .logo-name {
+  font-size:1.35rem;
+}
+html:fullscreen .slide-num,
+body:fullscreen .slide-num {
+  font-size:1rem;
+}
+html:fullscreen .slide-num .cur,
+body:fullscreen .slide-num .cur {
+  font-size:1.45rem;
 }
 html:fullscreen h1.hero,
 body:fullscreen h1.hero {
-  font-size:clamp(4rem,5.2vw,5.8rem);
+  font-size:clamp(4.8rem,6.5vw,7rem);
 }
 html:fullscreen h2.stitle,
 body:fullscreen h2.stitle {
-  font-size:clamp(2.6rem,3.4vw,3.4rem);
+  font-size:clamp(3rem,4.2vw,4.2rem);
 }
 html:fullscreen .sub,
 body:fullscreen .sub {
-  font-size:1.08rem;
+  font-size:1.28rem;
+  line-height:1.8;
+}
+html:fullscreen .tag,
+body:fullscreen .tag {
+  font-size:.92rem;
+  letter-spacing:4px;
 }
 html:fullscreen .gc,
 html:fullscreen .tc,
 html:fullscreen .product-shot-label,
 html:fullscreen .feat-txt,
+html:fullscreen .partner-logo-item,
+html:fullscreen .tbar-label,
+html:fullscreen .tbar-val,
 body:fullscreen .gc,
 body:fullscreen .tc,
 body:fullscreen .product-shot-label,
-body:fullscreen .feat-txt {
-  font-size:1.02em;
+body:fullscreen .feat-txt,
+body:fullscreen .partner-logo-item,
+body:fullscreen .tbar-label,
+body:fullscreen .tbar-val {
+  font-size:1.12em;
+}
+html:fullscreen .st-n,
+body:fullscreen .st-n {
+  font-size:4.8rem;
+}
+html:fullscreen .st-l,
+body:fullscreen .st-l {
+  font-size:1rem;
 }
 html:fullscreen .v-quote,
 body:fullscreen .v-quote {
-  font-size:3.2rem;
+  font-size:4rem;
+  line-height:1.4;
 }
 html:fullscreen .demo-title,
 body:fullscreen .demo-title {
-  font-size:2.15rem;
+  font-size:2.6rem;
+}
+html:fullscreen .demo-desc,
+body:fullscreen .demo-desc {
+  font-size:1.12rem;
 }
 
 @media(max-width:1024px) {
