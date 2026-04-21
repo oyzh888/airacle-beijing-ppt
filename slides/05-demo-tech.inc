@@ -67,7 +67,7 @@
     <div class="gc ai" data-delay=".25" style="overflow:hidden">
       <div class="demo-num" style="font-size:4rem;top:8px;right:20px">03</div>
       <div class="demo-badge green" style="font-size:.68rem">DEMO 3 · 首款 iOS App</div>
-      <h3 style="margin:10px 0 6px;font-size:1.3rem">Knockit — 移动端创意工具</h3>
+      <h3 style="margin:10px 0 6px;font-size:1.3rem">Knockit — 网红内容发布提醒助手</h3>
       <div style="display:grid;grid-template-columns:.55fr .45fr;gap:16px;align-items:center">
         <div class="product-shot">
           <img src="materials/03-产品截图/knockit_1st_ios_app_of_the_company/app_screenshot.png" alt="Knockit App" style="width:100%;border-radius:10px">
@@ -76,19 +76,19 @@
         <div style="display:flex;flex-direction:column;gap:10px">
           <div class="hover-slide" style="display:flex;align-items:center;gap:10px;padding:11px 14px;background:rgba(0,212,255,.03);border:1px solid rgba(0,212,255,.06);border-radius:12px;transition:all .3s">
             <span style="color:var(--cyan);font-size:1rem">&#x2726;</span>
-            <span style="font-size:.84rem;color:var(--text2)">AI 一键生成社交媒体图文与短视频</span>
+            <span style="font-size:.84rem;color:var(--text2)">智能提醒网红最佳发布时间，不错过流量高峰</span>
           </div>
           <div class="hover-slide" style="display:flex;align-items:center;gap:10px;padding:11px 14px;background:rgba(0,212,255,.03);border:1px solid rgba(0,212,255,.06);border-radius:12px;transition:all .3s">
             <span style="color:var(--purple);font-size:1rem">&#x2726;</span>
-            <span style="font-size:.84rem;color:var(--text2)">覆盖 Instagram / TikTok / YouTube / Snapchat</span>
+            <span style="font-size:.84rem;color:var(--text2)">覆盖 Instagram / TikTok / YouTube / Snapchat 发布节奏</span>
           </div>
           <div class="hover-slide" style="display:flex;align-items:center;gap:10px;padding:11px 14px;background:rgba(0,212,255,.03);border:1px solid rgba(0,212,255,.06);border-radius:12px;transition:all .3s">
             <span style="color:var(--green);font-size:1rem">&#x2726;</span>
-            <span style="font-size:.84rem;color:var(--text2)">多平台一键发布 · 数据分析追踪</span>
+            <span style="font-size:.84rem;color:var(--text2)">AI 分析粉丝活跃时段，个性化推送发内容提醒</span>
           </div>
           <div class="hover-slide" style="display:flex;align-items:center;gap:10px;padding:11px 14px;background:rgba(0,212,255,.03);border:1px solid rgba(0,212,255,.06);border-radius:12px;transition:all .3s">
             <span style="color:var(--pink);font-size:1rem">&#x2726;</span>
-            <span style="font-size:.84rem;color:var(--text2)">已上架 App Store · 海外用户好评</span>
+            <span style="font-size:.84rem;color:var(--text2)">已上架 App Store · 海外网红好评 5.0 分</span>
           </div>
         </div>
       </div>
