@@ -41,7 +41,6 @@
           <img src="materials/04-商务出差/LA-tiktok-snap/99D96F5D-443D-4877-AEC1-5211F3D41B4D_1_105_c.jpeg" alt="TikTok LA" style="width:100%;height:200px;object-fit:cover;object-position:center 60%;border-radius:14px">
           <div class="product-shot-label">TikTok LA 总部洽谈</div>
         </div>
-        <!-- Hollywood: portrait 3:4 → contain -->
         <div class="product-shot" style="border-radius:14px;background:#0a0c1e">
           <img src="materials/04-商务出差/LA-tiktok-snap/hollewood_director_collaboration.jpeg" alt="Hollywood" style="width:100%;height:200px;object-fit:contain;border-radius:14px">
           <div class="product-shot-label">好莱坞导演内容合作</div>
