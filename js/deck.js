@@ -170,21 +170,10 @@ const D = (() => {
     if (num >= 1 && num <= total) goTo(num - 1);
   });
 
-  // ---- Touch ----
-  let tx = 0, ty = 0;
-  document.addEventListener('touchstart', e => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });
-  document.addEventListener('touchend', e => {
-    const dx = e.changedTouches[0].clientX - tx;
-    const dy = e.changedTouches[0].clientY - ty;
-    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 50) { dx < 0 ? go(1) : go(-1); }
-  });
-
-  // ---- Wheel ----
-  let wc = false;
-  document.addEventListener('wheel', e => {
-    if (wc) return; wc = true; setTimeout(() => wc = false, 700);
-    if (e.deltaY > 25) go(1); else if (e.deltaY < -25) go(-1);
-  }, { passive: true });
+  // ---- Touch & Wheel navigation DISABLED to prevent accidental page switches ----
+  // Only keyboard arrows, minimap clicks, and bottom nav dots can change slides.
+  // Block wheel from bubbling to any legacy handler that might cause navigation
+  document.addEventListener('wheel', e => { /* do nothing — scroll within slide only */ }, { passive: true });
 
   // ---- Init ----
   ui();

@@ -17,6 +17,13 @@
               <span class="bio-tag bt-pink">TikTok AI Lab</span>
               <span class="bio-tag bt-gold">Adobe Firefly</span>
             </div>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:4px;align-items:center">
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(0,129,251,.12);color:#4dabff;letter-spacing:.3px">Meta</span>
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,0,0,.1);color:#ff4444;letter-spacing:.3px">Adobe</span>
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,255,255,.06);color:#e8eaf6;letter-spacing:.3px">TikTok</span>
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(130,49,142,.15);color:#c77dff;letter-spacing:.3px">清华</span>
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(196,18,48,.12);color:#ff6b6b;letter-spacing:.3px">CMU</span>
+            </div>
           </div>
         </div>
         <div style="font-size:.78rem;color:var(--text2);margin-top:14px;line-height:1.8">
@@ -44,6 +51,12 @@
               <span class="bio-tag bt-orange">Bigo · Shareit</span>
               <span class="bio-tag bt-gold">沙特 Top2 直播平台</span>
             </div>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:4px;align-items:center">
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,255,255,.06);color:#e8eaf6;letter-spacing:.3px">TikTok</span>
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,73,6,.12);color:#ff8c42;letter-spacing:.3px">快手</span>
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(0,212,255,.1);color:#00d4ff;letter-spacing:.3px">Bigo</span>
+              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(29,185,84,.1);color:#1DB954;letter-spacing:.3px">SHAREit</span>
+            </div>
           </div>
         </div>
         <div style="font-size:.78rem;color:var(--text2);margin-top:14px;line-height:1.8">
@@ -60,16 +73,15 @@
       </div>
     </div>
 
-    <!-- Executive Team -->
-    <div class="tg-title ai" data-delay=".18">&#x1f465; 核心执行团队</div>
-    <p style="text-align:center;font-size:.76rem;color:var(--text3);margin:-8px 0 14px;letter-spacing:.3px">北京 4 人 + 硅谷 3 人 · 鼠标移到头像查看大图</p>
-    <div class="grid ai" style="grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin-bottom:6px;align-items:start">
+    <!-- Executive Team — Beijing -->
+    <div class="tg-title ai" data-delay=".18">&#x1f1e8;&#x1f1f3; 北京团队</div>
+    <p style="text-align:center;font-size:.76rem;color:var(--text3);margin:-8px 0 14px;letter-spacing:.3px">产品 · 算法 · 运营 · 行政 · 鼠标移到头像查看大图</p>
+    <div class="grid ai" style="grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-bottom:22px;align-items:start">
       <div class="tc magnetic" style="padding:16px 10px">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#0077cc)"><img src="materials/02-团队头像/kevin.jpg" alt="Kevin"></div>
         <div class="tc-name">Kevin</div>
         <div class="tc-role">产品负责人</div>
         <div class="tc-badge b-prod">PRODUCT</div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
         <div class="tc-desc">统筹产品规划与用户体验，驱动AI产品从0到1落地</div>
       </div>
       <div class="tc magnetic" style="padding:16px 10px">
@@ -77,15 +89,20 @@
         <div class="tc-name">Jack</div>
         <div class="tc-role">算法工程师</div>
         <div class="tc-badge b-ai">AI ALGORITHM</div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
         <div class="tc-desc">负责核心算法研发，深耕NLP与推荐系统优化</div>
+      </div>
+      <div class="tc magnetic" style="padding:16px 10px">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#4a90d9,#00c8ff);display:flex;align-items:center;justify-content:center;font-size:1.1rem;font-weight:800;color:#fff">H</div>
+        <div class="tc-name">Hokeem</div>
+        <div class="tc-role">算法工程师</div>
+        <div class="tc-badge b-ai">AI ALGORITHM</div>
+        <div class="tc-desc">算法研发与模型优化，支撑AI产品核心能力</div>
       </div>
       <div class="tc magnetic" style="padding:16px 10px">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#ffd700,#cc9900)"><img src="materials/02-团队头像/jingqiong.jpg" alt="Jingqiong"></div>
         <div class="tc-name">Jingqiong</div>
         <div class="tc-role">人力行政负责人</div>
         <div class="tc-badge b-hr">HR & ADMIN</div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
         <div class="tc-desc">搭建团队组织架构，统筹人才招聘与行政运营</div>
       </div>
       <div class="tc magnetic" style="padding:16px 10px">
@@ -93,15 +110,19 @@
         <div class="tc-name">Jood</div>
         <div class="tc-role">网红营销负责人</div>
         <div class="tc-badge b-mkt">MARKETING</div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">北京团队</div>
         <div class="tc-desc">主导全球网红合作策略与品牌营销执行</div>
       </div>
+    </div>
+
+    <!-- Executive Team — Silicon Valley -->
+    <div class="tg-title ai" data-delay=".24">&#x1f1fa;&#x1f1f8; 硅谷团队</div>
+    <p style="text-align:center;font-size:.76rem;color:var(--text3);margin:-8px 0 14px;letter-spacing:.3px">AI 算法 · 视频生成 · 大模型</p>
+    <div class="grid ai" style="grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:6px;align-items:start;max-width:660px;margin-left:auto;margin-right:auto">
       <div class="tc magnetic" style="padding:16px 10px">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#00d4ff,#7b68ee)"><img src="materials/02-团队头像/us_employee/Xinyu.png" alt="Xinyu"></div>
         <div class="tc-name">Xinyu</div>
         <div class="tc-role">AI Engineer</div>
         <div class="tc-badge b-ai">VIDEO GEN</div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">硅谷团队</div>
         <div class="tc-desc">视频生成模型研发，MoLoRAe架构核心贡献者</div>
       </div>
       <div class="tc magnetic" style="padding:16px 10px">
@@ -109,7 +130,6 @@
         <div class="tc-name">Owen</div>
         <div class="tc-role">AI Engineer</div>
         <div class="tc-badge b-ai">LLM</div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">硅谷团队</div>
         <div class="tc-desc">大语言模型训练与推理优化，AI Agent架构设计</div>
       </div>
       <div class="tc magnetic" style="padding:16px 10px">
@@ -117,7 +137,6 @@
         <div class="tc-name">Matt</div>
         <div class="tc-role">AI Engineer</div>
         <div class="tc-badge b-fs">VIDEO GEN</div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px">硅谷团队</div>
         <div class="tc-desc">视频生成与评估系统开发，数据Pipeline工程化</div>
       </div>
     </div>
