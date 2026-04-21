@@ -98,11 +98,11 @@
         </div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">
           <div class="product-shot" style="border-radius:12px">
-            <img src="materials/04-商务出差/沙特/IMG_4830.jpeg" alt="沙特商务" style="width:100%;height:130px;object-fit:cover;object-position:center 25%;border-radius:12px">
+            <img src="materials/04-商务出差/沙特/IMG_4830.jpeg" alt="沙特商务" style="width:100%;height:130px;object-fit:cover;object-position:center 65%;border-radius:12px">
             <div class="product-shot-label">沙特商务现场</div>
           </div>
           <div class="product-shot" style="border-radius:12px">
-            <img src="materials/04-商务出差/沙特/B1EA66F2-5164-4762-A126-EE38F0FBD908_1_102_o.jpeg" alt="沙特活动" style="width:100%;height:130px;object-fit:cover;object-position:center 25%;border-radius:12px">
+            <img src="materials/04-商务出差/沙特/B1EA66F2-5164-4762-A126-EE38F0FBD908_1_102_o.jpeg" alt="沙特活动" style="width:100%;height:130px;object-fit:cover;object-position:center 40%;border-radius:12px">
             <div class="product-shot-label">沙特行业活动</div>
           </div>
         </div>
@@ -120,16 +120,16 @@
             <div class="product-shot-label">欧洲市场调研</div>
           </div>
           <div class="product-shot" style="border-radius:12px">
-            <img src="materials/04-商务出差/欧洲/教堂里面处理客户问题.JPG" alt="远程工作" style="width:100%;height:150px;object-fit:cover;object-position:center 20%;border-radius:12px">
+            <img src="materials/04-商务出差/欧洲/教堂里面处理客户问题.JPG" alt="远程工作" style="width:100%;height:150px;object-fit:cover;object-position:right 60%;border-radius:12px">
             <div class="product-shot-label">随时随地服务客户</div>
           </div>
           <div class="product-shot" style="border-radius:12px">
-            <img src="materials/04-商务出差/欧洲/调研加工作.JPG" alt="调研" style="width:100%;height:150px;object-fit:cover;object-position:center 25%;border-radius:12px">
+            <img src="materials/04-商务出差/欧洲/调研加工作.JPG" alt="调研" style="width:100%;height:150px;object-fit:cover;object-position:right 40%;border-radius:12px">
             <div class="product-shot-label">市场调研 & 远程办公</div>
           </div>
         </div>
         <div class="product-shot" style="border-radius:12px;margin-top:8px">
-          <img src="materials/04-商务出差/欧洲/F40570C1-EC34-40D6-87D6-8232154D9DD5_1_102_o.jpeg" alt="欧洲拓展" style="width:100%;height:140px;object-fit:cover;object-position:center 25%;border-radius:12px">
+          <img src="materials/04-商务出差/欧洲/F40570C1-EC34-40D6-87D6-8232154D9DD5_1_102_o.jpeg" alt="欧洲拓展" style="width:100%;height:140px;object-fit:cover;object-position:center 55%;border-radius:12px">
           <div class="product-shot-label">欧洲产业合作拓展</div>
         </div>
       </div>
@@ -147,7 +147,7 @@
       <div class="gc ai" data-delay=".26" style="padding:18px;border-color:rgba(255,107,157,.08)">
         <div style="font-size:.72rem;color:var(--pink);letter-spacing:2px;font-weight:700;margin-bottom:12px">&#x1f4f1; 2026 · 首款 iOS App 上线</div>
         <div class="product-shot" style="border-radius:14px">
-          <img src="materials/04-商务出差/1st_ios_app/C6AE00A9-5229-407F-A386-52175ED4C1CA_1_102_o.jpeg" alt="iOS App Launch" style="width:100%;height:200px;object-fit:cover;object-position:center 30%;border-radius:14px">
+          <img src="materials/04-商务出差/1st_ios_app/C6AE00A9-5229-407F-A386-52175ED4C1CA_1_102_o.jpeg" alt="iOS App Launch" style="width:100%;height:200px;object-fit:cover;object-position:center 45%;border-radius:14px">
           <div class="product-shot-label">团队庆祝首款 App 上线</div>
         </div>
       </div>
