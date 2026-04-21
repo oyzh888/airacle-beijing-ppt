@@ -101,7 +101,7 @@
       <div class="tc magnetic" style="padding:16px 10px">
         <div class="tc-avatar" style="background:linear-gradient(135deg,#ffd700,#cc9900)"><img src="materials/02-团队头像/jingqiong.jpg" alt="Jingqiong"></div>
         <div class="tc-name">Jingqiong</div>
-        <div class="tc-role">人力行政负责人</div>
+        <div class="tc-role">企业事务负责人</div>
         <div class="tc-badge b-hr">HR & ADMIN</div>
         <div class="tc-desc">搭建团队组织架构，统筹人才招聘与行政运营</div>
       </div>
