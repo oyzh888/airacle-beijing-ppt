@@ -20,32 +20,32 @@
           <line x1="30" y1="100" x2="190" y2="100" stroke="rgba(255,255,255,.08)" stroke-width=".5"/>
           <line x1="30" y1="52" x2="190" y2="52" stroke="rgba(255,255,255,.04)" stroke-width=".5" stroke-dasharray="3,3"/>
           <!-- Y labels -->
-          <text x="26" y="9" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$50M</text>
-          <text x="26" y="55" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$25M</text>
+          <text x="26" y="9" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$10M</text>
+          <text x="26" y="55" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$5M</text>
           <text x="26" y="103" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$0</text>
-          <!-- Bars (bottom at y=100, height = value/50*95) -->
-          <!-- 2024 Q4: $2M → h=3.8 -->
-          <rect x="38" y="96.2" width="22" height="3.8" rx="3" fill="url(#barG1)"/>
-          <text x="49" y="92" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$2M</text>
+          <!-- Bars (bottom at y=100, height = value/10*95) -->
+          <!-- 2024 Q4: $0.5M → h=4.75 -->
+          <rect x="38" y="95.25" width="22" height="4.75" rx="3" fill="url(#barG1)"/>
+          <text x="49" y="91" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$0.5M</text>
           <text x="49" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">Q4'24</text>
-          <!-- 2025 H1: $8M → h=15.2 -->
-          <rect x="68" y="84.8" width="22" height="15.2" rx="3" fill="url(#barG1)"/>
-          <text x="79" y="81" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$8M</text>
+          <!-- 2025 H1: $1.5M → h=14.25 -->
+          <rect x="68" y="85.75" width="22" height="14.25" rx="3" fill="url(#barG1)"/>
+          <text x="79" y="82" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$1.5M</text>
           <text x="79" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H1'25</text>
-          <!-- 2025 H2: $18M → h=34.2 -->
-          <rect x="98" y="65.8" width="22" height="34.2" rx="3" fill="url(#barG2)"/>
-          <text x="109" y="62" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$18M</text>
+          <!-- 2025 H2: $3M → h=28.5 -->
+          <rect x="98" y="71.5" width="22" height="28.5" rx="3" fill="url(#barG2)"/>
+          <text x="109" y="67" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$3M</text>
           <text x="109" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H2'25</text>
-          <!-- 2026 H1: $32M → h=60.8 -->
-          <rect x="128" y="39.2" width="22" height="60.8" rx="3" fill="url(#barG2)"/>
-          <text x="139" y="35" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$32M</text>
+          <!-- 2026 H1: $6M → h=57 -->
+          <rect x="128" y="43" width="22" height="57" rx="3" fill="url(#barG2)"/>
+          <text x="139" y="39" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$6M</text>
           <text x="139" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H1'26</text>
-          <!-- 2026 Target: $50M → h=95 -->
+          <!-- 2026 Target: $10M → h=95 -->
           <rect x="158" y="5" width="22" height="95" rx="3" fill="url(#barG3)"/>
-          <text x="169" y="18" fill="#ff6b9d" font-size="7" text-anchor="middle" font-weight="bold" font-family="monospace">$50M</text>
+          <text x="169" y="18" fill="#ff6b9d" font-size="7" text-anchor="middle" font-weight="bold" font-family="monospace">$10M</text>
           <text x="169" y="115" fill="#ff6b9d" font-size="6.5" text-anchor="middle" font-weight="bold" font-family="monospace">2026</text>
         </svg>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:4px;text-align:center">2024 Q4 起步 → 2026 年目标 $50M+</div>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:4px;text-align:center">2024 Q4 起步 → 2026 年目标 $10M+</div>
       </div>
 
       <!-- Line Chart: Team growth (SVG) -->
@@ -199,7 +199,7 @@
           <div style="font-size:.88rem;color:#fff;font-weight:700;margin-bottom:8px">全球化扩张</div>
           <div style="display:flex;flex-direction:column;gap:5px">
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 首款 iOS App 上线</div>
-            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 年营收目标 $50M+</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 年营收目标 $10M+</div>
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 深化北京产业协同</div>
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 申报高新技术企业</div>
           </div>
