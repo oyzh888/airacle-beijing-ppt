@@ -21,7 +21,11 @@
           <div style="font-size:.68rem;color:var(--text3)">跨境达人投放 · 内容分发 · 转化增长</div>
         </div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:12px">
+      <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
+        <img src="materials/08-客户品牌/电商/ecommerce.jpg" alt="电商营销" style="width:100%;height:90px;object-fit:cover;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">跨境电商达人营销（占位图）</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:10px">
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">达人合作覆盖率</div><div class="tbar-val">92%</div></div><div class="tbar-track"><div class="tbar-fill fc" style="width:92%"></div></div></div>
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">平均转化提升</div><div class="tbar-val">+180%</div></div><div class="tbar-track"><div class="tbar-fill fg" style="width:78%"></div></div></div>
       </div>
@@ -54,7 +58,11 @@
           <div style="font-size:.68rem;color:var(--text3)">主播招募 · 运营 · 投流协同</div>
         </div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:12px">
+      <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
+        <img src="materials/08-客户品牌/直播/livestream.jpg" alt="直播运营" style="width:100%;height:90px;object-fit:cover;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">主播运营与投流（占位图）</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:10px">
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">主播留存率</div><div class="tbar-val">85%</div></div><div class="tbar-track"><div class="tbar-fill fp" style="width:85%"></div></div></div>
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">月均直播时长提升</div><div class="tbar-val">+220%</div></div><div class="tbar-track"><div class="tbar-fill fc" style="width:82%"></div></div></div>
       </div>
