@@ -15,7 +15,7 @@
         <div style="flex:1;text-align:center;position:relative;z-index:1">
           <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--purple),var(--pink));display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-family:var(--fm);font-size:.7rem;font-weight:800;color:#fff;box-shadow:0 0 20px rgba(123,104,238,.4)">&#x2713;</div>
           <div style="font-family:var(--fm);font-size:1.1rem;font-weight:800;color:var(--purple);margin-bottom:4px">2025</div>
-          <div style="font-size:.78rem;color:var(--text2);line-height:1.7"><strong style="color:#fff">完成首轮融资</strong><br>沙特头部网红签约 · 欧洲市场拓展<br>好莱坞导演内容合作 · NeurIPS 参会</div>
+          <div style="font-size:.78rem;color:var(--text2);line-height:1.7"><strong style="color:#fff">全球化拓展</strong><br>沙特头部网红签约 · 欧洲市场拓展<br>好莱坞导演内容合作 · NeurIPS 参会</div>
         </div>
         <div style="flex:1;text-align:center;position:relative;z-index:1">
           <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--orange));display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-family:var(--fm);font-size:.7rem;font-weight:800;color:#fff;box-shadow:0 0 20px rgba(255,107,157,.4)">&#x25B6;</div>
@@ -137,10 +137,10 @@
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px">
       <!-- Pitch selfie: wide 16:9, 2 faces center → cover center -->
       <div class="gc ai" data-delay=".22" style="padding:18px;border-color:rgba(0,255,176,.08)">
-        <div style="font-size:.72rem;color:var(--green);letter-spacing:2px;font-weight:700;margin-bottom:12px">&#x1f4b0; 2025 · 完成首轮融资</div>
+        <div style="font-size:.72rem;color:var(--green);letter-spacing:2px;font-weight:700;margin-bottom:12px">&#x1f1fa;&#x1f1f8; 2025 · 硅谷商务拓展</div>
         <div class="product-shot" style="border-radius:14px">
-          <img src="materials/04-商务出差/US_pitch_1st_investment/FD9D78A3-BD3E-4095-B751-FBADBFED8ED9_1_106_c.jpeg" alt="Pitch" style="width:100%;height:200px;object-fit:cover;object-position:center center;border-radius:14px">
-          <div class="product-shot-label">硅谷路演 · 首轮融资</div>
+          <img src="materials/04-商务出差/US_pitch_1st_investment/FD9D78A3-BD3E-4095-B751-FBADBFED8ED9_1_106_c.jpeg" alt="Silicon Valley" style="width:100%;height:200px;object-fit:cover;object-position:center center;border-radius:14px">
+          <div class="product-shot-label">硅谷商务考察与合作洽谈</div>
         </div>
       </div>
       <!-- iOS celebration: landscape, 3 people lower half → cover -->

@@ -186,7 +186,7 @@
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--green)">&#x2713;</span> 首款 iOS App 上线</div>
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 视频生成技术产品化</div>
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 北京团队扩至 20 人</div>
-            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 完成 $10M 融资目标</div>
+            <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 深化北京产业协同</div>
             <div style="font-size:.72rem;color:var(--text2);display:flex;align-items:center;gap:5px"><span style="color:var(--text3)">&#x25CB;</span> 申报高新技术企业</div>
           </div>
         </div>
@@ -226,9 +226,9 @@
             <div class="cbar-note">中国 · 美国 · 沙特 · 新加坡</div>
           </div>
           <div class="cbar">
-            <div class="cbar-top"><div class="cbar-title">近2年融资目标</div><div class="cbar-val">$10M</div></div>
+            <div class="cbar-top"><div class="cbar-title">国际资源对接</div><div class="cbar-val">持续拓展</div></div>
             <div class="cbar-track"><div class="cbar-fill cg" style="width:75%"></div></div>
-            <div class="cbar-note">对接硅谷 · 国际资本网络</div>
+            <div class="cbar-note">硅谷 · TikTok · NVIDIA · 全球合作网络</div>
           </div>
           <div class="cbar">
             <div class="cbar-top"><div class="cbar-title">AI出海示范效应</div><div class="cbar-val">15+ 国</div></div>
