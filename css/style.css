@@ -45,6 +45,7 @@ html,body {
   width:100%; height:100%; overflow:hidden;
   font-family:var(--fn); background:var(--bg); color:var(--text);
   -webkit-font-smoothing:antialiased; cursor:none;
+  font-size:18px;
 }
 
 /* ----- 2. Background & Ambient ----- */
@@ -776,6 +777,45 @@ h2.stitle .acc { background:linear-gradient(135deg,var(--cyan),var(--purple)); -
   display:block;
   object-fit:cover;
   background:#050816;
+}
+
+html:fullscreen body,
+body:fullscreen {
+  font-size:20px;
+}
+html:fullscreen .slide,
+body:fullscreen .slide {
+  padding:96px 96px 128px;
+}
+html:fullscreen h1.hero,
+body:fullscreen h1.hero {
+  font-size:clamp(4rem,5.2vw,5.8rem);
+}
+html:fullscreen h2.stitle,
+body:fullscreen h2.stitle {
+  font-size:clamp(2.6rem,3.4vw,3.4rem);
+}
+html:fullscreen .sub,
+body:fullscreen .sub {
+  font-size:1.08rem;
+}
+html:fullscreen .gc,
+html:fullscreen .tc,
+html:fullscreen .product-shot-label,
+html:fullscreen .feat-txt,
+body:fullscreen .gc,
+body:fullscreen .tc,
+body:fullscreen .product-shot-label,
+body:fullscreen .feat-txt {
+  font-size:1.02em;
+}
+html:fullscreen .v-quote,
+body:fullscreen .v-quote {
+  font-size:3.2rem;
+}
+html:fullscreen .demo-title,
+body:fullscreen .demo-title {
+  font-size:2.15rem;
 }
 
 @media(max-width:1024px) {
