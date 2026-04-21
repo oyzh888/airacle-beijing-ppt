@@ -17,6 +17,13 @@
               <span class="bio-tag bt-pink">TikTok AI Lab</span>
               <span class="bio-tag bt-gold">Adobe Firefly</span>
             </div>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center">
+              <img src="https://cdn.simpleicons.org/meta/0081FB" alt="Meta" style="height:16px;opacity:.7" title="Meta">
+              <img src="https://cdn.simpleicons.org/adobe/FF0000" alt="Adobe" style="height:16px;opacity:.7" title="Adobe">
+              <img src="https://cdn.simpleicons.org/tiktok/fff" alt="TikTok" style="height:16px;opacity:.7;filter:brightness(.8)" title="TikTok / 字节跳动">
+              <svg viewBox="0 0 24 24" style="height:16px;opacity:.7" title="清华大学"><text x="0" y="18" style="font-size:14px;font-weight:900;fill:#82318E;font-family:sans-serif">THU</text></svg>
+              <svg viewBox="0 0 30 24" style="height:16px;opacity:.7" title="Carnegie Mellon University"><text x="0" y="18" style="font-size:14px;font-weight:900;fill:#C41230;font-family:sans-serif">CMU</text></svg>
+            </div>
           </div>
         </div>
         <div style="font-size:.78rem;color:var(--text2);margin-top:14px;line-height:1.8">
@@ -43,6 +50,12 @@
               <span class="bio-tag bt-green">快手国际化</span>
               <span class="bio-tag bt-orange">Bigo · Shareit</span>
               <span class="bio-tag bt-gold">沙特 Top2 直播平台</span>
+            </div>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center">
+              <img src="https://cdn.simpleicons.org/tiktok/fff" alt="TikTok" style="height:16px;opacity:.7;filter:brightness(.8)" title="TikTok / 字节跳动">
+              <img src="https://cdn.simpleicons.org/kwai/ff4906" alt="Kwai" style="height:16px;opacity:.7" title="快手 Kwai">
+              <svg viewBox="0 0 32 24" style="height:16px;opacity:.7" title="Bigo Live"><text x="0" y="18" style="font-size:14px;font-weight:900;fill:#00d4ff;font-family:sans-serif">BIGO</text></svg>
+              <svg viewBox="0 0 46 24" style="height:16px;opacity:.7" title="SHAREit"><text x="0" y="18" style="font-size:14px;font-weight:900;fill:#1DB954;font-family:sans-serif">SHAREit</text></svg>
             </div>
           </div>
         </div>
