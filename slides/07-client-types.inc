@@ -3,7 +3,7 @@
   <p class="sub ai">帮助中国品牌出海 · 覆盖电商、直播、游戏、汽车、手机、AI 等核心场景</p>
 
   <!-- Key metrics -->
-  <div class="stats ai business-stats" data-delay=".08" style="margin-bottom:24px;max-width:1060px">
+  <div class="stats ai business-stats" data-delay=".08" style="margin-bottom:18px;max-width:1060px">
     <div class="st"><div class="st-n"><span data-count="100">0</span><span class="u">K+</span></div><div class="st-l">合作网红</div></div>
     <div class="st"><div class="st-n"><span data-count="50">0</span><span class="u">+</span></div><div class="st-l">品牌与机构客户</div></div>
     <div class="st"><div class="st-n">$<span data-count="10">0</span><span class="u">M+</span></div><div class="st-l">累计 GMV</div></div>
@@ -11,19 +11,15 @@
   </div>
 
   <!-- Row 1: E-commerce + Live Streaming -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:1060px;margin-bottom:14px" class="ai" data-delay=".12">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:1060px;margin-bottom:12px" class="ai" data-delay=".12">
     <!-- E-commerce -->
-    <div class="gc magnetic" style="padding:20px 18px">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+    <div class="gc magnetic" style="padding:16px 16px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
         <div class="ico c" style="width:40px;height:40px;margin-bottom:0;font-size:1.1rem">&#128722;</div>
         <div>
           <h3 style="font-size:1rem;margin:0">电商客户</h3>
           <div style="font-size:.68rem;color:var(--text3)">跨境达人投放 · 内容分发 · 转化增长</div>
         </div>
-      </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
-        <img src="materials/08-客户品牌/电商/ecommerce.jpg" alt="电商营销" style="width:100%;height:90px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">跨境电商客户投放案例</div>
       </div>
       <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:10px">
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">达人合作覆盖率</div><div class="tbar-val">92%</div></div><div class="tbar-track"><div class="tbar-fill fc" style="width:92%"></div></div></div>
@@ -50,8 +46,8 @@
     </div>
 
     <!-- Live Streaming -->
-    <div class="gc magnetic" style="padding:20px 18px">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+    <div class="gc magnetic" style="padding:16px 16px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
         <div class="ico p" style="width:40px;height:40px;margin-bottom:0;font-size:1.1rem">&#127908;</div>
         <div>
           <h3 style="font-size:1rem;margin:0">直播客户</h3>
@@ -96,9 +92,9 @@
   </div>
 
   <!-- Row 2: Gaming + Automobile + Smartphone + AI -->
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:14px;max-width:1060px;margin-bottom:14px" class="ai" data-delay=".18">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;max-width:1060px;margin-bottom:10px" class="ai" data-delay=".18">
     <!-- Gaming -->
-    <div class="gc magnetic" style="padding:18px 14px">
+    <div class="gc magnetic" style="padding:14px 12px">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
         <div class="ico k" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#127918;</div>
         <div>
@@ -127,7 +123,7 @@
     </div>
 
     <!-- Automobile -->
-    <div class="gc magnetic" style="padding:18px 14px">
+    <div class="gc magnetic" style="padding:14px 12px">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
         <div class="ico c" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#x1f697;</div>
         <div>
@@ -160,7 +156,7 @@
     </div>
 
     <!-- Smartphone -->
-    <div class="gc magnetic" style="padding:18px 14px">
+    <div class="gc magnetic" style="padding:14px 12px">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
         <div class="ico p" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#x1f4f1;</div>
         <div>
@@ -193,7 +189,7 @@
     </div>
 
     <!-- AI Clients -->
-    <div class="gc magnetic" style="padding:18px 14px">
+    <div class="gc magnetic" style="padding:14px 12px">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
         <div class="ico g" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#x1f916;</div>
         <div>
@@ -223,8 +219,8 @@
   </div>
 
   <!-- Platform & Technology Partners -->
-  <div class="gc ai" data-delay=".2" style="max-width:1060px;width:100%;text-align:center;padding:24px 28px">
-    <div style="font-size:.72rem;color:var(--cyan);letter-spacing:2px;font-weight:700;margin-bottom:16px">PLATFORM & TECHNOLOGY PARTNERS</div>
+  <div class="gc ai" data-delay=".2" style="max-width:1060px;width:100%;text-align:center;padding:18px 22px">
+    <div style="font-size:.68rem;color:var(--cyan);letter-spacing:2px;font-weight:700;margin-bottom:12px">PLATFORM & TECHNOLOGY PARTNERS</div>
     <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px">
       <div class="partner-logo-item">
         <div style="width:32px;height:32px;border-radius:50%;background:#000;border:1.5px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:900;color:#fff">&#x266B;</div>
