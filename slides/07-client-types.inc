@@ -1,6 +1,6 @@
   <div class="tag ai">CLIENT LANDSCAPE</div>
   <h2 class="stitle ai">客户结构 · <span class="acc">合作版图</span></h2>
-  <p class="sub ai">覆盖电商、直播、游戏等核心场景，持续拓展全球品牌与平台合作</p>
+  <p class="sub ai">帮助中国品牌出海 · 覆盖电商、直播、游戏、汽车、手机、AI 等核心场景</p>
 
   <!-- Key metrics -->
   <div class="stats ai business-stats" data-delay=".08" style="margin-bottom:24px;max-width:1060px">
@@ -87,99 +87,128 @@
     </div>
   </div>
 
-  <!-- Row 2: Gaming + Automobile + Smartphone -->
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;max-width:1060px;margin-bottom:14px" class="ai" data-delay=".18">
+  <!-- Row 2: Gaming + Automobile + Smartphone + AI -->
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:14px;max-width:1060px;margin-bottom:14px" class="ai" data-delay=".18">
     <!-- Gaming -->
-    <div class="gc magnetic" style="padding:20px 18px">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <div class="ico k" style="width:40px;height:40px;margin-bottom:0;font-size:1.1rem">&#127918;</div>
+    <div class="gc magnetic" style="padding:18px 14px">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+        <div class="ico k" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#127918;</div>
         <div>
-          <h3 style="font-size:1rem;margin:0">游戏客户</h3>
-          <div style="font-size:.68rem;color:var(--text3)">内容营销 · 达人合作 · 海外传播</div>
+          <h3 style="font-size:.92rem;margin:0">游戏客户</h3>
+          <div style="font-size:.62rem;color:var(--text3)">内容营销 · 海外传播</div>
         </div>
       </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
-        <img src="materials/08-客户品牌/游戏/game_ui.jpg" alt="游戏营销" style="width:100%;height:100px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.6rem">游戏内容营销案例（占位图）</div>
+      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
+        <img src="materials/08-客户品牌/游戏/game_ui.jpg" alt="游戏营销" style="width:100%;height:80px;object-fit:cover;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">游戏内容营销（占位图）</div>
       </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#4dabff,#1a75ff);display:flex;align-items:center;justify-content:center;font-size:.5rem;font-weight:800;color:#fff">&#x265A;</div>
-          <span>王者荣耀</span>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#4dabff,#1a75ff);display:flex;align-items:center;justify-content:center;font-size:.45rem;font-weight:800;color:#fff">&#x265A;</div>
+          <span style="font-size:.68rem">王者荣耀</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#00ffb0,#00aa70);display:flex;align-items:center;justify-content:center;font-size:.5rem;font-weight:800;color:#fff">&#x2694;</div>
-          <span>和平精英</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#00ffb0,#00aa70);display:flex;align-items:center;justify-content:center;font-size:.45rem;font-weight:800;color:#fff">&#x2694;</div>
+          <span style="font-size:.68rem">和平精英</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto;grid-column:span 2">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#ffd700,#cc8800);display:flex;align-items:center;justify-content:center;font-size:.5rem;font-weight:800;color:#fff">&#x1f3f0;</div>
-          <span>帝国神话</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto;grid-column:span 2">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#ffd700,#cc8800);display:flex;align-items:center;justify-content:center;font-size:.45rem;font-weight:800;color:#fff">&#x1f3f0;</div>
+          <span style="font-size:.68rem">帝国神话</span>
         </div>
       </div>
     </div>
 
     <!-- Automobile -->
-    <div class="gc magnetic" style="padding:20px 18px">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <div class="ico c" style="width:40px;height:40px;margin-bottom:0;font-size:1.1rem">&#x1f697;</div>
+    <div class="gc magnetic" style="padding:18px 14px">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+        <div class="ico c" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#x1f697;</div>
         <div>
-          <h3 style="font-size:1rem;margin:0">汽车客户</h3>
-          <div style="font-size:.68rem;color:var(--text3)">新能源品牌 · 海外网红营销</div>
+          <h3 style="font-size:.92rem;margin:0">汽车客户</h3>
+          <div style="font-size:.62rem;color:var(--text3)">新能源 · 海外网红营销</div>
         </div>
       </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
-        <img src="materials/08-客户品牌/汽车/byd.jpg" alt="汽车营销" style="width:100%;height:100px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.6rem">汽车品牌合作（占位图）</div>
+      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
+        <img src="materials/08-客户品牌/汽车/byd.jpg" alt="汽车营销" style="width:100%;height:80px;object-fit:cover;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">汽车品牌合作（占位图）</div>
       </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#c00000,#ff1a1a);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">BYD</div>
-          <span>比亚迪</span>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#c00000,#ff1a1a);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">BYD</div>
+          <span style="font-size:.68rem">比亚迪</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#1a3c7a,#2a5cba);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">GW</div>
-          <span>长城汽车</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#1a3c7a,#2a5cba);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">GW</div>
+          <span style="font-size:.68rem">长城</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#8b0000,#cc2200);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">QR</div>
-          <span>奇瑞汽车</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#8b0000,#cc2200);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">QR</div>
+          <span style="font-size:.68rem">奇瑞</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#4a90d9,#00c8ff);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">IM</div>
-          <span>智己汽车</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#4a90d9,#00c8ff);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">IM</div>
+          <span style="font-size:.68rem">智己</span>
         </div>
       </div>
     </div>
 
     <!-- Smartphone -->
-    <div class="gc magnetic" style="padding:20px 18px">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <div class="ico p" style="width:40px;height:40px;margin-bottom:0;font-size:1.1rem">&#x1f4f1;</div>
+    <div class="gc magnetic" style="padding:18px 14px">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+        <div class="ico p" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#x1f4f1;</div>
         <div>
-          <h3 style="font-size:1rem;margin:0">手机客户</h3>
-          <div style="font-size:.68rem;color:var(--text3)">智能终端 · 全球达人种草</div>
+          <h3 style="font-size:.92rem;margin:0">手机客户</h3>
+          <div style="font-size:.62rem;color:var(--text3)">智能终端 · 达人种草</div>
         </div>
       </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
-        <img src="materials/08-客户品牌/手机/smartphones.jpg" alt="手机营销" style="width:100%;height:100px;object-fit:cover;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.6rem">手机品牌合作（占位图）</div>
+      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
+        <img src="materials/08-客户品牌/手机/smartphones.jpg" alt="手机营销" style="width:100%;height:80px;object-fit:cover;border-radius:10px">
+        <div class="product-shot-label" style="font-size:.55rem">手机品牌合作（占位图）</div>
       </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#ff6900,#ff8c00);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">Mi</div>
-          <span>小米</span>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#ff6900,#ff8c00);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">Mi</div>
+          <span style="font-size:.68rem">小米</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#cf0a2c,#e60033);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">HW</div>
-          <span>华为</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#cf0a2c,#e60033);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">HW</div>
+          <span style="font-size:.68rem">华为</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#ff0040,#cc0033);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">RM</div>
-          <span>红魔</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#ff0040,#cc0033);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">RM</div>
+          <span style="font-size:.68rem">红魔</span>
         </div>
-        <div class="partner-logo-item" style="flex-direction:row;gap:6px;padding:7px 10px;min-width:auto">
-          <div style="width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#0066cc,#0088ff);display:flex;align-items:center;justify-content:center;font-size:.42rem;font-weight:900;color:#fff">TF</div>
-          <span>传音</span>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#0066cc,#0088ff);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">TF</div>
+          <span style="font-size:.68rem">传音</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI Clients -->
+    <div class="gc magnetic" style="padding:18px 14px">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+        <div class="ico g" style="width:36px;height:36px;margin-bottom:0;font-size:1rem">&#x1f916;</div>
+        <div>
+          <h3 style="font-size:.92rem;margin:0">AI 客户</h3>
+          <div style="font-size:.62rem;color:var(--text3)">大模型品牌 · 海外宣传</div>
+        </div>
+      </div>
+      <div style="padding:10px;border-radius:10px;background:linear-gradient(135deg,rgba(0,255,176,.06),rgba(0,212,255,.06));border:1px solid rgba(0,255,176,.1);margin-bottom:8px;text-align:center;height:80px;display:flex;flex-direction:column;align-items:center;justify-content:center">
+        <div style="font-size:1.8rem;margin-bottom:4px">&#x1f9e0;</div>
+        <div style="font-size:.6rem;color:var(--green);font-weight:700">助力中国 AI 出海</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#6366f1,#8b5cf6);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">K</div>
+          <span style="font-size:.68rem">Kimi</span>
+        </div>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#00b4d8,#0077b6);display:flex;align-items:center;justify-content:center;font-size:.35rem;font-weight:900;color:#fff">MM</div>
+          <span style="font-size:.68rem">MiniMax</span>
+        </div>
+        <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto;grid-column:span 2">
+          <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#ff6a00,#ee0979);display:flex;align-items:center;justify-content:center;font-size:.35rem;font-weight:900;color:#fff">Qw</div>
+          <span style="font-size:.68rem">通义千问 Qwen</span>
         </div>
       </div>
     </div>
