@@ -6,38 +6,46 @@
     <!-- Row 1: Charts — bar chart + line chart + pie -->
     <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:18px">
 
-      <!-- Bar Chart: Revenue growth -->
+      <!-- Bar Chart: Revenue growth (SVG) -->
       <div class="gc ai" data-delay=".06" style="padding:20px;border-color:rgba(0,212,255,.1)">
         <div style="font-size:.72rem;color:var(--cyan);letter-spacing:1.5px;font-weight:700;margin-bottom:14px">&#x1f4c8; 营收增长趋势</div>
-        <div style="display:flex;align-items:flex-end;gap:12px;height:160px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.06);position:relative">
-          <!-- Y axis labels -->
-          <div style="position:absolute;left:-2px;top:0;font-size:.55rem;color:var(--text3)">$50M</div>
-          <div style="position:absolute;left:-2px;top:50%;font-size:.55rem;color:var(--text3)">$25M</div>
-          <!-- Bars -->
-          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
-            <div style="width:100%;height:15%;background:linear-gradient(180deg,var(--cyan),rgba(0,212,255,.3));border-radius:6px 6px 0 0;min-height:8px;transition:height 1s"></div>
-            <div style="font-size:.6rem;color:var(--text3)">Q1</div>
-          </div>
-          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
-            <div style="width:100%;height:28%;background:linear-gradient(180deg,var(--cyan),rgba(0,212,255,.3));border-radius:6px 6px 0 0;min-height:8px"></div>
-            <div style="font-size:.6rem;color:var(--text3)">Q2</div>
-          </div>
-          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
-            <div style="width:100%;height:52%;background:linear-gradient(180deg,var(--purple),rgba(123,104,238,.3));border-radius:6px 6px 0 0;min-height:8px"></div>
-            <div style="font-size:.6rem;color:var(--text3)">Q3</div>
-          </div>
-          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
-            <div style="width:100%;height:78%;background:linear-gradient(180deg,var(--purple),rgba(123,104,238,.3));border-radius:6px 6px 0 0;min-height:8px"></div>
-            <div style="font-size:.6rem;color:var(--text3)">Q4</div>
-          </div>
-          <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
-            <div style="width:100%;height:100%;background:linear-gradient(180deg,var(--pink),rgba(255,107,157,.3));border-radius:6px 6px 0 0;min-height:8px;position:relative">
-              <div style="position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:.6rem;color:var(--pink);font-weight:700;white-space:nowrap">$50M</div>
-            </div>
-            <div style="font-size:.6rem;color:var(--text3)">2026</div>
-          </div>
-        </div>
-        <div style="font-size:.68rem;color:var(--text3);margin-top:8px;text-align:center">2024 Q4 起步 → 2026 年目标 $50M+</div>
+        <svg viewBox="0 0 200 130" style="width:100%;height:160px" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="barG1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="rgba(0,212,255,.2)"/></linearGradient>
+            <linearGradient id="barG2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7b68ee"/><stop offset="100%" stop-color="rgba(123,104,238,.2)"/></linearGradient>
+            <linearGradient id="barG3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff6b9d"/><stop offset="100%" stop-color="rgba(255,107,157,.2)"/></linearGradient>
+          </defs>
+          <!-- Grid -->
+          <line x1="30" y1="5" x2="30" y2="100" stroke="rgba(255,255,255,.06)" stroke-width=".5"/>
+          <line x1="30" y1="100" x2="190" y2="100" stroke="rgba(255,255,255,.08)" stroke-width=".5"/>
+          <line x1="30" y1="52" x2="190" y2="52" stroke="rgba(255,255,255,.04)" stroke-width=".5" stroke-dasharray="3,3"/>
+          <!-- Y labels -->
+          <text x="26" y="9" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$50M</text>
+          <text x="26" y="55" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$25M</text>
+          <text x="26" y="103" fill="#4a5070" font-size="6.5" text-anchor="end" font-family="monospace">$0</text>
+          <!-- Bars (bottom at y=100, height = value/50*95) -->
+          <!-- 2024 Q4: $2M → h=3.8 -->
+          <rect x="38" y="96.2" width="22" height="3.8" rx="3" fill="url(#barG1)"/>
+          <text x="49" y="92" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$2M</text>
+          <text x="49" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">Q4'24</text>
+          <!-- 2025 H1: $8M → h=15.2 -->
+          <rect x="68" y="84.8" width="22" height="15.2" rx="3" fill="url(#barG1)"/>
+          <text x="79" y="81" fill="#00d4ff" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$8M</text>
+          <text x="79" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H1'25</text>
+          <!-- 2025 H2: $18M → h=34.2 -->
+          <rect x="98" y="65.8" width="22" height="34.2" rx="3" fill="url(#barG2)"/>
+          <text x="109" y="62" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$18M</text>
+          <text x="109" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H2'25</text>
+          <!-- 2026 H1: $32M → h=60.8 -->
+          <rect x="128" y="39.2" width="22" height="60.8" rx="3" fill="url(#barG2)"/>
+          <text x="139" y="35" fill="#7b68ee" font-size="6" text-anchor="middle" font-weight="bold" font-family="monospace">$32M</text>
+          <text x="139" y="115" fill="#4a5070" font-size="6.5" text-anchor="middle" font-family="monospace">H1'26</text>
+          <!-- 2026 Target: $50M → h=95 -->
+          <rect x="158" y="5" width="22" height="95" rx="3" fill="url(#barG3)"/>
+          <text x="169" y="18" fill="#ff6b9d" font-size="7" text-anchor="middle" font-weight="bold" font-family="monospace">$50M</text>
+          <text x="169" y="115" fill="#ff6b9d" font-size="6.5" text-anchor="middle" font-weight="bold" font-family="monospace">2026</text>
+        </svg>
+        <div style="font-size:.68rem;color:var(--text3);margin-top:4px;text-align:center">2024 Q4 起步 → 2026 年目标 $50M+</div>
       </div>
 
       <!-- Line Chart: Team growth (SVG) -->
