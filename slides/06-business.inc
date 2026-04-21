@@ -204,15 +204,15 @@
               <div class="product-shot-label">NeurIPS 会场</div>
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/neurips_2025_温哥华/IMG_3960.jpeg" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
+              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_selfie_yann.png" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
               <div class="product-shot-label">学术海报展示</div>
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/neurips_2025_温哥华/IMG_4030.jpeg" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
+              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_selfie_peter.png" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
               <div class="product-shot-label">学术交流</div>
             </div>
             <div class="product-shot" style="border-radius:12px;background:#0a0c1e">
-              <img src="materials/05-会议活动/neurips_2025_温哥华/IMG_6606.jpeg" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
+              <img src="materials/05-会议活动/neurips_2025_温哥华/neurips_poster_session.png" alt="NeurIPS" style="width:100%;height:140px;object-fit:contain;border-radius:12px">
               <div class="product-shot-label">NeurIPS 合影</div>
             </div>
           </div>
