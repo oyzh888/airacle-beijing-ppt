@@ -92,7 +92,7 @@
         <div class="tc-desc">负责核心算法研发，深耕NLP与推荐系统优化</div>
       </div>
       <div class="tc magnetic" style="padding:16px 10px">
-        <div class="tc-avatar" style="background:linear-gradient(135deg,#4a90d9,#00c8ff)"><img src="materials/02-团队头像/hokeem.jpg" alt="Hokeem"></div>
+        <div class="tc-avatar" style="background:linear-gradient(135deg,#4a90d9,#00c8ff);display:flex;align-items:center;justify-content:center;font-size:1.1rem;font-weight:800;color:#fff">H</div>
         <div class="tc-name">Hokeem</div>
         <div class="tc-role">算法工程师</div>
         <div class="tc-badge b-ai">AI ALGORITHM</div>
