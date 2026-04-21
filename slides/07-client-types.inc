@@ -54,10 +54,6 @@
           <div style="font-size:.68rem;color:var(--text3)">主播招募 · 运营 · 投流协同</div>
         </div>
       </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:10px">
-        <img src="materials/08-客户品牌/直播/livestream.jpg" alt="直播运营" style="width:100%;height:90px;object-fit:cover;object-position:center 45%;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">直播客户运营案例</div>
-      </div>
       <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:10px">
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">主播留存率</div><div class="tbar-val">85%</div></div><div class="tbar-track"><div class="tbar-fill fp" style="width:85%"></div></div></div>
         <div class="tbar-item" style="margin:0"><div class="tbar-top"><div class="tbar-label">月均直播时长提升</div><div class="tbar-val">+220%</div></div><div class="tbar-track"><div class="tbar-fill fc" style="width:82%"></div></div></div>
@@ -102,10 +98,6 @@
           <div style="font-size:.62rem;color:var(--text3)">内容营销 · 海外传播</div>
         </div>
       </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
-        <img src="materials/08-客户品牌/游戏/gaming2.jpg" alt="游戏营销" style="width:100%;height:80px;object-fit:cover;object-position:center 42%;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">游戏客户出海推广案例</div>
-      </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
           <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#4dabff,#1a75ff);display:flex;align-items:center;justify-content:center;font-size:.45rem;font-weight:800;color:#fff">&#x265A;</div>
@@ -130,10 +122,6 @@
           <h3 style="font-size:.92rem;margin:0">汽车客户</h3>
           <div style="font-size:.62rem;color:var(--text3)">新能源 · 海外网红营销</div>
         </div>
-      </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
-        <img src="materials/08-客户品牌/汽车/suv.jpg" alt="汽车营销" style="width:100%;height:80px;object-fit:cover;object-position:center 58%;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">汽车客户海外达人合作案例</div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
@@ -164,10 +152,6 @@
           <div style="font-size:.62rem;color:var(--text3)">智能终端 · 达人种草</div>
         </div>
       </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
-        <img src="materials/08-客户品牌/手机/phone2.jpg" alt="手机营销" style="width:100%;height:80px;object-fit:cover;object-position:center 52%;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">手机客户达人种草案例</div>
-      </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">
           <div style="width:16px;height:16px;border-radius:4px;background:linear-gradient(135deg,#ff6900,#ff8c00);display:flex;align-items:center;justify-content:center;font-size:.38rem;font-weight:900;color:#fff">Mi</div>
@@ -196,10 +180,6 @@
           <h3 style="font-size:.92rem;margin:0">AI 客户</h3>
           <div style="font-size:.62rem;color:var(--text3)">大模型品牌 · 海外宣传</div>
         </div>
-      </div>
-      <div class="product-shot" style="border-radius:10px;margin-bottom:8px">
-        <img src="materials/03-产品截图/marketing_agent/telegram_ai_employee/marketing_ai_employee.png" alt="AI客户案例" style="width:100%;height:80px;object-fit:cover;object-position:center top;border-radius:10px">
-        <div class="product-shot-label" style="font-size:.55rem">AI 品牌海外传播案例</div>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
         <div class="partner-logo-item" style="flex-direction:row;gap:5px;padding:6px 8px;min-width:auto">

@@ -33,7 +33,7 @@
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
         <!-- Snap HQ: portrait 3:4 → contain -->
         <div class="product-shot" style="border-radius:14px;background:#0a0c1e">
-          <img src="materials/04-商务出差/LA-tiktok-snap/15A0FFC4-276C-44FA-B0DA-6EB68A0555BA_1_105_c.jpeg" alt="Snap HQ" style="width:100%;height:200px;object-fit:contain;border-radius:14px">
+          <img src="materials/04-商务出差/LA-tiktok-snap/15A0FFC4-276C-44FA-B0DA-6EB68A0555BA_1_105_c.jpeg?v=fbc5cdc" alt="Snap HQ" style="width:100%;height:200px;object-fit:contain;border-radius:14px">
           <div class="product-shot-label">Snapchat 总部参访</div>
         </div>
         <!-- TikTok LA: landscape, 4 faces in bottom 60% → cover -->
