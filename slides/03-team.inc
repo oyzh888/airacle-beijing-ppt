@@ -17,13 +17,6 @@
               <span class="bio-tag bt-pink">TikTok AI Lab</span>
               <span class="bio-tag bt-gold">Adobe Firefly</span>
             </div>
-            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:4px;align-items:center">
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(0,129,251,.12);color:#4dabff;letter-spacing:.3px">Meta</span>
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,0,0,.1);color:#ff4444;letter-spacing:.3px">Adobe</span>
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,255,255,.06);color:#e8eaf6;letter-spacing:.3px">TikTok</span>
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(130,49,142,.15);color:#c77dff;letter-spacing:.3px">清华</span>
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(196,18,48,.12);color:#ff6b6b;letter-spacing:.3px">CMU</span>
-            </div>
           </div>
         </div>
         <div style="font-size:.78rem;color:var(--text2);margin-top:14px;line-height:1.8">
@@ -50,12 +43,6 @@
               <span class="bio-tag bt-green">快手国际化</span>
               <span class="bio-tag bt-orange">Bigo · Shareit</span>
               <span class="bio-tag bt-gold">沙特 Top2 直播平台</span>
-            </div>
-            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:4px;align-items:center">
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,255,255,.06);color:#e8eaf6;letter-spacing:.3px">TikTok</span>
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(255,73,6,.12);color:#ff8c42;letter-spacing:.3px">快手</span>
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(0,212,255,.1);color:#00d4ff;letter-spacing:.3px">Bigo</span>
-              <span style="font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:10px;background:rgba(29,185,84,.1);color:#1DB954;letter-spacing:.3px">SHAREit</span>
             </div>
           </div>
         </div>
