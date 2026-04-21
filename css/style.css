@@ -806,6 +806,8 @@ body:fullscreen .slide-num .cur {
 html:fullscreen h1.hero,
 body:fullscreen h1.hero {
   font-size:clamp(4.4rem,6vw,6.2rem);
+  white-space:nowrap;
+  letter-spacing:-1px;
 }
 html:fullscreen h2.stitle,
 body:fullscreen h2.stitle {
