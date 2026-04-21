@@ -3,9 +3,9 @@
   <p class="sub ai">成立于2024年10月 · 扎根北京 · 面向全球发展</p>
   <div class="stats ai" style="margin-bottom:36px">
     <div class="st"><div class="st-n">2024</div><div class="st-l">成立时间</div></div>
-    <div class="st"><div class="st-n">50<span class="u">+</span></div><div class="st-l">客户数量</div></div>
     <div class="st"><div class="st-n">10<span class="u">+</span></div><div class="st-l">核心成员</div></div>
     <div class="st"><div class="st-n">3</div><div class="st-l">产品线</div></div>
+    <div class="st"><div class="st-n">50<span class="u">+</span></div><div class="st-l">客户数量</div></div>
   </div>
   <!-- Office photo showcase -->
   <div class="grid g2 ai" style="max-width:1100px;margin-bottom:24px;gap:14px">
